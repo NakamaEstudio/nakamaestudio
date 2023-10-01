@@ -33,15 +33,15 @@ function About() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>About Us | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Quem somos | Estúdio Nákama</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">
                 <p className="subtitle p-relative line-shape line-shape-after mb-30">
-                    <span className="pl-10 pr-10 background-section">DESIGN STUDIO</span>
+                    <span className="pl-10 pr-10 background-section">ESTUDIO NÁKAMA</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    WE DIGITAL CREATIVE <br/> Agency
+                    Nós somos um estúdio de<br/> Design e Branding
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

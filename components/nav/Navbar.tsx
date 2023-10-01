@@ -89,9 +89,9 @@ function Navbar({children, textOpen, textMenu, textClose, hamburger}) {
 }
 
 Navbar.defaultProps = {
-    textOpen: 'Open',
+    textOpen: 'Abrir',
     textMenu: 'Menu',
-    textClose: 'Close',
+    textClose: 'Fechar',
 };
 
 

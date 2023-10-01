@@ -38,30 +38,29 @@ function ContactForm({className}) {
                 <div className="line line-left" />
                 <div className="line line-right" />
 
-                <TitleSection description="Stay connected" defaultSpace={false}>
-                    Get in Touch
+                <TitleSection description="Fale conosco" defaultSpace={false}>
+                   Entre em contato
                 </TitleSection>
                 <p className="mb-30 mt-20">
-                    It’s all about the humans behind a brand and those experiencing it,
-                    we’re right there. In the middle.
+                O que realmente importa são os seres humanos por trás da marca e aqueles que a experimentam. No meio.
                 </p>
 
                 <form  className="form"  ref={form} onSubmit={sendEmail} >
                     <div className="input__wrap controls">
                         <div className="form-group">
                             <div className="entry-box">
-                                <label>Your name *</label>
+                                <label>Seu nome *</label>
                                 <input id="form_name" type="text" name="name"
-                                       placeholder="Type your name" required="required"
+                                       placeholder="Como devemos ti chamar?" required="required"
                                        data-error="name is required." />
                             </div>
                         </div>
 
                         <div className="form-group">
                             <div className="entry-box">
-                                <label>Your E-Mail *</label>
+                                <label>Seu e-mail *</label>
                                 <input id="form_email" type="email" name="email"
-                                       placeholder="Type your Email Address" required="required"
+                                       placeholder="Por favor, insira seu e-mail comercial." required="required"
                                        data-error="Valid email is required." />
                             </div>
                         </div>
@@ -69,9 +68,9 @@ function ContactForm({className}) {
                         <div className="form-group">
                             <div className="entry-box">
                                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                <label>What's up?</label>
+                                <label>Como podemos ajudar o seu négocio?</label>
                                 <textarea id="form_message" className="form-control" name="message" rows={4}
-                                          placeholder="Tell us about you and the world"
+                                          placeholder="Nos conte sobre você e o seu mundo."
                                           required="required"
                                           data-error="Please,leave us a message." />
                             </div>
@@ -81,13 +80,12 @@ function ContactForm({className}) {
                             <div className="image-zoom w-auto d-inline-block" data-dsn="parallax">
                                 <button type="submit" className="dsn-button" style={{cursor:"pointer"}}>
                                     <span className="dsn-border border-color-default" />
-                                    <span className="text-button">Send Message</span>
+                                    <span className="text-button">Enviar mensagem</span>
                                 </button>
                             </div>
-                            {loading && <div className="loading-message mt-20">Message Send ...</div>}
+                            {loading && <div className="loading-message mt-20">Enviando mensagem ...</div>}
                             {result &&
-                            <p className="success-message mt-20">Your Message has been successfully sent. I will contact you
-                                soon.</p>}
+                            <p className="success-message mt-20">Sua mensagem foi enviada com sucesso. Em breve entraremos em contato.</p>}
                         </div>
                     </div>
                 </form>

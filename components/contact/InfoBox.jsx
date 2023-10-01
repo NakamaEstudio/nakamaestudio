@@ -7,20 +7,20 @@ function InfoBox({className}) {
         <div className={dsnCN('box-info-contact', className)}>
             <ul>
                 <li>
-                    <h5 className="title-block mb-15">Contact</h5>
-                    <p className="text-p ">+1 (800) 990 8877</p>
+                    <h5 className="title-block mb-15">Contato</h5>
+                    <p className="text-p ">+55 (48) 9 9999-9999</p>
                     <div className="over-hidden mt-5">
                         <a className="link-hover" data-hover-text="info@example.com"
-                           href="#">info@example.com</a>
+                           href="#">andre@estudionakama.com.br</a>
                     </div>
 
                 </li>
                 <li>
-                    <h5 className="title-block mb-15">Address</h5>
-                    <p className="text-p">United Kingdom <br /> 33—35 Southernhay East</p>
+                    <h5 className="title-block mb-15">Endereço</h5>
+                    <p className="text-p">Brasil - Santa Catarina</p>
                 </li>
                 <li>
-                    <h5 className="title-block mb-15">Follow Us</h5>
+                    <h5 className="title-block mb-15">Nos siga</h5>
                     <div className="social-item over-hidden">
                         <a className="link-hover" data-hover-text="Instagram." href="#"
                            target="_blank" rel="nofollow">Instagram.</a>
@@ -29,6 +29,11 @@ function InfoBox({className}) {
                         <a className="link-hover" data-hover-text="Facebook." href="#"
                            target="_blank" rel="nofollow">Facebook.</a>
                     </div>
+                    <div className="social-item over-hidden">
+                        <a className="link-hover" data-hover-text="Linkedin." href="#"
+                           target="_blank" rel="nofollow">Linkedin.</a>
+                    </div>
+                    
                 </li>
             </ul>
         </div>

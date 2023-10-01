@@ -8,18 +8,23 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 
 
 const HeroContent = {
-    title: "Hello we, are <br/> Dsn Grid",
-    subtitle: `We’re a creative agency with an expertise in make custom websites.`,
-    description: `Founded in 2000, Dsn Grid has become one of the best Digital Agency in Themeforest. <span class="mb-10 d-block" ></span>
-     Blue money going forward, but deploy to production. First-order optimal strategies build on a culture of contribution and inclusion so those options`,
-    authorTitle: "SALVADOR DALI",
-    authorJob: "Digital Artisit",
-    experienceNumber: "25",
+    title: "Olá, somos <br/>  Estúdio Nákama",
+    subtitle: `"Saber o que não somos, é tão importante quanto
+    a clareza do que devemos ser".`,
+    description: `Fundada em 2022, a Nákama não é uma agência, é um Estudio de Branding. <span class="mb-10 d-block" ></span>
+    Não fazemos marketing digital,
+    construimos marcas e
+    gerenciamos seu posicionamento
+    no mercado em todos canais. (O digital é apenas um dos canais
+        a ser explorado.)`,
+    authorTitle: "Luffy",
+    authorJob: "One Piece",
+    experienceNumber: "20",
     experienceDescription: `YEARS OF \nDIGITAL EXPERIENCE`,
     heroImage: '/img/about-intro.jpg',
     awards: [
-        {number: 37, description: `Business <br/> partner`},
-        {number: 19, description: `SUTISFIED <br/> CUSTOMERS`},
+        {number: 37, description: `Parceiros de <br/> negócios`},
+        {number: 19, description: `Clientes <br/> Satisfeitos`},
     ]
 };
 

@@ -42,7 +42,16 @@
 
 
   }
-
+  .text-menu{
+    font-size:1rem;
+  }
+  .text-open{
+    font-size: 1.1rem;
+  }
+  
+  .text-close, {
+    font-size: 0.85rem;
+  }
   .toggle-text {
     position: relative;
     --animate-trans: translateY(5px) rotateX(75deg);

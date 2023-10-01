@@ -20,20 +20,17 @@ function About() {
     return (
         <Layout>
             <Head>
-                <title>Contact Us | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Fale conosco para evoluir sua marca</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="text-center">
                 <p className="subtitle p-relative line-shape  mb-20">
-                    <span className="pl-10 pr-10 background-section">DESIGN STUDIO</span>
+                    <span className="pl-10 pr-10 background-section">ESTUDIO NÁKAMA</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    Look around you<br/> everything is changing.
+                    Observe.<br/> As marcas estão evoluindo.
                 </h1>
-                <p className="dsn-heading-title mt-15 max-w570">What if the time has come for you to
-                    change?
-                    Starting a collaboration is easy! Order a free consultation or call back. We are always in touch and
-                    happy to cooperate with you
+                <p className="dsn-heading-title mt-15 max-w570">E se tiver chegado a hora de você mudar? Iniciar uma colaboração é fácil! Solicite uma consulta gratuita ou entre em contato conosco. Estamos sempre em contato e felizes em colaborar com você
                 </p>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
@@ -42,7 +39,7 @@ function About() {
                 mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
                 zoom={10}
                 height="80vh"
-                defaultCenter={{lat: 30.0489206, lng: 31.258553}}
+                defaultCenter={{lat: -27.4941700, lng: -48.6555600}}
             />
 
             {/*Start Contact Form && Info Box*/}

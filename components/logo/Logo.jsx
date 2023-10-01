@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import brandLight from './logo.png';
-import brandDark from './logo-dark.png';
+import brandLight from './logotipowhite.png';
+import brandDark from './logonakama.png';
 import Image from "next/image";
 
 const MainBrand = styled.div`
@@ -43,6 +43,6 @@ const Logo = ({width, height, alt}) => {
 }
 
 MainBrand.defaultProps = {width: '80px', height: 'auto'}
-Logo.defaultProps = {alt: "Eremia"}
+Logo.defaultProps = {alt: "Estudio Nákama"}
 
 export default React.memo(Logo);

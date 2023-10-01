@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Would you like more information or do you have a question?",
-    subtitle: `Don't be weird.`,
-    buttonText: "Owr Work"
+    title: "Gostaria de ver mais sobre nossos melhores projetos?",
+    subtitle: `Não se acanhe.`,
+    buttonText: "Conheça nossos cases"
 };
 
 function NextPage2({className, ...restProps}) {
@@ -28,7 +28,7 @@ function NextPage2({className, ...restProps}) {
 
                     <div className="button-box d-flex justify-content-end align-items-center">
                         <Button
-                            href={"/work-card-3-col"}
+                            href={"/work-card-2-col"}
                             className="mr-15 line-head"
                             borderStyle={"border-color-heading-color"}
                             borderRadius

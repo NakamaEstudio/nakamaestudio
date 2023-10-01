@@ -40,7 +40,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+a:hover {
+  color: #e34e35;
+  transition: 0.3ms;
+}
 .d-grid {
   display: grid;
 
@@ -248,6 +251,7 @@ a.link-hover {
   position: relative;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
+  margin-left: 0.5rem;
 
   &:before {
     content: attr(data-hover-text);

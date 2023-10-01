@@ -1,13 +1,13 @@
 import {dsnCN} from "../../hooks/helper";
+import Link from "next/link";
 
 function Copyright({className, ...restProps}) {
     return (
         <h5 className={dsnCN(className)} {...restProps}>
-            {new Date().getFullYear()} © Made with <span className="love">♥</span>by
-            <a className="link-hover" data-hover-text="Design Grid." target="_blank"
+            {new Date().getFullYear()} © Todos os direitos reservados   
+            <Link className="link-hover mr-4" data-hover-text="Estúdio Nákama" 
                rel="nofollow"
-               href="https://themeforest.net/user/design_grid/portfolio/">Design
-                Grid.</a>
+               href="/" > Estudio Nákama </Link>
         </h5>
     );
 }

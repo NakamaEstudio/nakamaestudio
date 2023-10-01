@@ -140,8 +140,10 @@ ul {
 &.dsn-open {
   .menu-cover-title {
     transition-delay: 1s;
-    opacity: 0.03;
+    opacity: 0.08;
     transform: translateY(-50%);
+    color: #e34e35;
+    
   }
 
   .toggle-line {
