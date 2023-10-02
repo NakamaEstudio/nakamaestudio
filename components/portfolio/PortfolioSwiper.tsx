@@ -5,6 +5,7 @@ import {Pagination, Parallax, SwiperOptions} from "swiper";
 
 import PortfolioItem from './PortfolioItem';
 import {getPortfolioData} from "../../data/portfolio";
+
 import {dsnCN} from "../../hooks/helper";
 import {ParallaxOption} from "../../type/DsnSwiper";
 import {styleBox, stylePortfolio} from "../../hooks/EremiaType";
@@ -43,7 +44,7 @@ function PortfolioSwiper(
         ...restProps
     }: PortfolioSwiperProps
 ) {
-    const dataPortfolio = getPortfolioData();
+    const data = getPortfolioData();
 
     return (
         <Swiper
@@ -64,7 +65,7 @@ function PortfolioSwiper(
 
         >
             {
-                dataPortfolio.map((item, index) =>
+                data.map((item, index) =>
                     <SwiperSlide key={index}>
                         <PortfolioItem portoDetails={item} textButton="View Case" parallaxImage={parallaxImage}
                                        parallaxContent={parallaxContent} styleBox={styleBox}/>

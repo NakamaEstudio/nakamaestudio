@@ -41,7 +41,7 @@ function About() {
                     <span className="pl-10 pr-10 background-section">ESTUDIO NÁKAMA</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    Nós somos um estúdio de<br/> Design e Branding
+                  Somos um estúdio de<br/> Design e Branding
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

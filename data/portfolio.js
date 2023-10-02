@@ -3,8 +3,8 @@
 const data = [
     {
         id: 1,
-        title: "Criação de marcas",
-        slug: 'marcas',
+        title: "Case 1",
+        slug: 'huggl-power-pack',
         category: ['Aura',],
         description: 'Vin tries to reflect Diesel’s vision and combines.',
         src: '/img/project/project1/1.jpg',
@@ -12,8 +12,8 @@ const data = [
     },
     {
         id: 2,
-        title: "Materiais Gráficos",
-        slug: 'materiais-graficos',
+        title: "Case 2",
+        slug: 'huggl-power-pack',
         src: '/img/project/project2/1.jpg',
 
         category: ['Ambiente'],
@@ -23,8 +23,8 @@ const data = [
     },
     {
         id: 3,
-        title: "Sites e canais digitais",
-        slug: 'siteseapps',
+        title: "Case 3",
+        slug: 'huggl-power-pack',
         category: ['Ambiente'],
         src: '/img/project/project3/1.jpg',        
         description: 'Huggl is an induction charging.',
@@ -32,8 +32,8 @@ const data = [
     },
     {
         id: 4,
-        title: "Consultoria",
-        slug: 'consultoria',
+        title: "Case 4",
+        slug: 'huggl-power-pack',
         category: ['Autonomia'],
         src: '/img/project/project4/1.jpg',
         description: 'We are thrilled to share our new reel with you all.',
@@ -48,7 +48,7 @@ export const getPortfolioItem = (value, whereName = "slug") => {
 };
 export const getPortfolioLink = (item) => {
     if (item)
-        return item.slug && '/servicos/' + item.slug
+        return item.slug && '/portfolio/' + item.slug
 
     return '';
 };

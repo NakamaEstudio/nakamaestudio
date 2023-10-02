@@ -20,14 +20,14 @@ interface PortfolioProps extends DsnGridProps {
 
 
 function Portfolio({className, filterClass, useFilter, stylePortfolio, styleBox, ...restProps}: PortfolioProps) {
-    const dataPortfolio = getPortfolioData();
+    const data = getPortfolioData();
     const iso = useRef(null);
     const [filter, setFilter] = useState('*');
     const refIsotope = useRef();
 
     // @ts-ignore
     const category = new Set();
-    dataPortfolio.map((p) => {
+    data.map((p) => {
         return typeof p.category === "object" ? p.category.map(i => category.add(i)) : category.add(p.category)
     });
 
@@ -56,7 +56,7 @@ function Portfolio({className, filterClass, useFilter, stylePortfolio, styleBox,
             <FilterPortfolio className={filterClass} categories={[...category]} actionFilter={setFilter}/>}
             <DsnGrid  {...restProps}className={useFilter && "dsn-grid-masonry"} ref={refIsotope}>
                 {
-                    dataPortfolio.map(
+                    data.map(
                         (item, index) =>
                             <PortfolioItem
                                 // @ts-ignore

@@ -31,7 +31,7 @@ function Home() {
 
 
     return (
-        <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
+        <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contato"}}}>
             <Head>
                 <title>Estudio Nákama - Branding e Design</title>
             </Head>
@@ -45,14 +45,14 @@ function Home() {
                 }}
                 metaData={{hasSeparator: true}}
             />
-            <HeroSection className="container section-margin container fill-right-container"
-                         data-dsn-title="How We Are"/>
+            <HeroSection className="container section-margin fill-right-container"
+                         data-dsn-title="Quem nós somos"/>
 
             {/*Start Service*/}
-            <div className="container section-margin" data-dsn-title="Our Services">
+            <div className="container section-margin" data-dsn-title="Serviços Nákama">
                 <TitleSection
                     className="align-items-center text-center"
-                    description={"Our Services"}
+                    description={"Serviços Nákama"}
                 >
                     We are delivering beautiful <br/> digital products for you.
                 </TitleSection>
@@ -94,13 +94,13 @@ function Home() {
 
 
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Our Portfolio">
+            <div className="section-margin" data-dsn-title="Maiores projetos">
                 <TitleSection
                     className={`container align-items-center text-center`}
-                    description={"Our Works"}
+                    description={"Maiores projetos"}
                 >
-                    Creative Portfolio <br/>
-                    Designs
+                    Nosso hall da fama <br/>
+                    de projetos Nákama
                 </TitleSection>
                 <PortfolioSwiper
                     grabCursor

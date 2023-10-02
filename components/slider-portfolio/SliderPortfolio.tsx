@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import {Controller, Parallax} from "swiper";
 import {dsnCN} from "../../hooks/helper";
 import {useArrayRef} from "../../hooks/dsnHooks";
-import {getPortfolioData} from '../../data/portfolio';
+import {getServicosData} from '../../data/servicos';
 import dsnSplitting from '../../hooks/spltting';
 import {gsap} from 'gsap';
 
@@ -70,7 +70,8 @@ function SliderPortfolio({
 
         [contentRef, setContentRef] = useArrayRef(),
 
-        dataProject = data || getPortfolioData(),
+    
+        dataServicos = data || getServicosData(),
         [active, setActive] = useState(0),
         bg = useRef();
 
@@ -204,7 +205,7 @@ function SliderPortfolio({
             <div className="content-slider">
                 <div className="bg-container" ref={bg}>
                     <Swiper   {...optionSwiper} grabCursor>
-                        {dataProject.map((item, key) =>
+                        {dataServicos.map((item, key) =>
                             <SwiperSlide className="over-hidden" key={key} data-dsn-id={key}>
                                 {/*// @ts-ignore*/}
                                 <BgImage src={item.src} video={item.video}
@@ -215,7 +216,7 @@ function SliderPortfolio({
 
 
                         {restProps.webgel &&
-                        <DsnWebgelDirction parent={rootSlider} data={dataProject}
+                        <DsnWebgelDirction parent={rootSlider} data={dataServicos}
                                            direction={optionSlider.direction !== "vertical" ? "horizontal" : "vertical"}  {...webgelOptions}/>}
 
 
@@ -227,7 +228,7 @@ function SliderPortfolio({
                 <ControlNav className={dsnCN(alignControlNav && 'justify-content-' + alignControlNav)} timeline={tl}
                             activeClass={active} parent={rootSlider}/>
 
-                <ContentSlider data={dataProject} activeClass={active} ref={setContentRef} {...metaData}
+                <ContentSlider data={dataServicos} activeClass={active} ref={setContentRef} {...metaData}
                                className={className}/>
 
 
