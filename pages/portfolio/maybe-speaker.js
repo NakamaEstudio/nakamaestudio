@@ -20,7 +20,7 @@ function Project1() {
         <Layout>
             <HeaderFull className="dsn-container"
                         alignItems="end"
-                        heroContent={heroData} overlay={heroData.overlay}/>
+                        heroContent={heroData} />
 
             {/*Start Intro Project*/}
             <section className="intro-project container section-margin">
