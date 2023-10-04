@@ -16,8 +16,8 @@ function Project3(params) {
   return (
       <Layout>
         <HeaderFull className="dsn-container"
-                    alignItems="end"/>
-                    
+                    alignItems="end"
+                    heroContent={heroData} overlay={heroData.overlay}/>
 
         {/*Start Intro Project*/}
       <section className="intro-project container section-margin">
