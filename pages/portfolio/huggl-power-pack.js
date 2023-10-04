@@ -10,13 +10,14 @@ import {getPortfolioItem} from "../../data/portfolio";
 import HeaderFull from "../../components/header/HeaderFull";
 import Image from "next/image";
 
+
 function Project3(params) {
   const heroData = getPortfolioItem('huggl-power-pack');
   return (
       <Layout>
         <HeaderFull className="dsn-container"
                     alignItems="end"
-                    heroContent={heroData} overlay={heroData.overlay}/>
+                    heroContent={heroData}/>
 
         {/*Start Intro Project*/}
       <section className="intro-project container section-margin">
