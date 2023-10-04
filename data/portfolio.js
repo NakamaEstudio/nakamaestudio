@@ -13,7 +13,7 @@ const data = [
     {
         id: 2,
         title: "Case 2",
-        slug: 'huggl-power-pack',
+        slug: 'lengshuikeng',
         src: '/img/project/project2/1.jpg',
 
         category: ['Ambiente'],
@@ -24,7 +24,7 @@ const data = [
     {
         id: 3,
         title: "Case 3",
-        slug: 'huggl-power-pack',
+        slug: 'maybe-speaker',
         category: ['Ambiente'],
         src: '/img/project/project3/1.jpg',        
         description: 'Huggl is an induction charging.',
@@ -33,12 +33,30 @@ const data = [
     {
         id: 4,
         title: "Case 4",
-        slug: 'huggl-power-pack',
+        slug: 'principal-garden',
         category: ['Autonomia'],
         src: '/img/project/project4/1.jpg',
         description: 'We are thrilled to share our new reel with you all.',
         overlay: 2
+    },  
+    {
+        id: 5,
+        title: "Case 5",
+        slug: 'small-silver-car',
+        category: ['Autonomia'],
+        src: '/img/project/project5/1.jpg',
+        description: 'We are thrilled to share our new reel with you all.',
+        overlay: 2
     },    
+    {
+        id: 6,
+        title: "Case 6",
+        slug: 'yaren-collection',
+        category: ['Aura'],
+        src: '/img/project/project6/1.jpg',
+        description: 'We are thrilled to share our new reel with you all.',
+        overlay: 2
+    },      
 ]
 
 export const getPortfolioData = () => data;
