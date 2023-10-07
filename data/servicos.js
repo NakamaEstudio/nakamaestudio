@@ -7,8 +7,8 @@ const dataServicos = [
         slug: '/',
         category: ['Aura','Ambiente','Autonomia'],
         description: 'De criação de marcas, materiais gráficos e aplicativos à posicionamento completo no digital.',
-        src: '/img/project/project1/1.jpg',
-        overlay: 6
+        src: '/img/project/project1/Background.jpg',
+        overlay: 1
     },
     {
         id: 2,
@@ -16,8 +16,8 @@ const dataServicos = [
         slug: 'marcas',
         category: ['Aura',],
         description: 'Vin tries to reflect Diesel’s vision and combines.',
-        src: '/img/project/project1/1.jpg',
-        overlay: 6
+        src: '/img/project/project1/criacao.jpg',
+        overlay: 1
     },
     {
         id: 3,

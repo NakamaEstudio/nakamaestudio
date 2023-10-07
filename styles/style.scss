@@ -50,6 +50,7 @@
   --bg-color: #f9f9f9;
   --assistant-color: #e6e6e6;
   --theme-color: #e34e35;
+  --partner-color: #462324;
   --font-color: #0009;
   --heading-color: #000;
   --border-color: #bebebe;
@@ -59,8 +60,9 @@
 }
 
 :root .v-dark, :root .v-dark-head {
-  --bg-color: #000;
+  --bg-color: #2a1314;
   --assistant-color: #101010;
+  --partner-color: #462324;
   --theme-color: #e34e35;
   --font-color: #bbb;
   --heading-color: #fff;
@@ -145,7 +147,7 @@
     --dsn-gap-container: 15px;
   }
 
-  --bg-overlay: #000;
+  --bg-overlay: #e34e35;
   --overlay-blend-mode: unset;
 
 }

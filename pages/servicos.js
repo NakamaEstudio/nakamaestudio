@@ -29,34 +29,35 @@ function Servicos() {
     return (
         <Layout  modelRight={{children:<ModalContact />,propsModal:{textBtn:"Contact"}}}>
             <Head>
-                <title>Service  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Serviços | Estúdio Nákama</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
                 <p className="subtitle p-relative line-shape   mb-30">
-                    <span className="pl-10 pr-10 background-main">OUR SERVICES</span>
+                    <span className="pl-10 pr-10 background-main">Nossos serviços</span>
                 </p>
                 <h1 className="title">
-                    We are delivering beautiful <br/> digital products for you.
+                Qual a <strong>MARCA</strong> que seu<br/>
+negócio está deixando nas pessoas?
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
 
             {/*========== About Section  ==========*/}
-            <DsnGrid className="container section-margin" customGrid={{desktop: "70% 30%"}} rowGapTablet={50} data-dsn-title="What We Do">
+            <DsnGrid className="container section-margin" customGrid={{desktop: "70% 30%"}} rowGapTablet={50} data-dsn-title="O que nós fazemos">
                 <div className="box-left">
-                    <TitleSection defaultSpace={false} description="What We Do"/>
-                    <h4 className="mt-25">
-                        The good writers touch life often. The mediocre ones run a quick hand
-                        over her. The bad ones rape her and leave her for the flies.
+                    <TitleSection defaultSpace={false} description="O que nós fazemos"/>
+                    <h4 className="mt-25 mr-10">
+                    As boas marcas enriquecem a vida constantemente. As medianas apenas a pincelam superficialmente. As ruins a exploram e a abandonam desgastada.
                     </h4>
                 </div>
                 <div className="box-right">
-                    <TitleSection defaultSpace={false} description="Our Services"/>
+                    <TitleSection defaultSpace={false} description="Nossos serviços"/>
                     <ul className="mt-25">
-                        <li className="mb-15">Brand Consulting</li>
-                        <li className="mb-15">Marketing Management</li>
-                        <li className="mb-15">Customer Insight</li>
+                        <li className="mb-15">Criação de marcas</li>
+                        <li className="mb-15">Materiais Gráficos</li>
+                        <li className="mb-15">Sites e canais digitais</li>
+                        <li className="mb-15">Consultoria para negócios</li>
                     </ul>
 
                 </div>

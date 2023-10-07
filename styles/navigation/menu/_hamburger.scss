@@ -42,7 +42,7 @@ ul.primary-nav {
     font-weight: 500;
 
     @include media_991() {
-      justify-content: start;
+      justify-content: center;
 
     }
 
@@ -110,6 +110,7 @@ ul {
     transition-property: opacity, visibility, transform;
     transform-origin: center top;
     transition-delay: calc(0.1s * var(--dsn-li-index));
+    height: 5vh;
   }
 
   &.open {

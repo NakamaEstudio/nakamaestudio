@@ -7,28 +7,28 @@ function Facts({className , ...restProps} : DsnGridProps) {
             <div className="facts-item">
                 <div className="text-center p-relative">
                     <span className="number">70</span>
-                    <h6 className="sm-title-block v-middle w-100">Happy Clients</h6>
+                    <h6 className="sm-title-block v-middle w-100">Clientes felizes</h6>
                 </div>
             </div>
 
             <div className="facts-item">
                 <div className="text-center p-relative">
-                    <span className="number">63</span>
-                    <h6 className="sm-title-block v-middle w-100">Working hours were spent</h6>
+                    <span className="number">891</span>
+                    <h6 className="sm-title-block v-middle w-100">Horas de trabalho</h6>
                 </div>
             </div>
 
             <div className="facts-item">
                 <div className="text-center p-relative">
-                    <span className="number">51</span>
-                    <h6 className="sm-title-block v-middle w-100">Succeeded Projects</h6>
+                    <span className="number">87</span>
+                    <h6 className="sm-title-block v-middle w-100">Projetos de sucesso</h6>
                 </div>
             </div>
 
             <div className="facts-item">
                 <div className="text-center p-relative">
-                    <span className="number">13</span>
-                    <h6 className="sm-title-block v-middle w-100">Finished Tearly Project</h6>
+                    <span className="number">29</span>
+                    <h6 className="sm-title-block v-middle w-100">Marcas prosperarão</h6>
                 </div>
             </div>
         </DsnGrid>

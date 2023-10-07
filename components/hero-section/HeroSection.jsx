@@ -25,6 +25,8 @@ const HeroContent = {
     awards: [
         {number: 37, description: `Parceiros de <br/> negócios`},
         {number: 19, description: `Clientes <br/> Satisfeitos`},
+        {number: 43, description: `Inimigos de <br/> negócios`},
+        {number: 1422, description: `Clientesss <br/> Satisfeitos`},
     ]
 };
 

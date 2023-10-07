@@ -54,7 +54,8 @@ function Home() {
                     className="align-items-center text-center"
                     description={"Serviços Nákama"}
                 >
-                    We are delivering beautiful <br/> digital products for you.
+                    Qual a MARCA que seu <br/>
+negócio está deixando nas pessoas?
                 </TitleSection>
                 <ServiceOne/>
             </div>
@@ -99,8 +100,8 @@ function Home() {
                     className={`container align-items-center text-center`}
                     description={"Maiores projetos"}
                 >
-                    Nosso hall da fama <br/>
-                    de projetos Nákama
+                    Hall da fama do<br/>
+                     Estúdio Nákama
                 </TitleSection>
                 <PortfolioSwiper
                     grabCursor
@@ -127,8 +128,8 @@ function Home() {
             {/*End Portfolio*/}
 
             {/*Start testimonial Section*/}
-            <div className="section-margin" data-dsn-title="Testimonials">
-                <Testimonial className="container section-margin" title="Feedback from our clients."
+            <div className="section-margin" data-dsn-title="O que falam">
+                <Testimonial className="container section-margin" title="O que falam sobre nós."
                              skin={["testimonials-half"]}
                              backgroundColor={"background-section"}
                              desktop={{slidesPerView: 2}}
@@ -145,7 +146,7 @@ function Home() {
             {/*End testimonial Section*/}
 
             {/*Start box vertical Section*/}
-            <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Services">
+            <section className="box-gallery-vertical container section-margin" data-dsn-title="Nossos serviços">
                 <DsnGrid col={2} colTablet={1} colGap={0} rowGap={0} rowGapTablet={0} rowGapMobile={0}>
                     <div className="p-relative mb-lg-section">
                         <div className="box-im w-100 h-100 p-absolute">
@@ -163,28 +164,28 @@ function Home() {
                     <div className="p-relative pt-lg-section">
                         <div className="box-info h-100 box-padding background-section ">
                             <DsnGrid className="box-info-inner" col={1} colGap={0}>
-                                <TitleCover>Eremia</TitleCover>
+                                <TitleCover>NÁKAMA</TitleCover>
                                 <TitleSection
                                     className={"text-uppercase"}
-                                    description={"OUR PURPOSE"}
+                                    description={"Propósito"}
                                     defaultSpace={false}
                                 >
-                                    We Plan Your Project
+                                    Marcas que marcam
                                 </TitleSection>
                                 <Accordion>
-                                    <AccordionItem title="Extensive Employment" active number={1}>
+                                    <AccordionItem title="Aura" active number={1}>
                                         <p>
                                             Quisque placerat vitae lacus ut sceleris queusce luctus
                                             odio ac nibh luctus, in porttitor.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="Dedicated Staff" number={2}>
+                                    <AccordionItem title="Ambiente" number={2}>
                                         <p>
                                             Quisque placerat vitae lacus ut sceleris queusce luctus
                                             odio ac nibh luctus, in porttitor.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="User Experience" number={3}>
+                                    <AccordionItem title="Autonomia" number={3}>
                                         <p>
                                             Cepteur sint occaecat cupidatat proident, taken possession
                                             of my entire soul, like these sweet mornings of spring
@@ -200,13 +201,13 @@ function Home() {
             {/*End box vertical Section*/}
 
             {/*Start Blog*/}
-            <div className="section-margin" data-dsn-title="Lasts post">
+            <div className="section-margin" data-dsn-title="Postagens">
                 <TitleSection
                     className={`container  align-items-center text-center`}
-                    description={"Lasts post"}
+                    description={"Postagens"}
                 >
-                    Latest And Greatest <br/>
-                    Post
+                    Últimos e mais relevantes posts <br/>
+                    
                 </TitleSection>
                 <BlogSwiper
                     className="dsn-container"
@@ -232,12 +233,12 @@ function Home() {
             {/*End Blog*/}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Our Team">
+            <section className="container section-margin " data-dsn-title="Nosso time">
                 <TitleSection
                     className={` align-items-center text-center`}
-                    description={"Our Team"}
+                    description={"Nosso time"}
                 >
-                    The Best Team Ever!
+                    O time Nákama Estúdio
                 </TitleSection>
 
                 <Team col={3} colTablet={2}/>
@@ -245,13 +246,13 @@ function Home() {
             {/*========== End team Section ========== */}
 
             {/*========== End brand-client Section ==========*/}
-            <section className="container section-margin" data-dsn-title="our clients">
+            <section className="container section-margin" data-dsn-title="Nossos clientes">
                 <TitleSection
                     className={`align-items-center text-center`}
-                    description={"Our clients"}
+                    description={"Nossos clientes"}
                 >
-                    Your successful, our <br/>
-                    reputation
+                   Seu sucesso, <br/>nossa 
+                    reputação
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>

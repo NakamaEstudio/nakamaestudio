@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import brandLight from './logotipowhite.png';
+import brandLight from './verticalnakama.png';
 import brandDark from './logonakama.png';
 import Image from "next/image";
 
