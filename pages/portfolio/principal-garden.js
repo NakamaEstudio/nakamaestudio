@@ -121,7 +121,7 @@ function Project4() {
             </div>
             {/*End Box Info Move Content*/}
 
-            <NextProject heroContent={getPortfolioItem('small-silver-car')} number={5}/>
+            <NextProject heroContent={getPortfolioItem('small-silver-car')} number={6}/>
 
 
         </Layout>

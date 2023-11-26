@@ -109,7 +109,7 @@ function Project5(params) {
             </section>
             {/*End Intro Project*/}
 
-            <NextProject heroContent={getPortfolioItem('lengshuikeng')} number={6}  />
+            <NextProject heroContent={getPortfolioItem('artisan-case')} number={1}  />
 
         </Layout>
     );

@@ -15,7 +15,7 @@ import NextProject from "../../components/next/NextProject";
 
 function Project1() {
 
-    const heroData = getPortfolioItem('maybe-speaker');
+    const heroData = getPortfolioItem('kretzer-case');
     return (
         <Layout>
             <HeaderFull className="dsn-container"
@@ -139,7 +139,7 @@ function Project1() {
             </section>
             {/*End box vertical Section*/}
 
-            <NextProject heroContent={getPortfolioItem('yaren-collection')} number={2}  />
+            <NextProject heroContent={getPortfolioItem('lengshuikeng')} number={4}  />
         </Layout>
     );
 }

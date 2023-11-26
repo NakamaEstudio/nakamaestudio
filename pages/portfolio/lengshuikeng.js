@@ -157,7 +157,7 @@ function Project6(params) {
                 </div>
             </div>
             {/*End Gallery List*/}
-            <NextProject heroContent={getPortfolioItem('maybe-speaker')} number={1}/>
+            <NextProject heroContent={getPortfolioItem('principal-garden')} number={5}/>
 
         </Layout>
     );

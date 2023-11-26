@@ -21,8 +21,8 @@ import Footer from "../../components/footer/Footer";
 import Head from "next/head";
 
 const headerContent = {
-    title: `Frontend-developer`,
-    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Alex Smith</span>`,
+    title: `Materiais Graficos`,
+    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Ambiente</span>`,
     src: "/img/personal.jpg",
 };
 
@@ -52,7 +52,7 @@ function Materiaisgraficos() {
 
                 <div className="d-flex align-items-center mt-30">
                     <Button
-                        href={"/services"}
+                        href={"/work-card-2-col"}
                         className="mr-15 line-head"
                         borderStyle={"border-color-theme-color"}
                         borderRadius

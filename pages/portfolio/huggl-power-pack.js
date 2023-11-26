@@ -9,11 +9,15 @@ import NextProject from "../../components/next/NextProject";
 import {getPortfolioItem} from "../../data/portfolio";
 import HeaderFull from "../../components/header/HeaderFull";
 import Image from "next/image";
+import Head from "next/head";
 
 function Project3(params) {
   const heroData = getPortfolioItem('huggl-power-pack');
   return (
       <Layout>
+        <Head>
+                <title>PV Operation Case | Estudio Nákama</title>
+            </Head>
         <HeaderFull className="dsn-container"
                     alignItems="end"
                     heroContent={heroData} overlay={heroData.overlay}/>
@@ -110,7 +114,7 @@ function Project3(params) {
       </section>
       {/*End Intro Project*/}
 
-      <NextProject heroContent={getPortfolioItem('principal-garden')} number={2}  />
+      <NextProject heroContent={getPortfolioItem('kretzer-case')} number={3}  />
     </Layout>
   );
 }

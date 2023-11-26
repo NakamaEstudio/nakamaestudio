@@ -15,31 +15,40 @@ function FilterPortfolio({className, categories, actionFilter}) {
         setActive($index + 1);
         actionFilter(cat);
     }
+    const convertHyphensToSpaces = (text) => {
+        return text.replace(/-/g, ' ');
+    };
 
 
 
     return (
         <div className={dsnCN('filtering-t mb-80', className)}>
 
-            <div className="filtering-wrap">
-                <div className="filtering">
+    <div className="filtering-wrap">
+        <div className="filtering">
 
-                    <button type="button" className={getActive(0)} onClick={e => handleButton(e, -1, "")}>
-                        All
-                    </button>
-                    {
-                        categories && categories.map((cat, i) =>
-                            <button
-                                key={i} type="button"
-                                className={getActive(i + 1)}
-                                onClick={e => handleButton(e, i, `.${cat.toLowerCase()}`)}>
-                                {cat}
-                            </button>)
-                    }
+            <button type="button" className={getActive(0)} onClick={e => handleButton(e, -1, "")}>
+                All
+            </button>
+            {
+    categories && categories.map((cat, i) => {
+        const readableCat = convertHyphensToSpaces(cat);
+        
+        return (
+            <button
+                key={i} type="button"
+                className={getActive(i + 1)}
+                onClick={e => handleButton(e, i, `.${cat.toLowerCase()}`)}>
+                {readableCat}
+            </button>
+        );
+    })
+}
 
-                </div>
-            </div>
         </div>
+    </div>
+</div>
+
     );
 }
 

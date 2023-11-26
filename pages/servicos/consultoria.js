@@ -21,7 +21,7 @@ import Footer from "../../components/footer/Footer";
 import Head from "next/head";
 
 const headerContent = {
-    title: `Frontend-developer`,
+    title: `Consultoria`,
     subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Alex Smith</span>`,
     src: "/img/personal.jpg",
 };

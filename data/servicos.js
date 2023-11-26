@@ -57,7 +57,7 @@ export const getServicosItem = (value, whereName = "slug") => {
 };
 export const getServicosLink = (item) => {
     if (item)
-        return item.slug && '/servicos/' + item.slug
+        return item.slug && 'servicos' + item.slug
 
     return '';
 };

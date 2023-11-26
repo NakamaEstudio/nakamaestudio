@@ -3,7 +3,7 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Gostaria de ver mais sobre nossos melhores projetos?",
+    title: "Veja mais sobre nossos melhores projetos.",
     subtitle: `Não se acanhe.`,
     buttonText: "Conheça nossos cases"
 };
