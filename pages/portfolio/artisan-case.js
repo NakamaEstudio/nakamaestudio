@@ -10,7 +10,7 @@ import NextProject from "../../components/next/NextProject";
 import Image from "next/image";
 
 function Project2(params) {
-    const heroData = getPortfolioItem('yaren-collection');
+    const heroData = getPortfolioItem('artisan-case');
     return (
         <Layout>
             <HeaderFull className="dsn-container"

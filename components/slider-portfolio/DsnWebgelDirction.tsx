@@ -188,7 +188,7 @@ function DsnWebgelDirction(props: DsnWebgelDirctionParams) {
 
     const video = (src, poster, $index) => {
 
-        let dImg = new THREE.VideoTexture(src);
+        const dImg = new THREE.VideoTexture(src);
         dImg.magFilter = THREE.LinearFilter;
         dImg.minFilter = THREE.LinearFilter;
         dImg.anisotropy = $this.renderer.capabilities.getMaxAnisotropy();
@@ -208,7 +208,7 @@ function DsnWebgelDirction(props: DsnWebgelDirctionParams) {
 
     const resize = () => {
 
-        let image = $this.allImgs[$this.current].image;
+        const image = $this.allImgs[$this.current].image;
 
 
         $this.width = parent?.current?.offsetWidth;

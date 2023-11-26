@@ -12,7 +12,7 @@ export interface MoveTriggerProps {
     markers?: boolean | true | false,
     mobile?: boolean | true | false,
     tablet?: boolean | true | false,
-    stagger?: Object | Number | null,
+    stagger?: Object | number | null,
     children?:any
 }
 

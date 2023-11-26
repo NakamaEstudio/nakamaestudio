@@ -4,7 +4,12 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": "standard-with-typescript",
+    "extends": [
+        // outras extensões...
+        
+        'plugin:@typescript-eslint/recommended', // Se estiver usando TypeScript
+        // outras extensões...
+      ],
     "overrides": [
         {
             "env": {
