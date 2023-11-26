@@ -6,7 +6,8 @@ module.exports = {
     },
     "extends": [
         // outras extensões...
-        
+        'next',
+    'next/core-web-vitals',
         'plugin:@typescript-eslint/recommended', // Se estiver usando TypeScript
         // outras extensões...
       ],
@@ -28,6 +29,11 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "@typescript-eslint/ban-types": "off",
+        "@typescript-eslint/no-this-alias":"off",
+        "@typescript-eslint/no-unused-vars":"off",
+        "@typescript-eslint/no-var-requires":"off",
+        "@typescript-eslint/ban-ts-comment":"off",
     },
     
 }

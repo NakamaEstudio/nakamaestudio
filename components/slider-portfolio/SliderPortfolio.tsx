@@ -35,9 +35,9 @@ export interface SliderPortfolioProps {
     webgelOptions?: {
         displacement?: "/img/displacement/1.jpg" | string,
         intensity?: number,
-        onComplete?: any,
+        onComplete?: React.ReactNode,
         speedIn?: number,
-        easing?: any,
+        easing?: React.ReactNode,
     },
     metaData: {
         hasSeparator?: boolean,

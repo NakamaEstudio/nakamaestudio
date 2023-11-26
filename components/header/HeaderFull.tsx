@@ -19,7 +19,7 @@ interface HeaderFullProps {
     parallax?: Object,
     parallaxContent?: Object,
     heroContent: { category?: [], title?: string, src?: string, video?: string, subtitle?: string },
-    children?: any,
+    children?: React.ReactNode,
     justifyContent?: justifyContent
     alignItems?: justifyContent,
     skin?: 'half-right' | 'half-left' | 'half-personal',

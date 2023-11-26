@@ -10,7 +10,7 @@ export interface FJustifiedGalleryProps {
     lastRow?: 'left' | 'center' | 'right' | 'hide',
     resizeDebounce?: number,
     className?: string,
-    children?: any,
+    children?: React.ReactNode,
     images?: [{ src?: string, alt?: string, caption?: string, groupPopup?: string }],
     options?: {
         infinite: true | false,

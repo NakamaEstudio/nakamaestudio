@@ -2,7 +2,7 @@ import Image from "next/image";
 
 interface AwardsItemProps {
     className?: string,
-    data?: { number: number, src: string, title: "string" } | any
+    data?: { number: number, src: string, title: "string" } | React.ReactNode
 }
 
 function AwardsItem({className, data, ...restProps}:AwardsItemProps) {

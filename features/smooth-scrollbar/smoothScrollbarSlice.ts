@@ -5,7 +5,7 @@ import Scrollbar from "smooth-scrollbar";
 export interface SmoothScrollbarState {
     scrollbar?: Scrollbar | null | Object,
     option?: Partial<ScrollbarOptions>,
-    current?:any
+    current?:React.ReactNode
 }
 
 const initialState: SmoothScrollbarState = {

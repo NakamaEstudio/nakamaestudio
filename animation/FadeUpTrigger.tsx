@@ -44,7 +44,7 @@ function FadeUpTrigger({duration, ease, delay, start, end, scrub, markers, stagg
     return (
         <Fragment>
             {typeof children === 'function' ? children(setRef) :
-                    // @ts-ignore
+                    // @ts-expect-error
                 <Tag {...restProps} ref={animateChild}>{children}</Tag>
             }
         </Fragment>

@@ -13,7 +13,7 @@ export interface MoveTriggerProps {
     mobile?: boolean | true | false,
     tablet?: boolean | true | false,
     stagger?: Object | number | null,
-    children?:any
+    children?: Object
 }
 
 

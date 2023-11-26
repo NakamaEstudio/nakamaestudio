@@ -13,10 +13,10 @@ export interface ServiceProps {
     className?: string,
     tag?: string | ReactNode,
     data?: [dataServiceProps],
-    children?: any,
+    children?: React.ReactNode,
     isSwiper?: boolean,
-    targetRef?: any,
-    iconOption?: any,
+    targetRef?: React.ReactNode,
+    iconOption?: React.ReactNode,
     parallaxContent?: Object | ParallaxOption
 
 }

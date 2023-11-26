@@ -7,14 +7,14 @@ import SelectorFunc = gsap.utils.SelectorFunc;
  *
  * @returns {(React.MutableRefObject<null>|React.RefObject<unknown>|React.MutableRefObject<undefined>|(function(*=)))[]}
  */
-export function useArrayRef(): [MutableRefObject<[HTMLElement] | any | null>, any] {
+export function useArrayRef(): [MutableRefObject<[HTMLElement] | React.ReactNode | null>, React.ReactNode] {
     const refs = useRef(null);
     refs.current = [];
     return [refs, (ref) => ref && refs.current.push(ref)];
 }
 
 
-export function useSelector(): [SelectorFunc, MutableRefObject< HTMLDivElement | HTMLElement | any | null>] {
+export function useSelector(): [SelectorFunc, MutableRefObject< HTMLDivElement | HTMLElement | React.ReactNode | null>] {
     const ref = useRef(null);
     const q = useMemo(() => gsap.utils.selector(ref), [ref]);
     return [q, ref];

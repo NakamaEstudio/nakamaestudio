@@ -1,7 +1,7 @@
 import {useEffect, useRef} from "react";
 import {dsnCN} from "../../hooks/helper";
 
-declare const google: any;
+declare const google: React.ReactNode;
 
 interface MapProps {
     defaultCenter: { lat: number, lng: number },

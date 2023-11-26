@@ -36,8 +36,9 @@ export function pageLoad(startTime, endTime, duration, current_timer ) {
     const performanceTiming = window.performance.timing,
         time = ((((performanceTiming.loadEventEnd - performanceTiming.navigationStart) * -1) / 1000) % 50) * 10;
 
-    let current = startTime,
-        increment = endTime > startTime ? 1 : -1,
+    let current = startTime;
+
+    const increment = endTime > startTime ? 1 : -1,
         stepTime = Math.abs(Math.floor((time + duration) / 100));
 
     const timer = setInterval(function () {
@@ -67,11 +68,11 @@ export function checkMobile($width = true) {
 
 
 export interface ScrollTopProps {
-    element: HTMLElement | number | any,
+    element: HTMLElement | number | React.ReactNode,
     speed?: number,
     duration?: number,
     complete?: Callback,
-    scrollbar?: any
+    scrollbar?: React.ReactNode
 }
 
 export const scrollTop = function ({element, speed = 1, duration = 0, complete = null, scrollbar = null} : ScrollTopProps) {

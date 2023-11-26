@@ -1,7 +1,7 @@
 import {dsnCN} from "../../hooks/helper";
 
 export interface dataServiceProps {
-    icon?: any,
+    icon?: React.ReactNode,
     title?: string,
     description?: string
 }
@@ -12,8 +12,8 @@ export interface ServiceItemProps {
     isCorner?: boolean,
     isList?: boolean,
     backgroundColor?: string,
-    iconOption?: any,
-    key?: any
+    iconOption?: React.ReactNode,
+    key?: React.ReactNode
 
 }
 

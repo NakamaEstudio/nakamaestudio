@@ -12,9 +12,9 @@ const Circle = () => <svg className="circle" xmlns="http://www.w3.org/2000/svg" 
 
 export interface ControlNavProps {
     className?: string,
-    activeClass?: any,
-    parent?: MutableRefObject<any>,
-    timeline?: any
+    activeClass?: React.ReactNode,
+    parent?: MutableRefObject<React.ReactNode>,
+    timeline?: React.ReactNode
 }
 
 

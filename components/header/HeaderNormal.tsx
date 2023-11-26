@@ -6,7 +6,7 @@ import {backgroundColor} from "../../hooks/EremiaType";
 interface HeaderNormalProps {
     className?: string,
     tag?: string,
-    children?: any,
+    children?: React.ReactNode,
     container?: "container" | "dsn-container",
     backgroundColor?: backgroundColor
 }

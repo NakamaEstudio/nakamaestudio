@@ -3,7 +3,7 @@ import {forwardRef, memo} from "react";
 
 export interface DsnGridProps {
     col?: number | 1,
-    className?: any,
+    className?: React.ReactNode,
     colTablet?: number | 1,
     colMobile?: number | 1,
     colGap?: number | string | 30,
@@ -15,7 +15,7 @@ export interface DsnGridProps {
     customGrid?: { desktop?: string, tablet?: string, mobile?: string },
     as?: string,
     style?: object,
-    children?: any,
+    children?: React.ReactNode,
 }
 
 // eslint-disable-next-line react/display-name
@@ -51,7 +51,7 @@ export const Dsn = forwardRef((props: DsnGridProps, ref) => {
 
 
     return (
-        // @ts-ignore
+        // @ts-expect-error - Preciso de mais tempo para estudar este erro.
         <Tag
 
             style={{

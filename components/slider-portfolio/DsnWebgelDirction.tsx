@@ -4,17 +4,17 @@ import {gsap ,Expo} from "gsap";
 
 
 export interface DsnWebgelDirctionParams {
-    parent: any,
+    parent: React.ReactNode,
     data: Object[],
     direction: "vertical" | "horizontal",
     displacement?:  string,
     nextEl?: HTMLElement,
     prevEl?: HTMLElement,
     intensity?: number,
-    onComplete?: any,
-    swiper?: any,
+    onComplete?: React.ReactNode,
+    swiper?: React.ReactNode,
     speedIn?: number,
-    easing?: any,
+    easing?: React.ReactNode,
 
 }
 

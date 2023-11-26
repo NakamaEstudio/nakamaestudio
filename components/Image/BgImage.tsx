@@ -12,7 +12,7 @@ const Bg = styled.div`
 
 interface bgImageProps {
     src?:string,
-    video?: any,
+    video?: React.ReactNode,
     height?:string,
     overlay?:number,
     imageOnly?:boolean,

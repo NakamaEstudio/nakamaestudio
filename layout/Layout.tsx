@@ -17,12 +17,12 @@ interface LayoutProps {
     colorVersion: "dark" | "light",
     optionsScrollbar?: ScrollbarOptions | {},
     modelRight?:{
-        children:any,
+        children:React.ReactNode,
         propsModal : HTMLProps<HTMLButtonElement> & {textBtn?:string}
     }
 }
 
-// @ts-ignore
+// @ts-expect-error - Preciso de mais tempo para estudar esse erro.
 function Layout({className, children, tag: Tag = "div", activeScrollbar, optionsScrollbar, colorVersion , modelRight , ...restProps}
                     : LayoutProps) {
 

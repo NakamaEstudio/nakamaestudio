@@ -5,8 +5,8 @@ import {CSSProperties} from "react";
 
 
 interface ListItemProps {
-    icon?: any,
-    children?: any,
+    icon?: React.ReactNode,
+    children?: React.ReactNode,
     number?: number,
     headingTag?: HeadingTag,
     headingTitle?: HeadingTitle,

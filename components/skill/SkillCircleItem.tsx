@@ -7,7 +7,7 @@ import {backgroundColor} from "../../hooks/EremiaType";
 interface SkillCircleItemProps {
     number: number,
     className?: string,
-    children?: any,
+    children?: React.ReactNode,
     bgColor?: backgroundColor | "pattern"
 
 
