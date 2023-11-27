@@ -31,7 +31,7 @@ const data = [
     }, 
     {
         id: 4,
-        title: "Case 4",
+        title: "Prevenção - Segurança do Trabalho",
         slug: 'principal-garden',
         category: ['Engenharia'],
         src: '/img/project/project3/1.jpg',
@@ -44,6 +44,15 @@ const data = [
         slug: 'artisan-case',
         category: ['Arquitetura-e-Marcenaria'],
         src: '/img/project/project3/1.jpg',
+        description: 'We are thrilled to share our new reel with you all.',
+        overlay: 3
+    },
+    {
+        id: 6,
+        title: "Procidade",
+        slug: 'procidade-case',
+        category: ['Engenharia'],
+        src: '/img/procidade.png',
         description: 'We are thrilled to share our new reel with you all.',
         overlay: 3
     },      

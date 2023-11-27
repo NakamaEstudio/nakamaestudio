@@ -96,9 +96,8 @@ function NextProject({height, number, attrContent, heroContent, className}) {
                     <Link href={getPortfolioLink(heroContent)} className="effect-ajax border-top border-bottom">
 
                             <h2 className="title section-padding p-relative ">
-                                <span className="title-stroke">Yaren collection</span>
-                                <span className="p-absolute section-padding d-none top-0 w-100 h-100 left-0">Yaren
-                                        collection</span>
+                                <span className="title-stroke">Cases de Sucesso</span>
+                                <span className="p-absolute section-padding d-none top-0 w-100 h-100 left-0">Cases de Sucesso</span>
                             </h2>
 
                     </Link>
