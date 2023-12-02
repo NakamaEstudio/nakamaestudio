@@ -3,51 +3,43 @@
 const dataServicos = [
     {
         id: 1,
-        title: "Nákama Estudio",
+        title: "Estúdio Nákama",
         slug: '/',
-        category: ['Aura','Ambiente','Autonomia'],
-        description: 'De criação de marcas, materiais gráficos e aplicativos à posicionamento completo no digital.',
+        category: ['BRANDING & DESIGN'],
+        description: 'Já imaginou como seria ter sua marca, conectada com seu cliente a ponto de ser preferência e não a opção mais em conta? Tudo começa na sua marca.',
         src: '/img/project/project1/Background.jpg',
         overlay: 1
     },
     {
         id: 2,
-        title: "Criação de marcas",
+        title: "Aura - Identidade e<br/> Posicionamento de Marca",
         slug: 'marcas',
-        category: ['Aura',],
-        description: 'Vin tries to reflect Diesel’s vision and combines.',
+        category: ['Distinção','DNA','Conexão'],
+        description: 'Você já reparou que marcas que expressão claramente causas ambientais, propósitos sociais, discursos culturais ou posicionamento político são muito mais engajadas com seu público? Pense nos seus ideais e as marcas que consome.',
         src: '/img/project/project1/criacao.jpg',
         overlay: 1
     },
     {
         id: 3,
-        title: "Materiais Gráficos",
+        title: "Ambiente - Pontos de Contato e Experiência da Marca",
         slug: 'materiais-graficos',
         src: '/img/project/project2/1.jpg',
 
-        category: ['Ambiente'],
-        description: 'symbols through which express themselves.',
+        category: ['Ponto de venda','Site','Embalagem','Eventos','Materiais Gráficos'],
+        description: '•	Admita, quando se depara com uma marca padronizada em todos os pontos de contato você sente mais confiança em comprar e acredita no que ela fala.',
         overlay: 6,
 
     },
     {
         id: 4,
-        title: "Sites e canais digitais",
+        title: "Autonomia - Consultoria de<br/> Gestão de Marcas",
         slug: 'siteseapps',
-        category: ['Ambiente'],
+        category: ['Acompanhamento','Otimização','Implementação'],
         src: '/img/project/project3/1.jpg',        
-        description: 'Huggl is an induction charging.',
+        description: 'Não seria ótimo se pudesse contar com um Gerente de Marketing e Branding experiente olhando para os detalhes do seu negócio ? Amplie suas perspectivas de crescimento. ',
         overlay: 6
     },
-    {
-        id: 5,
-        title: "Consultoria",
-        slug: 'consultoria',
-        category: ['Autonomia'],
-        src: '/img/project/project4/1.jpg',
-        description: 'We are thrilled to share our new reel with you all.',
-        overlay: 2
-    },    
+    
 ]
 
 export const getServicosData = () => dataServicos;

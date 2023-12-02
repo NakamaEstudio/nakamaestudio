@@ -39,7 +39,7 @@ const menuContent = [
     },*/
     {name: "Serviços",
     dropdownMenu: [
-        {name: "O que fazemos.", href: "/servicos",},
+        
         
         {
             name: "Criação de marcas", href: "/servicos/marcas",

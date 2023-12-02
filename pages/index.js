@@ -49,13 +49,12 @@ function Home() {
                          data-dsn-title="Quem nós somos"/>
 
             {/*Start Service*/}
-            <div className="container section-margin" data-dsn-title="Serviços Nákama">
+            <div className="container section-margin" data-dsn-title="O que fazemos">
                 <TitleSection
                     className="align-items-center text-center"
-                    description={"Serviços Nákama"}
+                    description={"O que fazemos"}
                 >
-                    Qual a MARCA que seu <br/>
-negócio está deixando nas pessoas?
+                    &quot;Saber o que não somos, é tão importante quanto a clareza do que devemos ser&quot;
                 </TitleSection>
                 <ServiceOne/>
             </div>
@@ -67,27 +66,25 @@ negócio está deixando nas pessoas?
                 <MoveBox tablet={false}>
                     <TitleSection
                         className={`align-items-start mb-30`}
-                        description={"Build perfect websites"}
+                        description={"Construção de negócios vendáveis"}
                         defaultSpace={false}
                     >
-                        Unlimited power
+                        MARCAS MARCANTES
                     </TitleSection>
 
                     <p className="mb-10">
-                        Most of our writings have centered on implementing strategies for
-                        business units, with their unique
+                    Acreditamos que o verdadeiro poder de uma marca está na conexão genuína com seu público. 
                     </p>
                     <p className="mb-30">
-                        geeza arse it’s your round grub sloshed burke, my good sir chancer
-                        he legged it he lost his bottle pear shaped bugger all mate
+                    Construímos marcas não apenas para serem reconhecidas, mas para serem amadas e defendidas por seus seguidores, ou seja, para serem MARCANTES
                     </p>
 
                     <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Our Portfolio"}}>
-                        More Projects <span>⟶</span>
+                        Mais projetos <span>⟶</span>
                     </Button>
 
                     <p className={`sm-p mt-15 theme-color`}>
-                        NOTE : Some details are very important.
+                        NOTA : A perfeição está nos detalhes.
                     </p>
                 </MoveBox>
             </div>
@@ -167,29 +164,25 @@ negócio está deixando nas pessoas?
                                 <TitleCover>NÁKAMA</TitleCover>
                                 <TitleSection
                                     className={"text-uppercase"}
-                                    description={"Propósito"}
+                                    description={"Serviços"}
                                     defaultSpace={false}
                                 >
-                                    Marcas que marcam
+                                    Os 3 pilares do posicionamento
                                 </TitleSection>
                                 <Accordion>
-                                    <AccordionItem title="Aura" active number={1}>
+                                    <AccordionItem title="Aura - ID e Posicionamento de Marca" active number={1}>
                                         <p>
-                                            Quisque placerat vitae lacus ut sceleris queusce luctus
-                                            odio ac nibh luctus, in porttitor.
+                                        Criamos a alma da sua marca, desde o diagnóstico inicial até o desenvolvimento do logotipo, garantindo que sua identidade transmita a mensagem certa.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="Ambiente" number={2}>
+                                    <AccordionItem title="Ambiente - Pontos de Contato e Experiência" number={2}>
                                         <p>
-                                            Quisque placerat vitae lacus ut sceleris queusce luctus
-                                            odio ac nibh luctus, in porttitor.
+                                        Desenvolvemos o ambiente onde sua marca interage com o público, seja por meio do design de embalagens, do site e aplicativos, ou pela criação de estratégias de mídia social.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="Autonomia" number={3}>
+                                    <AccordionItem title="Autonomia - Consultoria de Gestão de Marcas" number={3}>
                                         <p>
-                                            Cepteur sint occaecat cupidatat proident, taken possession
-                                            of my entire soul, like these sweet mornings of spring
-                                            which I enjoy with my whole.
+                                        Oferecemos orientações estratégicas para o crescimento do seu negócio, desde o diagnóstico inicial até o acompanhamento e medição dos resultados, garantindo que sua marca siga um caminho de sucesso.
                                         </p>
                                     </AccordionItem>
                                 </Accordion>
@@ -233,7 +226,7 @@ negócio está deixando nas pessoas?
             {/*End Blog*/}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Nosso time">
+           {/* <section className="container section-margin " data-dsn-title="Nosso time">
                 <TitleSection
                     className={` align-items-center text-center`}
                     description={"Nosso time"}
@@ -243,7 +236,9 @@ negócio está deixando nas pessoas?
 
                 <Team col={3} colTablet={2}/>
             </section>
+        */}
             {/*========== End team Section ========== */}
+            
 
             {/*========== End brand-client Section ==========*/}
             <section className="container section-margin" data-dsn-title="Nossos clientes">

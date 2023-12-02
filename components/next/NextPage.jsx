@@ -3,8 +3,8 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Gostaria de obter mais informações ou tem alguma pergunta?",
-    subtitle: `Sem compromisso`,
+    title: "Na tradição japonesa, o Nákama representa uma ligação especial entre pessoas unidas por um objetivo comum. É isso que buscamos aqui: estabelecer um elo sólido para entender suas necessidades e ajudar sua marca a alcançar seu potencial máximo.",
+    subtitle: `Conecte-se Conosco`,
     buttonText: "Entre em contato"
 };
 
@@ -21,7 +21,7 @@ function NextPage({className, ...restProps}) {
                         <p className="sub-heading line-shape line-shape-after ">
                             <span className="line-bg-left">{NextContent.subtitle}</span>
                         </p>
-                        <h2 className="section-title max-w750 mt-15">
+                        <h2 className="section-title text-base max-w750 mt-15">
                             {NextContent.title}
                         </h2>
                     </div>

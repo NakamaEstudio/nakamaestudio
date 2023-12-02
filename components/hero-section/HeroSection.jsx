@@ -8,25 +8,19 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 
 
 const HeroContent = {
-    title: "Olá, somos <br/>  Estúdio Nákama",
-    subtitle: `"Saber o que não somos, é tão importante quanto
-    a clareza do que devemos ser".`,
-    description: `Fundada em 2022, a Nákama não é uma agência, é um Estudio de Branding. <span class="mb-10 d-block" ></span>
-    Não fazemos marketing digital,
-    construimos marcas e
-    gerenciamos seu posicionamento
-    no mercado em todos canais. (O digital é apenas um dos canais
-        a ser explorado.)`,
-    authorTitle: "Luffy",
-    authorJob: "One Piece",
+    title: "Bem vindo ao<br/>  Estúdio Nákama",
+    subtitle: `"Qual a MARCA que seu negócio está deixando nas pessoas?”`,
+    description: `Aqui no Estúdio Nákama, não apenas forjamos marcas; cultivamos relacionamentos duradouros entre marcas e pessoas. Cada design, cada estratégia, é uma expressão autêntica do compromisso que temos em conectar sua marca ao coração e à mente do seu público. Sinta-se em casa enquanto exploramos juntos o poder da autenticidade, criatividade e conexão.`,
+    authorTitle: "Aderbal Amorin ",
+    authorJob: "Founder & Diretor de Criação",
     experienceNumber: "20",
     experienceDescription: `YEARS OF \nDIGITAL EXPERIENCE`,
     heroImage: '/img/about-intro.jpg',
     awards: [
-        {number: 37, description: `Parceiros de <br/> negócios`},
-        {number: 19, description: `Clientes <br/> Satisfeitos`},
-        {number: 43, description: `Inimigos de <br/> negócios`},
-        {number: 1422, description: `Clientesss <br/> Satisfeitos`},
+        {number: 12, description: `Anos Criando Marcas`},
+        {number: 200, description: `Clientes <br/> Atendidos`},
+        {number: 110, description: `Marcas Criadas`},
+        {number: 360, description: ` graus de visão para seu negócio`},
     ]
 };
 
