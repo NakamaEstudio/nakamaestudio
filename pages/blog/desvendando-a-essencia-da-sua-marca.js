@@ -91,7 +91,7 @@ O que é a Aura da Marca?
                     Estamos aqui para ajudar a desvendar sua aura de marca e criar uma identidade que ressoe com seu público. Vamos começar a contar a história da sua marca juntos.
                     </p>
                     <p>
-                    Quer saber mais sobre como criar uma identidade poderosa para sua marca? <a href="/contato" className="bolder">Entre em contato </a> hoje mesmo!
+                    Quer saber mais sobre como criar uma identidade poderosa para sua marca? <Link href="/contato" className="bolder">Entre em contato </Link> hoje mesmo!
                     </p>
 
 
@@ -119,9 +119,9 @@ O que é a Aura da Marca?
                 </div>
 
                 <div className="icon p-20 border-right border-left">
-                    <a className="h-100 heading-color" href="/portfolio">
+                    <Link className="h-100 heading-color" href="/portfolio">
                         <FontAwesomeIcon icon={faThLarge}/>
-                    </a>
+                    </Link>
                 </div>
                 <div className="pagination-item w-100 p-20 text-right">
                     <Link href="o-poder-dos-pontos-de-contato" >
