@@ -26,7 +26,7 @@ const dataServicos = [
         src: '/img/project/project2/1.jpg',
 
         category: ['Ponto de venda','Site','Embalagem','Eventos','Materiais Gráficos'],
-        description: '•	Admita, quando se depara com uma marca padronizada em todos os pontos de contato você sente mais confiança em comprar e acredita no que ela fala.',
+        description: 'Admita, quando se depara com uma marca padronizada em todos os pontos de contato você sente mais confiança em comprar e acredita no que ela fala.',
         overlay: 6,
 
     },

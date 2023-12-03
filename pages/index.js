@@ -66,7 +66,7 @@ function Home() {
                 <MoveBox tablet={false}>
                     <TitleSection
                         className={`align-items-start mb-30`}
-                        description={"Construção de negócios vendáveis"}
+                        description={"O pleonasmo intencional"}
                         defaultSpace={false}
                     >
                         MARCAS MARCANTES
@@ -84,7 +84,7 @@ function Home() {
                     </Button>
 
                     <p className={`sm-p mt-15 theme-color`}>
-                        NOTA : A perfeição está nos detalhes.
+                        NOTA : Marcas são posicionadas no detalhe, na postura diante das situações boas e ruins.
                     </p>
                 </MoveBox>
             </div>
@@ -175,7 +175,7 @@ function Home() {
                                         Criamos a alma da sua marca, desde o diagnóstico inicial até o desenvolvimento do logotipo, garantindo que sua identidade transmita a mensagem certa.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="Ambiente - Pontos de Contato e Experiência" number={2}>
+                                    <AccordionItem title="Ambiente - Pontos de Contato e Experiência da Marca" number={2}>
                                         <p>
                                         Desenvolvemos o ambiente onde sua marca interage com o público, seja por meio do design de embalagens, do site e aplicativos, ou pela criação de estratégias de mídia social.
                                         </p>
@@ -250,7 +250,7 @@ function Home() {
                     reputação
                 </TitleSection>
 
-                <BrandClient col={4} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>
+                <BrandClient col={4} colTablet={3} colMobile={3} colGap={0} rowGap={0}/>
             </section>
             {/*========== End brand-client Section ==========*/}
 

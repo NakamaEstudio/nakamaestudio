@@ -3,8 +3,8 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Na tradição japonesa, o Nákama representa uma ligação especial entre pessoas unidas por um objetivo comum. É isso que buscamos aqui: estabelecer um elo sólido para entender suas necessidades e ajudar sua marca a alcançar seu potencial máximo.",
-    subtitle: `Conecte-se Conosco`,
+    title: "Gostaria de obter mais informações, sanar alguma dúvida ou iniciar um projeto?",
+    subtitle: `Vamos conversar`,
     buttonText: "Entre em contato"
 };
 

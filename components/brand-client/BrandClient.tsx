@@ -4,14 +4,18 @@ import Image from "next/image";
 
 
 const data = [
-    {src: "/img/logo/1.png"},
-    {src: "/img/logo/2.png"},
-    {src: "/img/logo/3.png"},
-    {src: "/img/logo/4.png"},
-    {src: "/img/logo/5.png"},
-    {src: "/img/logo/6.png"},
-    {src: "/img/logo/1.png"},
-    {src: "/img/logo/3.png"},
+    {src: "/img/logo/arantes-psicologia.png"},
+    {src: "/img/logo/beach-fitness.png"},
+    {src: "/img/logo/casa-alto-lagoa.png"},
+    {src: "/img/logo/ecosintese-meio-ambiente.png"},
+    {src: "/img/logo/famillevet-clinica-veterinaria.png"},
+    {src: "/img/logo/furlani-distribuidora.png"},
+    {src: "/img/logo/gastrobeef-restaurante.png"},
+    {src: "/img/logo/kretzer.png"},
+    {src: "/img/logo/mg-superficies.png"},
+    {src: "/img/logo/ricky-autocenter.png"},
+    {src: "/img/logo/rz-makeup.png"},
+    {src: "/img/logo/sao-chico-barbearia.png"},
 ];
 
 

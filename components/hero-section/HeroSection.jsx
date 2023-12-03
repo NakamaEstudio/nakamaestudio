@@ -13,14 +13,14 @@ const HeroContent = {
     description: `Aqui no Estúdio Nákama, não apenas forjamos marcas; cultivamos relacionamentos duradouros entre marcas e pessoas. Cada design, cada estratégia, é uma expressão autêntica do compromisso que temos em conectar sua marca ao coração e à mente do seu público. Sinta-se em casa enquanto exploramos juntos o poder da autenticidade, criatividade e conexão.`,
     authorTitle: "Aderbal Amorin ",
     authorJob: "Founder & Diretor de Criação",
-    experienceNumber: "20",
-    experienceDescription: `YEARS OF \nDIGITAL EXPERIENCE`,
+    experienceNumber: "+ de 32",
+    experienceDescription: `somados em Business & Branding`,
     heroImage: '/img/about-intro.jpg',
     awards: [
         {number: 12, description: `Anos Criando Marcas`},
         {number: 200, description: `Clientes <br/> Atendidos`},
         {number: 110, description: `Marcas Criadas`},
-        {number: 360, description: ` graus de visão para seu negócio`},
+        {number: "360º", description: `de visão para seu negócio`},
     ]
 };
 

@@ -28,9 +28,9 @@ function About() {
                     <span className="pl-10 pr-10 background-section">ESTUDIO NÁKAMA</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    Observe.<br/> As marcas estão evoluindo.
+                    Conect-se<br/> conosco.
                 </h1>
-                <p className="dsn-heading-title mt-15 max-w570">E se tiver chegado a hora de você mudar? Iniciar uma colaboração é fácil! Solicite uma consulta gratuita ou entre em contato conosco. Estamos sempre em contato e felizes em colaborar com você
+                <p className="dsn-heading-title mt-15 max-w570">Na tradição japonesa, o &quot;Nákama&quot; representa uma ligação especial entre pessoas unidas por um objetivo comum. É isso que buscamos aqui: estabelecer um elo sólido para entender suas necessidades e ajudar sua marca a alcançar seu potencial máximo.
                 </p>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
