@@ -11,7 +11,7 @@ const menuContent = [
         
     },
     {
-        name: "Cases e Portfólio", href: "/work-card-2-col",
+        name: "Cases e Portfólio", href: "/portfolio",
         
         
     },
@@ -36,7 +36,7 @@ const menuContent = [
                 ]
             },
         ]
-    },*/
+    },
     {name: "Serviços",
     dropdownMenu: [
         
@@ -58,16 +58,21 @@ const menuContent = [
            
         },
     ]
+},*/
+{
+    name: "Serviços", href: "/servicos",
+    
+    
 },
     
-    {name: "Sobre nós", href: "/about"},
+    {name: "Sobre nós", href: "/sobre-nos"},
     {
-        name: "Blog", href: "/blog-list",
+        name: "Blog", href: "/blog",
         
         
     },
     
-    {name: "Contato", href: "/contact"},
+    {name: "Contato", href: "/contato"},
 ];
 
 const EremiaMenu = ({hamburger}) => {

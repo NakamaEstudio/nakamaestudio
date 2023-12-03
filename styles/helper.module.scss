@@ -1,7 +1,9 @@
 @import "mixins/_mixins-master.scss";
 @import "mixins/_utilities.scss";
 @import "variables-site/_variables-site.scss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 //---> Margin Helper
 @include MarginPaddingModule(20, 5, ".m", margin);

@@ -21,7 +21,7 @@ const servicesDetails = [
             </g>
         </svg>,
         title: "Marca com Identidade Única",
-        description: "o	Desenvolvemos a identidade autêntica da sua marca, contando sua história de forma única.",
+        description: "Desenvolvemos a identidade autêntica da sua marca, contando sua história de forma única.",
     },
     {
         icon: <svg enableBackground="new 0 0 300 300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@ const servicesDetails = [
             </g>
         </svg>,
         title: "Experiências Memoráveis para Clientes",
-        description: "o	Criamos interações marcantes que se tornam momentos inesquecíveis para seus clientes.",
+        description: "Criamos interações marcantes que se tornam momentos inesquecíveis para seus clientes.",
     },
     {
         icon: <svg enableBackground="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -48,8 +48,8 @@ const servicesDetails = [
                 </g>
             </g>
         </svg>,
-        title: "Estratégias Flexíveis e Adaptáveis:",
-        description: "o	Desenvolvemos estratégias ágeis que se ajustam ao crescimento e mudanças do seu negócio.",
+        title: "Estratégias Flexíveis e Adaptáveis",
+        description: "Desenvolvemos estratégias ágeis que se ajustam ao crescimento e mudanças do seu negócio.",
     },
     {
         icon: <svg enableBackground="new 0 0 300 300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@ const servicesDetails = [
             </g>
         </svg>,
         title: "Presença Online que Reflete sua Marca",
-        description: "o	Destacamos sua marca na internet, transmitindo sua verdadeira essência e valores.",
+        description: "Destacamos sua marca na internet, transmitindo sua verdadeira essência e valores.",
     },
     {
         icon: <svg enableBackground="new 0 0 300 300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
@@ -127,8 +127,8 @@ const servicesDetails = [
                 </g>
             </g>
         </svg>,
-        title: "Suporte Estratégico de gestão:",
-        description: "o	Oferecemos orientação estratégica desde o início para o lançamento sólido do seu negócio até o reposicionamento de mercado.",
+        title: "Suporte Estratégico de gestão",
+        description: "Oferecemos orientação estratégica desde o início para o lançamento sólido do seu negócio até o reposicionamento de mercado.",
     },
 ]
 

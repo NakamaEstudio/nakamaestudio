@@ -1,21 +1,21 @@
-import Layout from "../layout/Layout";
-import TitleSection from "../components/heading/TitleSection";
-import ParallaxImage from "../components/Image/ParallaxImage";
+import Layout from "../../layout/Layout";
+import TitleSection from "../../components/heading/TitleSection";
+import ParallaxImage from "../../components/Image/ParallaxImage";
 
-import Footer from "../components/footer/Footer";
-import ModalContact from "../components/model-right/ModalContact";
-import HeaderNormal from "../components/header/HeaderNormal";
+import Footer from "../../components/footer/Footer";
+import ModalContact from "../../components/model-right/ModalContact";
+import HeaderNormal from "../../components/header/HeaderNormal";
 
-import MetaPost from "../components/meta/MetaPost";
-import ButtonPopup from "../components/button-popup/ButtonPopup";
+import MetaPost from "../../components/meta/MetaPost";
+import ButtonPopup from "../../components/button-popup/ButtonPopup";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React from "react";
 import {faThLarge} from "@fortawesome/free-solid-svg-icons";
-import CommentForm from "../components/bolg/CommentForm";
+import CommentForm from "../../components/bolg/CommentForm";
 import Link from "next/link";
 import Head from "next/head";
 
-function Post1() {
+function Post2() {
     TitleSection.defaultProps = {
         classDesc: "line-shape line-shape-before",
         classDesInner: "line-bg-right",
@@ -25,14 +25,17 @@ function Post1() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Single Blog  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>
+                O Poder dos Pontos de Contato na Experiência do Consumidor
+  | Estúdio Nákama</title>
             </Head>
 
             {/*========== Header Normal ========== */}
             <HeaderNormal container={"container"}>
-                <MetaPost category={['Lifestyle']}/>
+                <MetaPost category={['Branding']}/>
                 <h1 className="title text-uppercase">
-                    Create the best <br /> workplace
+                O Poder dos Pontos de Contato na Experiência do Consumidor
+
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
@@ -132,4 +135,4 @@ function Post1() {
     );
 }
 
-export default Post1;
+export default Post2;

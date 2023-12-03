@@ -55,6 +55,15 @@ const data = [
         src: '/img/procidade.png',
         description: 'We are thrilled to share our new reel with you all.',
         overlay: 3
+    },
+    {
+        id: 6,
+        title: "Procidade",
+        slug: 'procidade-case',
+        category: ['Alimentação'],
+        src: '/img/procidade.png',
+        description: 'We are thrilled to share our new reel with you all.',
+        overlay: 3
     },      
        
 ]

@@ -14,15 +14,15 @@ function Work() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Stories | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Blog | Estúdio Nákama</title>
             </Head>
         {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
                 <p className="subtitle p-relative line-shape  dsn-load-animate">
-                    <span className="pl-10 pr-10 background-main"> NEWS & IDEAS </span>
+                    <span className="pl-10 pr-10 background-main"> Conteúdos e insights exclusivos por especialistas em Branding e Negócios </span>
                 </p>
                 <h1 className="title text-uppercase">
-                    Our Stories
+                    Nosso blog
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

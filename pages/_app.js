@@ -6,6 +6,8 @@ import 'swiper/css/pagination';
 import "splitting/dist/splitting.css";
 import "splitting/dist/splitting-cells.css";
 import '../styles/style.scss';
+import '../styles/output.css';
+
 
 
 import {Back, gsap} from 'gsap';

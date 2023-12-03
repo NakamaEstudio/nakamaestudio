@@ -28,7 +28,7 @@ function NextPage({className, ...restProps}) {
 
                     <div className="button-box d-flex justify-content-end align-items-center">
                         <Button
-                            href={"/contact"}
+                            href={"/contato"}
                             className="mr-15 line-head"
                             borderStyle={"border-color-heading-color"}
                             borderRadius

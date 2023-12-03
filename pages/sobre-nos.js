@@ -22,6 +22,8 @@ import {getServiceData} from "../data/service";
 import Image from "next/image";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
+import { ServiceGrid } from "../components/services/Service";
+import { NakamaIcon } from "../components/Nakamaicon";
 
 function About() {
     TitleSection.defaultProps = {
@@ -31,7 +33,7 @@ function About() {
 
 
     return (
-        <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
+        <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contato"}}}>
             <Head>
                 <title>Quem somos | Estúdio Nákama</title>
             </Head>
@@ -41,7 +43,8 @@ function About() {
                     <span className="pl-10 pr-10 background-section">ESTUDIO NÁKAMA</span>
                 </p>
                 <h1 className="title text-uppercase">
-                  Somos um estúdio de<br/> Design e Branding
+                  Marcas que conectam, <br/>
+                  São marcas que marcam.
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
@@ -53,36 +56,52 @@ function About() {
             {/*End Parallax Img*/}
 
             {/*<!-- ========== About Section ========== */}
-            <div className="container section-margin" data-dsn-title="About">
+            <div className="container section-margin" data-dsn-title="Sobre nós">
 
-                <TitleSection className="mb-15" description={"What We Do"} defaultSpace={false}/>
+                <TitleSection className="mb-15" description={"O que e como fazemos"} defaultSpace={false}/>
                 <DsnGrid col={2} colTablet={1}>
                     <div className="box-left">
-                        <h4> Keep Your Business Safe & Ensure High Availability </h4>
+                        <h4> Buscamos ir além do óbvio, explorando o terreno dos significados e da autenticidade para moldar marcas memoráveis e duradouras. </h4>
                     </div>
                     <div className="box-right">
                         <p className="max-w570 dsn-up mb-15 ">
-                            A business consulting agency is involved in the planning,
-                            implementation, and education of businesses. We work directly with
-                            business owners on developing a business plan, identifying
-                            marketing needs and developing the necessary skills for business
-                            ownership.
+                        No Estúdio Nákama, acreditamos no poder das conexões autênticas para forjar “Marcas mais marcantes”. 
                         </p>
 
-                        <p className="max-w570 dsn-up">
-                            but deploy to production. C-suite. First-order optimal strategies
-                            build on a culture of contribution and inclusion so those options
+                        <p className="max-w570 dsn-up pb-30">
+                        Somos mais do que um estúdio de Branding e Design; somos guardiões de histórias, artesãos de identidades e mestres na arte de construir laços significativos entre marcas e seus públicos.
                         </p>
                     </div>
                 </DsnGrid>
-                <List className="pt-50 mt-50 border-top pt-md-30 mt-md-30" col={3} iconSize={"21px"}>
-                    <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Advanced Grid </List.item>
-                    <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Top Performance</List.item>
-                    <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Responsive Design</List.item>
-                </List>
+                <ServiceGrid
+              className="icon-left p-0 border-top  pt-30 align-items-start"
+              iconOption={{
+                className: "background-main p-15 align-self-center",
+              }}
+              col={3}
+            colTablet={1}
+            colGap={75}
+              data={[
+                {
+                  icon: NakamaIcon,
+                  title: "Imersão Profunda",
+                  description:
+                    "Não somos apenas prestadores de serviços; mergulhamos profundamente na essência de cada marca para compreender suas origens e direcionamento estratégico.",
+                },
+                {
+                    icon: NakamaIcon,
+                    title: "Especialistas em Branding e Design",
+                    description:
+                    "Somos uma equipe de profissionais apaixonados por branding e design, focados em fornecer soluções personalizadas e inovadoras para cada desafio.",
+                },
+                {
+                    icon: NakamaIcon,
+                    title: "Conexão Humana",
+                    description:
+                      " Valorizamos os relacionamentos e a colaboração estreita com nossos clientes, trabalhando lado a lado para atingir metas e resultados excepcionais.",
+                  },
+            ]}
+            />
             </div>
             {/*<!-- ========== End About Section ========== */}
 
@@ -94,17 +113,17 @@ function About() {
             {/*End Gallery List*/}
 
             {/*Start awards Section*/}
-            <section className="section-padding background-section" data-dsn-title="Services">
+            <section className="section-padding background-section" data-dsn-title="Serviços">
                 <div className="container">
-                    <TitleSection description="Our Services">
-                        We are delivering beautiful <br/> digital products for you.
+                    <TitleSection description="Nossos serviços">
+                    Oferecemos um leque de serviços especializados, carinhosamente chamados de:
                     </TitleSection>
                     <Service.grid className="icon-left" styleBox="list" data={getServiceData().slice(0, 3)}/>
                 </div>
             </section>
             {/*End awards Section*/}
 
-
+            {/*}
             <section className="awards-section section-margin" data-dsn-title="Awards">
                 <div className="container">
                     <DsnGrid col={2} colTablet={1}>
@@ -126,19 +145,20 @@ function About() {
                     </DsnGrid>
                 </div>
             </section>
+        */}
 
             {/*========== team Section ========== */}
-           {/* <section className="container section-margin " data-dsn-title="Team">
-                <TitleSection description={"Our Team"}>
-                    The Best Team Ever!
+            <section className="container section-margin " data-dsn-title="Equipe">
+                <TitleSection description={"Nosso time"}>
+                    Especialistas em Branding, Design e Negócios.
                 </TitleSection>
 
                 <Team data={getTeamData().slice(0, 4)} col={2} colTablet={2}/>
-    </section>*/}
+    </section>
             {/*========== End team Section ========== */}
 
             {/*Start testimonial Section*/}
-            <div className="container section-margin" data-dsn-title="testimonials">
+            <div className="container section-margin" data-dsn-title="Depoimentos">
                 <TitleSection description={" Feedback"}>What Clients Say</TitleSection>
 
                 <Testimonial
@@ -168,10 +188,10 @@ function About() {
             {/*End testimonial Section*/}
 
             {/*========== Start brand-client Section ==========*/}
-            <section className="container section-margin" data-dsn-title="Client">
-                <TitleSection description={"Our clients"}>
-                    Your successful, our <br/>
-                    reputation
+            <section className="container section-margin" data-dsn-title="Clientes">
+                <TitleSection description={"Nossos clientes"}>
+                    Seu sucesso,  <br/>Nossa reputação
+                   
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={2} colGap={0} rowGap={0}/>

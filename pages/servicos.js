@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { ServiceGrid } from "../components/services/Service";
 import { IdeaIcon } from "../components/svg";
+import { NakamaIcon } from "../components/Nakamaicon";
 import ButtonProject from "../components/button/ButtonProject";
 import { getServiceData } from "../data/service";
 import Team from "../components/Team/Team";
@@ -37,7 +38,7 @@ function Servicos() {
       </Head>
       {/*========== Header Normal ========== */}
       <HeaderNormal
-        backgroundColor="background-section"
+        backgroundColor="background-section "
         className="text-center"
       >
         <p className="subtitle p-relative line-shape   mb-30">
@@ -68,7 +69,7 @@ function Servicos() {
             paixão para elevar sua marca a um novo patamar.
           </h4>
         </div>
-        <div className="box-right">
+        <div className="box-right border-left pl-30">
           <TitleSection defaultSpace={false} description="Nossos serviços" />
           <ul className="mt-25">
             <li className="mb-15">Criação de marcas</li>
@@ -93,7 +94,7 @@ function Servicos() {
       {/*<!-- ========== About section ========== */}
       <div
         className="p-relative background-section section-padding"
-        data-dsn-title="products better"
+        data-dsn-title="Identidade e posicionamento de marca"
       >
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-left">
@@ -174,14 +175,14 @@ function Servicos() {
             </p>
             
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
-                  title: "Diagnóstico de Branding. ",
+                  icon: NakamaIcon,
+                  title: "Diagnóstico de Branding ",
                   description:
                     "Uma análise profunda para identificar as oportunidades e pontos de melhoria no posicionamento.",
                 },
@@ -189,13 +190,13 @@ function Servicos() {
             />
             
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30 pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Naming e Plataforma de Marca",
                   description:
                     "Criamos nomes impactantes e uma base sólida para a sua marca, seu produto ou Serviço.",
@@ -203,13 +204,13 @@ function Servicos() {
               ]}
             />
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Design de Logotipo e Identidade Visual",
                   description:
                     "Desenvolvemos elementos visuais que refletem a essência e os valores da sua marca.",
@@ -217,13 +218,13 @@ function Servicos() {
               ]}
             />
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Manual de Marca",
                   description:
                     "Um guia abrangente que estabelece diretrizes visuais e verbais para manter a consistência da marca.",
@@ -231,13 +232,13 @@ function Servicos() {
               ]}
             />
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Território Visual e Verbal",
                   description:
                     "Criamos uma identidade única e consistente para sua marca, recurso de suporte.",
@@ -251,7 +252,7 @@ function Servicos() {
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Materiais de Apoio",
                   description:
                     "Desenvolvemos materiais Gráficos que comunicam sua marca de forma eficaz e coerente.",
@@ -266,7 +267,7 @@ function Servicos() {
       {/*<!-- ========== About section ========== */}
       <div
         className="p-relative section-margin"
-        data-dsn-title="BUSINESS CONSULTING"
+        data-dsn-title="Experiência de Marca"
       >
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-left order-md-2">
@@ -278,17 +279,17 @@ function Servicos() {
             >
               Experiência da Marca
             </TitleSection>
-            <p className="max-w570 dsn-up mb-10 border-top pt-30 border-bottom pb-30">
+            <p className="max-w570 dsn-up border-top pb-30 pt-30 pb-30">
             Criamos experiências consistentes em todos os pontos de contato da marca, desde embalagens até a presença digital, transmitindo os valores e deixando uma impressão marcante.
             </p>
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Design de Produto e Embalagem ",
                   description:
                     "Criamos designs atraentes e funcionais para seus produtos e embalagens.",
@@ -297,13 +298,13 @@ function Servicos() {
             />
             
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Desenvolvimento de Sites e Aplicativos",
                   description:
                     "Construímos plataformas digitais impactantes que cativam seu público.",
@@ -311,13 +312,13 @@ function Servicos() {
               ]}
             />
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Estratégias de Mídias Sociais",
                   description:
                     "Planejamos e executamos estratégias para maximizar o alcance e a interação com seu público-alvo.",
@@ -325,13 +326,13 @@ function Servicos() {
               ]}
             />
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Sinalização e Ambientação",
                   description:
                     "Criamos ambientes físicos que refletem e reforçam a identidade da marca.",
@@ -339,13 +340,13 @@ function Servicos() {
               ]}
             />
             <ServiceGrid
-              className="icon-left p-0 border-top  pt-30 align-items-center"
+              className="icon-left p-0 border-top pb-30  pt-30 align-items-center"
               iconOption={{
                 className: "background-main p-15 align-self-center",
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Endobranding",
                   description:
                     "Focamos na cultura e nos valores internos da empresa para alinhar todos os membros da equipe com a identidade da marca.",
@@ -359,7 +360,7 @@ function Servicos() {
               }}
               data={[
                 {
-                  icon: IdeaIcon,
+                  icon: NakamaIcon,
                   title: "Produção de Eventos / Live Marketing",
                   description:
                     "Criamos experiências que refletem sua marca. Planejamos e executamos eventos marcantes e memoráveis, desde conferências a lançamentos de produtos, conectando sua marca de forma única ao público-alvo.",
@@ -390,7 +391,7 @@ function Servicos() {
       {/*<!-- ========== About section ========== */}
       <div
         className="p-relative background-section section-padding"
-        data-dsn-title="Project Manager"
+        data-dsn-title="Gestão de Marcas"
       >
         <div className="container">
           <TitleSection
@@ -438,23 +439,23 @@ function Servicos() {
                 data={[
                   {                 
                     
-                    icon: IdeaIcon,
+                    icon: NakamaIcon,
                     title: "Triagem e Diagnóstico",
                     description: ` Identificamos oportunidades de melhoria e áreas-chave para o crescimento da marca.`,
                   },
                   {
-                    icon: IdeaIcon,
+                    icon: NakamaIcon,
                     title: "Plano de Ação e Acompanhamento",
                     description: `Criamos estratégias e acompanhamos de perto sua implementação para garantir resultados eficazes. `,
                   },
                   {
                     
-                    icon: IdeaIcon,
+                    icon: NakamaIcon,
                     title: "Consultoria e Gestão de Mídias Sociais",
                     description: `Oferecemos suporte contínuo para manter uma presença online consistente e eficaz. `,
                   },
                   {
-                    icon: IdeaIcon,
+                    icon: NakamaIcon,
                     title: "Coordenação de Terceiros",
                     description: `Gerenciamos e coordenamos serviços externos para garantir a coerência da marca em todas as interações.
                     `,
@@ -479,7 +480,7 @@ function Servicos() {
             data={getServiceData().slice(0, 3)}
             col={3}
             colTablet={2}
-            colGap={50}
+            colGap={125}
           />
         </div>
       </div>

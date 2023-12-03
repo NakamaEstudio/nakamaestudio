@@ -19,7 +19,7 @@ function BlogSwiper({className, hideMetaData, styleBlog, ...restProps}: BlogProp
     return (
         <DsnGrid className={dsnCN("our-blog", className, styleBlog)} {...restProps}>
             {
-                dataPortfolio.map((item, index) => <BlogItem key={index} portoDetails={item} textButton="Load More"
+                dataPortfolio.map((item, index) => <BlogItem key={index} portoDetails={item} textButton="Ver o post"
                                                              metaData={hideMetaData}/>)
             }
         </DsnGrid>

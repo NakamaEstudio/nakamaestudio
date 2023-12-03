@@ -40,6 +40,15 @@
 -------------------------------------------------------------*/
 
 // elements
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @import "mixins/_mixins-master.scss";
 @import "mixins/_utilities.scss";
 @import "variables-site/_variables-site.scss";

@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Veja mais sobre nossos melhores projetos.",
-    subtitle: `Não se acanhe.`,
-    buttonText: "Conheça nossos cases"
+    title: "Conheça mais sobre os projetos que entregamos e agora estão prosperando.",
+    subtitle: `Cases de Sucesso.`,
+    buttonText: "Ver os cases"
 };
 
 function NextPage2({className, ...restProps}) {
@@ -28,11 +28,11 @@ function NextPage2({className, ...restProps}) {
 
                     <div className="button-box d-flex justify-content-end align-items-center">
                         <Button
-                            href={"/work-card-2-col"}
+                            href={"/portfolio"}
                             className="mr-15 line-head"
                             borderStyle={"border-color-heading-color"}
                             borderRadius
-                            transitionPage={{title: "Our Portfolio"}}
+                            transitionPage={{title: "Nosso portfolio"}}
                         >
                             {NextContent.buttonText}
                         </Button>

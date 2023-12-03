@@ -79,7 +79,7 @@ function Home() {
                     Construímos marcas não apenas para serem reconhecidas, mas para serem amadas e defendidas por seus seguidores, ou seja, para serem MARCANTES
                     </p>
 
-                    <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Our Portfolio"}}>
+                    <Button href={"portfolio"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Cases de Sucesso"}}>
                         Mais projetos <span>⟶</span>
                     </Button>
 
@@ -92,10 +92,10 @@ function Home() {
 
 
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Maiores projetos">
+            <div className="section-margin" data-dsn-title="Cases de Sucesso">
                 <TitleSection
                     className={`container align-items-center text-center`}
-                    description={"Maiores projetos"}
+                    description={"Cases de Sucesso"}
                 >
                     Hall da fama do<br/>
                      Estúdio Nákama

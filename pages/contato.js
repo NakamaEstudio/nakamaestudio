@@ -28,7 +28,7 @@ function About() {
                     <span className="pl-10 pr-10 background-section">ESTUDIO NÁKAMA</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    Conect-se<br/> conosco.
+                    Conecte-se<br/> conosco.
                 </h1>
                 <p className="dsn-heading-title mt-15 max-w570">Na tradição japonesa, o &quot;Nákama&quot; representa uma ligação especial entre pessoas unidas por um objetivo comum. É isso que buscamos aqui: estabelecer um elo sólido para entender suas necessidades e ajudar sua marca a alcançar seu potencial máximo.
                 </p>
