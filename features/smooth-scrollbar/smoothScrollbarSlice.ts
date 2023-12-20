@@ -1,31 +1,29 @@
-import {createSlice} from '@reduxjs/toolkit'
-import {ScrollbarOptions} from "smooth-scrollbar/interfaces";
-import Scrollbar from "smooth-scrollbar";
+import { createSlice } from '@reduxjs/toolkit';
+import { ScrollbarOptions } from 'smooth-scrollbar/interfaces';
+import Scrollbar from 'smooth-scrollbar';
 
 export interface SmoothScrollbarState {
-    scrollbar?: Scrollbar | null | Object,
-    option?: Partial<ScrollbarOptions>,
-    current?:React.ReactNode
+  scrollbar?: Scrollbar | null | Object;
+  option?: Partial<ScrollbarOptions>;
+  current?: React.ReactNode;
 }
 
 const initialState: SmoothScrollbarState = {
-    current: null,
-}
+  current: null
+};
 
 export const smoothScrollbarSlice = createSlice({
-    name: 'scrollbar',
-    initialState,
-    reducers: {
-        setScrollbar: (state, action) => {
-            state.current = action.payload
-        }
-    },
-})
-
+  name: 'scrollbar',
+  initialState,
+  reducers: {
+    setScrollbar: (state, action) => {
+      state.current = action.payload;
+    }
+  }
+});
 
 // Action creators are generated for each case reducer function
-export const {setScrollbar} = smoothScrollbarSlice.actions
-
+export const { setScrollbar } = smoothScrollbarSlice.actions;
 
 const smoothScrollbarReducer = smoothScrollbarSlice.reducer;
 
