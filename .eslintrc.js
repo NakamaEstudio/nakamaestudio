@@ -4,8 +4,20 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
+    "settings":{
+        "react":{
+            "version":"detect"
+    }
+},
     "extends": [
-        // outras extensões...
+        
+            "eslint:recommended",
+            "plugin:sonarjs/recommended",
+            "plugin:react/recommended",
+            "plugin:@typescript-eslint/recommended",
+            "plugin:prettier/recommended",
+          
+      
         'next',
     'next/core-web-vitals',
         'plugin:@typescript-eslint/recommended', // Se estiver usando TypeScript
@@ -34,6 +46,7 @@ module.exports = {
         "@typescript-eslint/no-unused-vars":"off",
         "@typescript-eslint/no-var-requires":"off",
         "@typescript-eslint/ban-ts-comment":"off",
+        "react/prop-types":"off"
     },
     
 }

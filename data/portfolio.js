@@ -22,11 +22,11 @@ const data = [
     },       
     {
         id: 3,
-        title: "Kretzer",
-        slug: 'kretzer-case',
+        title: "Artisan - Marcenaria & Design",
+        slug: 'artisan-marcenaria',
         category: ['Arquitetura-e-Marcenaria'],        
         description: 'We are thrilled to share our new reel with you all.',
-        src: '/img/kretzer.png',
+        src: '/img/project/artisan/hero.jpg',
         overlay: 4
     }, 
     {
