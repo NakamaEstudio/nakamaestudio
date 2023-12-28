@@ -24,6 +24,7 @@ const dataSlider = [
       target: '_blank',
       rel: 'nofollow'
     },
+    // eslint-disable-next-line sonarjs/no-duplicate-string
     buttonText: 'LEARN MORE',
     subtitle: `We're a design studio that believe in the ideas`,
     src: '/img/agency.jpg',

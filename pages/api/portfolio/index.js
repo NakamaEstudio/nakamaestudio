@@ -18,6 +18,7 @@ export const portfolioData = [
     srcSlider: '/assets/img/project/project2/10.jpg',
     category: ['Brand'],
     description:
+      // eslint-disable-next-line sonarjs/no-duplicate-string
       'Cal was first. The first public university in the great state of California. They are the pioneers. They are the trailblazers who started it all.',
     overlay: 2
   },
