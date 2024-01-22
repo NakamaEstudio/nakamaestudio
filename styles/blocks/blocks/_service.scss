@@ -90,11 +90,11 @@
         line-height: 1;
         img{
           width: 75px;
-          border-radius: 50%;
+          
         }
         svg {
           width: 60px;
-          fill: $theme-color;
+          fill: #ffffff;
         }
       }
     }
@@ -109,16 +109,18 @@
       .services-item .services-item-inner .services-content {
         display: flex;
         align-items: center;
+        justify-content: center;
+    margin: auto;
         
 
         .icon {
           margin-right: 16px;
           margin-bottom: 0;
-          height: 64px;
+          height: auto;
     width: 64px;
     padding: 0;
     object-fit: fill;
-    align-self: center;
+    
     flex-shrink: 0;
 
         }

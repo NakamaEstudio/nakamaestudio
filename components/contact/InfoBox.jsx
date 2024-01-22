@@ -8,9 +8,9 @@ function InfoBox({className}) {
             <ul>
                 <li>
                     <h5 className="title-block mb-15">Contato</h5>
-                    <p className="text-p ">+55 (48) 9 9999-9999</p>
+                    <p className="text-p ">+55 (48) 9127-7979</p>
                     <div className="over-hidden mt-5">
-                        <a className="link-hover" data-hover-text="info@example.com"
+                        <a className="link-hover" data-hover-text="andre@estudionakama.com.br.com"
                            href="#">andre@estudionakama.com.br</a>
                     </div>
 
@@ -22,13 +22,14 @@ function InfoBox({className}) {
                 <li>
                     <h5 className="title-block mb-15">Nos siga</h5>
                     <div className="social-item over-hidden">
-                        <a className="link-hover" data-hover-text="Instagram." href="#"
+                        <a className="link-hover" data-hover-text="Instagram." href="https://www.instagram.com.br/nakamaestudio"
                            target="_blank" rel="nofollow">Instagram.</a>
-                    </div>
+                    </div>{/*}
                     <div className="social-item over-hidden">
                         <a className="link-hover" data-hover-text="Facebook." href="#"
                            target="_blank" rel="nofollow">Facebook.</a>
                     </div>
+    */}
                     <div className="social-item over-hidden">
                         <a className="link-hover" data-hover-text="Linkedin." href="#"
                            target="_blank" rel="nofollow">Linkedin.</a>

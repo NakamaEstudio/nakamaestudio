@@ -94,8 +94,8 @@ const PADmenu = ({hamburger}) => {
     return (
         <Navbar hamburger={hamburger}>
             <Navbar.Brand href={'/'} transitionPage={{title: "PAD"}}>
-                <LogoPAD width="100px" height="auto"/>
-            </Navbar.Brand>=
+                <LogoPAD width="60px" height="auto"/>
+            </Navbar.Brand>
 
             <Navbar.Collapse cover="Menu">
                 <Nav>

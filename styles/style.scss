@@ -57,7 +57,7 @@
 
 :root, :root .v-light {
   --bg-color: #f9f9f9;
-  --pad-color: #1d2e53;
+  --pad-color: rgb(34, 43, 65);
   --assistant-color: #e6e6e6;
   --theme-color: #e34e35;
   --partner-color: #462324;
@@ -69,8 +69,8 @@
   --reverse-heading-color: #fff;
 }
 :root .pad-theme {
-  --bg-color: linear-gradient(90deg, rgba(29,46,83,1) 0%, rgba(227,78,53,1) 100%);
-  --assistant-color: #121212;
+  --bg-color: rgb(22, 31, 49); 
+  --assistant-color: #222b41;
   --partner-color: #f0f0f0;
   --theme-color: #e74022;
   --font-color: #f0f0f0;

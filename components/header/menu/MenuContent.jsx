@@ -21,13 +21,13 @@ function MenuContent({className}) {
                 <div className="nav-content mt-30">
                     <h5 className="sm-title-block mb-10">Contato</h5>
                     <p className="links over-hidden mb-1">
-                        <a className="link-hover" href="tel:+00 (2)012 3321" data-hover-text="+00 (2)012 3321">
-                            +55 (48) 9 9999-9999
+                        <a className="link-hover" href="tel:+55 48 9127-7979" data-hover-text="+55 48 9127-7979">
+                        +55 48 9127-7979
                         </a>
                     </p>
                     <p className="links over-hidden">
                         <a className="link-hover" href="mailto:andre@estudionakama.com.br"
-                           data-hover-text="info@dsngrid.com">andre@estudionakama.com.br</a>
+                           data-hover-text="andre@estudionakama.com.br">andre@estudionakama.com.br</a>
                     </p>
                 </div>
             </div>

@@ -88,11 +88,11 @@ export default function PAD () {
       </DsnGrid>
       <BrandTeam
           col={3}
-          colTablet={3}
-          colMobile={3}
-          colGap={0}
+          colTablet={0}
+          colMobile={0}
+          colGap={1}
           rowGap={0}
-         className={ `mb-50 mt--50`} />
+         className={ `mb-50 mt--50 flex`} />
         <TitleSection
           className={`align-items-center text-center`}
           
@@ -118,7 +118,7 @@ export default function PAD () {
       >
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-right">
-            <TitleCover>PAD</TitleCover>
+            <TitleCover>Projeto Autoridade Digital</TitleCover>
             <TitleSection
               className="mb-30"
               description="Desafio Digital: "
@@ -144,7 +144,7 @@ export default function PAD () {
                 src="/img/pad/Time.png"
                 alt=""
                 fill
-                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
+                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 100vw,100vw"
               />
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function PAD () {
                 overlay={3}
                 height="100%"
                 heightTable={'70vh'}
-                heightMobile={'70vh'}
+                heightMobile={'32vh'}
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 70vw,33vw"
               />
             </div>
@@ -315,7 +315,7 @@ em três pilares fundamentais:
             <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 '
+                className: 'p-15 '
               }}
               data={[
                 {
@@ -329,11 +329,11 @@ em três pilares fundamentais:
              <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 '
+                className: ' p-15 '
               }}
               data={[
                 {
-                  icon: <Image src='/img/pad/zubi-white.png' alt='Marca com Identidade Única' width={0} height={0}/>,
+                  icon: <Image src='/img/pad/ZUBI-white.png' alt='Marca com Identidade Única' width={0} height={0}/>,
                   title: 'ZUBI estúdio ',
                   description:
                     'Estúdio especializado em captação de conteúdo digital.'
@@ -343,14 +343,14 @@ em três pilares fundamentais:
              <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 '
+                className: ' p-10 '
               }}
               data={[
                 {
-                  icon: <Image src='/img/pad/fabimidia.png' alt='Marca com Identidade Única' width={0} height={0}/>,
+                  icon: <Image src='/img/pad/fabimidia2.png' alt='Marca com Identidade Única' width={0} height={0}/>,
                   title: 'Fabmidia ',
                   description:
-                    'Fotógrafo especializado em posicionamento de imagem..'
+                    'Fotógrafo especializado em posicionamento de imagem.'
                 }
               ]}
             />
@@ -364,7 +364,7 @@ em três pilares fundamentais:
                 overlay={3}
                 height="100%"
                 heightTable={'70vh'}
-                heightMobile={'70vh'}
+                heightMobile={'32vh'}
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 70vw,33vw"
               />
             </div>

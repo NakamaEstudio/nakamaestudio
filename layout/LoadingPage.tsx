@@ -2,12 +2,13 @@ import Logo from '../components/logo/Logo';
 import {dsnCN, pageLoad} from "../hooks/helper";
 import {useEffect, useMemo, useRef, useState} from "react";
 import {gsap} from "gsap";
+import LogoPAD from '../components/logo/LogoPAD';
 
 const Sibling = ({isSibling}: { isSibling?: boolean }) => {
     return (
         <span className={dsnCN("dsnload__row", isSibling && "dsnload__row--sibling")}>
                 <span className="dsnload__img">
-                    <Logo/>
+                    <LogoPAD/>
                 </span>
         </span>
     );

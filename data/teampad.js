@@ -3,7 +3,7 @@ const dataPAD = [
       id: 1,
       name: 'Aderbal Amorin',
       position: 'Founder & Diretor de Criação - Estúdio Nákama',
-      src: '/img/pad/time/aderbal.png',
+      src: '/img/pad/time/aderbal.jpg',
       social: [
         { title: 'FB', url: '#0' },
         { title: 'TW', url: '#0' },
@@ -14,7 +14,7 @@ const dataPAD = [
       id: 2,
       name: 'André Arins',
       position: 'Sócio Administrador & Comercial - Estúdio Nákama',
-      src: '/img/pad/time/andre.png',
+      src: '/img/pad/time/andre.jpg',
       social: [
         { title: 'FB', url: '#0' },
         { title: 'TW', url: '#0' },
@@ -25,7 +25,7 @@ const dataPAD = [
         id: 3,
         name: 'Fábio Sung',
         position: 'Founder e produtor - Zubi Estúdio',
-        src: '/img/pad/time/sung.png',
+        src: '/img/pad/time/sung.jpg',
         social: [
           { title: 'FB', url: '#0' },
           { title: 'TW', url: '#0' },
@@ -36,7 +36,7 @@ const dataPAD = [
         id: 4,
         name: 'Fabricio Sousa',
         position: 'Fotógrafo e especialista em imagem pessoal - Fabmidia',
-        src: '/img/pad/time/fabio.png',
+        src: '/img/pad/time/fabio.jpg',
         social: [
           { title: 'FB', url: '#0' },
           { title: 'TW', url: '#0' },
