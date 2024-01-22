@@ -123,7 +123,7 @@ function Testimonial({
             <div className="testimonial-nav-inner">
               <Swiper
                 modules={[Parallax, Controller]}
-                spaceBetween={30}
+                spaceBetween={10}
                 slidesPerView={1}
                 breakpoints={{
                   992: desktop,
@@ -143,10 +143,10 @@ function Testimonial({
                     <div className="box-img" {...parallaxImage}>
                       <Image
                         src={$item.src}
-                        width={80}
-                        height={80}
+                        width={120}
+                        height={120}
                         alt={$item.name}
-                        sizes="(max-width: 768px) 70px,(max-width: 1200px) 70px,33vw"
+                        sizes="(max-width: 768px) 140px,(max-width: 1200px) 210px,33vw"
                       />
                     </div>
                     <div className="box-text" {...parallaxContent}>

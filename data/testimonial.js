@@ -1,14 +1,14 @@
 const TestimonialDetails = [
   {
-    name: 'HellstarWorks',
-    label: 'Envato Customer',
-    src: '/img/team/1.jpg',
-    description: `"The designer is just amazing! Very good quality and taste. This template is incredible beautiful. The overall impression is more than good.The support cannot be better. I wish the team all success!"`
+    name: 'Júlio César Siqueira',
+    label: 'sócio-proprietário da empresa Nexmob imobiliária',
+    src: '/img/pad/disclaimer.png',
+    description: `" E o que mais me chamou atenção quando eu o contratei é o grau de profissionalismo do Aderbal e a imensa criatividade que ele demonstrou, criando algo além daquilo que eu imaginava para a minha empresa. Sou super grato ao Aderbal pelo que ele fez pela minha empresa e recomendo ele e a empresa dele para os empreendedores que querem criar algo diferente para seu negócio.”`
   },
   {
-    name: 'Lindamiku',
+    name: 'Fernanda  da Rosa',
     label: 'Marketing Manager',
-    src: '/img/team/2.jpg',
+    src: '/img/pad/fernanda.jpeg',
     description: `"First of all, I really enjoyed setting this up. What a
                                                                 great
                                                                 layout and design. The support is fast and high quality.
@@ -19,29 +19,7 @@ const TestimonialDetails = [
                                                                 also it
                                                                 is easy to change it up with little effort. Great Job!"`
   },
-  {
-    name: 'Makrandpatne',
-    label: 'Web Designer',
-    src: '/img/team/3.jpg',
-    description: `"This theme is awesome and the designer is very helpful.
-                                                                I
-                                                                had a few questions before purchase. He/She helped me
-                                                                with
-                                                                all the doubts. Also, they provide quick support. Thank
-                                                                you
-                                                                so much for a beautiful theme"`
-  },
-  {
-    name: 'MTLGraphic',
-    label: 'Graphic Design',
-    src: '/img/team/2.jpg',
-    description: `"Basically im using this theme as a base for my new
-                                                                website
-                                                                and i couldnt be happier. Ran into some bumps but the
-                                                                team
-                                                                who developed this theme was there to help me with any
-                                                                problems. Very slick nice ajax portfolio theme"`
-  }
+  
 ];
 
 export const getTestimonialData = () => TestimonialDetails;

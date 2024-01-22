@@ -35,7 +35,8 @@ function OptionTheme({ className = '', lineTheme, pageColor }) {
         <div
           className="day-night "
           onClick={() =>
-            setColorPage(colorPage === 'v-dark' ? 'v-light' : 'v-dark')
+            
+            setColorPage(colorPage === 'pad-theme')
           }
         >
           <span className="title-mode text-center" ref={styleColor}>

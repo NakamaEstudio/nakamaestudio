@@ -4,7 +4,7 @@
   .scrollbar-track {
     background: none;
     width: 4px;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: color-dodge;
 
     .scrollbar-thumb {
       background: #fff;

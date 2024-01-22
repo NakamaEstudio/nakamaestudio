@@ -11,6 +11,13 @@
 .background-main {
   background-color: $bg-color;
 }
+.pad-theme {
+  background-color: $pad-color;
+  color: $body-color;
+}
+.pad-head {
+  color: $pad-color;
+}
 
 .background-section {
   background-color: $assistant-color;

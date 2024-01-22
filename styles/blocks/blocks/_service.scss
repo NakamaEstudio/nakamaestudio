@@ -86,7 +86,7 @@
       }
 
       .icon {
-        margin-bottom: 15px;
+        margin-bottom: 16px;
         line-height: 1;
         img{
           width: 75px;
@@ -100,7 +100,7 @@
     }
 
     .service-title + p {
-      margin-top: 10px;
+     
     }
   }
 
@@ -109,10 +109,17 @@
       .services-item .services-item-inner .services-content {
         display: flex;
         align-items: center;
+        
 
         .icon {
-          margin-right: 25px;
+          margin-right: 16px;
           margin-bottom: 0;
+          height: 64px;
+    width: 64px;
+    padding: 0;
+    object-fit: fill;
+    align-self: center;
+    flex-shrink: 0;
 
         }
       }
