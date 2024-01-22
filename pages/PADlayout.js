@@ -1,12 +1,5 @@
-import '@fancyapps/ui/dist/fancybox.css';
-import 'flickr-justified-gallery/src/fjGallery.css';
-import 'swiper/css';
-import 'swiper/css/parallax';
-import 'swiper/css/pagination';
-import 'splitting/dist/splitting.css';
-import 'splitting/dist/splitting-cells.css';
-import '../styles/style.scss';
-import '../styles/output.css';
+
+
 import PADMenu from '../components/header/menu/PADmenu'
 import { Back, gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -20,7 +13,7 @@ import dsnEffect, {
 } from '../animation/dsnEffect';
 import { Provider } from 'react-redux';
 import { store } from '../features/store';
-import EremiaMenu from '../components/header/menu/EremiaMenu';
+
 import OptionTheme from '../components/option-theme/OptionTheme';
 import RightScrollTop from '../components/option-theme/RightScrollTop';
 import { checkMobile, parallaxIt } from '../hooks/helper';
