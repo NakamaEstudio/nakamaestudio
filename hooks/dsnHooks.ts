@@ -11,7 +11,9 @@ export function useArrayRef(): [
   React.ReactNode
 ] {
   const refs = useRef(null);
+   // @ts-ignore
   refs.current = [];
+   // @ts-ignore
   return [refs, (ref) => ref && refs.current.push(ref)];
 }
 
@@ -31,6 +33,7 @@ export function gsapMediaMatching(contextFunc = null, element = null) {
       tablet: '(min-width: 768px) and (max-width: 991px)',
       mobile: '(max-width: 767px)'
     },
+     // @ts-ignore
     contextFunc,
     element
   );

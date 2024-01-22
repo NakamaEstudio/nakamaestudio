@@ -31,7 +31,8 @@ function ParallaxImage({
   triggerHook,
   animationActive,
   caption,
- 
+  // @ts-ignore
+  className,
   asBackground,
   parallaxFrom,
   ...restProps
@@ -41,21 +42,25 @@ function ParallaxImage({
   const [active, setActive] = useState('');
 
   useEffect(() => {
+    // @ts-ignore
     if (!restProps.src) return;
-
+// @ts-ignore
     const img = { current: target.current.querySelector('.cover-bg-img') };
 
     if (triggerHook === 'bottom')
       gsap.set(img.current, { height: `+=${speed}%`, yPercent: `-=${speed}` });
     if (triggerHook === 'center')
       gsap.set(img.current, {
+    // @ts-ignore
         height: `+=${speed / 2}%`,
+        // @ts-ignore
         yPercent: `-=${speed / 2}`
       });
 
     if (parallaxFrom) gsap.set(img.current, parallaxFrom);
 
     if (animationActive)
+    // @ts-ignore
       activeAnimateTrigger.current = ScrollTrigger.create({
         trigger: target.current,
         start: `top bottom`,
@@ -76,8 +81,10 @@ function ParallaxImage({
 
     return () => {
       gsap.set(img.current, { clearProps: 'height,yPercent' });
+       // @ts-ignore
       image.scrollTrigger.kill();
       image.kill();
+       // @ts-ignore
       activeAnimateTrigger.current?.kill();
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
