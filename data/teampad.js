@@ -17,8 +17,9 @@ const dataPAD = [
       position: 'Sócio Administrador & Comercial - Estúdio Nákama',
       src: '/img/pad/time/andre.jpg',
       social: [
-        { title: 'IG', url: 'https://www.instagram.com/andrearins/' },        
-        { title: 'LKD', url: 'https://www.linkedin.com/in/andrearins/' }
+        { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
+        { title: '★', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },         
+        { title: 'WEB', url: 'https://www.estudionakama.com.br' }
       ]
     },
     {
