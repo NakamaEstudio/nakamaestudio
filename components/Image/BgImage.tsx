@@ -59,6 +59,7 @@ const BgImage = forwardRef(
             autoPlay
             muted
             playsInline
+            // @ts-ignore
             {...video}
           />
         )}
