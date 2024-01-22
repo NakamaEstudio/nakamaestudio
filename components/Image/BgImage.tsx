@@ -43,6 +43,7 @@ const BgImage = forwardRef(
       >
         {!video && (
           <Image
+          // @ts-ignore
             src={src}
             className="cover-bg-img"
             alt={alt}
