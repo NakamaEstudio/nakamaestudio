@@ -333,7 +333,7 @@ em três pilares fundamentais:
               }}
               data={[
                 {
-                  icon: <Image src='/img/pad/ZUBI-white.png' alt='Marca com Identidade Única' width={0} height={0}/>,
+                  icon: <Image src='/img/pad/zubi-ofc.png' alt='Marca com Identidade Única' width={0} height={0}/>,
                   title: 'ZUBI estúdio ',
                   description:
                     'Estúdio especializado em captação de conteúdo digital.'

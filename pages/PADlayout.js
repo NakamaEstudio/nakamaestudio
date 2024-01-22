@@ -122,7 +122,10 @@ function PADlayout({ Component, pageProps, children }) {
   return (
     <>
       <Head>
-        
+      <meta
+  name="description"
+  content="Programa que visa tornar empresas e marcas autoridade no digital com integração de profissionais especialistas em diversas áreas."
+/>
       </Head>
       <Provider store={store}>
         <div id="__dsn_content" className={colorPage}>
