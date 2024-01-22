@@ -19,6 +19,7 @@ import RightScrollTop from '../components/option-theme/RightScrollTop';
 import { checkMobile, parallaxIt } from '../hooks/helper';
 import LoadingPAD from '../layout/LoadingPAD';
 import { tdEnd } from '../hooks/transition/transitionDefalut';
+import WhatsAppButton from '../components/whatsappbutton/WhatsAppButton';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -129,6 +130,7 @@ function PADlayout({ Component, pageProps, children }) {
       </Head>
       <Provider store={store}>
         <div id="__dsn_content" className={colorPage}>
+          <WhatsAppButton />
           <LoadingPAD />
           <PADMenu hamburger />
           <OptionTheme

@@ -6,18 +6,17 @@ const TestimonialDetails = [
     description: `" E o que mais me chamou atenção quando eu o contratei é o grau de profissionalismo do Aderbal e a imensa criatividade que ele demonstrou, criando algo além daquilo que eu imaginava para a minha empresa. Sou super grato ao Aderbal pelo que ele fez pela minha empresa e recomendo ele e a empresa dele para os empreendedores que querem criar algo diferente para seu negócio.”`
   },
   {
-    name: 'Fernanda  da Rosa',
-    label: 'Marketing Manager',
-    src: '/img/pad/fernanda.jpeg',
-    description: `"First of all, I really enjoyed setting this up. What a
-                                                                great
-                                                                layout and design. The support is fast and high quality.
-                                                                They
-                                                                really made an effort to make sure I got the help I
-                                                                needed.
-                                                                keep in mind that it is not only a great design, but
-                                                                also it
-                                                                is easy to change it up with little effort. Great Job!"`
+    name: 'Arno Ribeiro Rocha',
+    label: 'CEO Futuro Rocha',
+    src: '/img/pad/arno-ribeiro.png',
+    description: `"Não poderia deixar de expressar o quanto a parceria com a Zubi foi fundamental para o sucesso da minha empresa no mercado digital. O Zubi vai muito além de um estúdio profissional de gravação e criação de conteúdo; eles proporcionam uma experiência única, marcada pela proximidade e pessoalidade em cada projeto que realizamos juntos.
+
+    A equipe da Zubi não apenas forneceu um suporte exemplar, mas também compartilhou valiosas mentorias e experiências, contribuindo significativamente para o crescimento do meu negócio. Os resultados obtidos foram surpreendentes, refletindo não apenas em números, mas também em um aumento nas vendas e uma maior exposição no meio digital.
+    
+    Estou verdadeiramente satisfeito com a qualidade do serviço prestado pela Zubi e recomendo a todos que buscam não apenas um estúdio, mas uma parceria que realmente faça a diferença em sua presença online. 
+    
+    Gratidão à equipe Zubi por essa jornada maravilhosa e pelos resultados excepcionais alcançados juntos!"
+    `
   },
   
 ];

@@ -5,9 +5,10 @@ const dataPAD = [
       position: 'Founder & Diretor de Criação - Estúdio Nákama',
       src: '/img/pad/time/aderbal.jpg',
       social: [
-        { title: 'FB', url: '#0' },
-        { title: 'TW', url: '#0' },
-        { title: 'LN', url: '#0' }
+        { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
+        { title: '★', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },       
+        { title: 'LKD', url: 'https://www.linkedin.com/in/aderbalamorin/' },
+        { title: 'WEB', url: 'https://www.estudionakama.com.br' }
       ]
     },
     {
@@ -16,9 +17,8 @@ const dataPAD = [
       position: 'Sócio Administrador & Comercial - Estúdio Nákama',
       src: '/img/pad/time/andre.jpg',
       social: [
-        { title: 'FB', url: '#0' },
-        { title: 'TW', url: '#0' },
-        { title: 'LN', url: '#0' }
+        { title: 'IG', url: 'https://www.instagram.com/andrearins/' },        
+        { title: 'LKD', url: 'https://www.linkedin.com/in/andrearins/' }
       ]
     },
     {
@@ -27,9 +27,10 @@ const dataPAD = [
         position: 'Founder e produtor - Zubi Estúdio',
         src: '/img/pad/time/sung.jpg',
         social: [
-          { title: 'FB', url: '#0' },
-          { title: 'TW', url: '#0' },
-          { title: 'LN', url: '#0' }
+          { title: 'IG', url: 'https://www.instagram.com/zubiestudio/' },   
+          { title: '★', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },     
+        { title: 'LKD', url: 'https://www.linkedin.com/in/fabiosung' },
+        { title: 'WEB', url: 'https://www.zubiestudio.com/' }
         ]
       },
       {
@@ -38,9 +39,10 @@ const dataPAD = [
         position: 'Fotógrafo e especialista em imagem pessoal - Fabmidia',
         src: '/img/pad/time/fabio.jpg',
         social: [
-          { title: 'FB', url: '#0' },
-          { title: 'TW', url: '#0' },
-          { title: 'LN', url: '#0' }
+          { title: 'IG', url: 'https://www.instagram.com/fabmidia/' },
+          { title: '★', url: 'https://maps.app.goo.gl/WHacwfQtqPeo3Syq9' },
+          { title: 'LKD', url: 'http://linkedin.com/in/fabriciosousa' },
+          { title: 'WEB', url: 'https://retratos.fabriciosousa.com.br/' },
         ]
       }
   ];
