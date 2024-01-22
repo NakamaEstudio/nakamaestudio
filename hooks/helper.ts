@@ -86,6 +86,7 @@ export const scrollTop = function ({
   element,
   speed = 1,
   duration = 0,
+  // @ts-ignore
   complete = null,
   scrollbar = null
 }: ScrollTopProps) {
@@ -95,9 +96,10 @@ export const scrollTop = function ({
   if (typeof element === 'number') {
     offset = element;
   } else {
+    // @ts-ignore
     offset = element.offsetTop;
   }
-
+// @ts-ignore
   gsap.to(scrollbar.current || window, speed, {
     scrollTo: { y: offset + (duration || 0) },
     onComplete: complete

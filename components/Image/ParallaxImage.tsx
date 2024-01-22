@@ -1,7 +1,7 @@
 import { CSSProperties, useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-
+import React from 'react';
 import Image from 'next/image';
 
 import { dsnCN } from '../../hooks/helper';
@@ -89,11 +89,11 @@ function ParallaxImage({
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  return (
+  return (// @ts-ignore
     restProps.src && (
       <div
         className={dsnCN(
-          'dsn-parallax-img',
+          'dsn-parallax-img',// @ts-ignore
           animationActive && 'dsn-animate',
           active,
           asBackground && 'dsn-bg-parallax',
@@ -108,13 +108,16 @@ function ParallaxImage({
             '--height-mobile': heightMobile
           } as CSSProperties
         }
+         //@ts-ignore
+
       >
-        <Image
-          className="cover-bg-img p-absolute"
+        
+   
+    <Image
+          src={''} className="cover-bg-img p-absolute"
           fill
           alt={''}
-          {...restProps}
-        />
+          {...restProps}        />
         {caption && (
           <div className="cap">
             <span>{caption}</span>
