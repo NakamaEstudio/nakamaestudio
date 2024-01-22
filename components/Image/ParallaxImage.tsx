@@ -1,7 +1,7 @@
 import { CSSProperties, useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import { ImageProps } from 'next/dist/client/image';
+
 import Image from 'next/image';
 
 import { dsnCN } from '../../hooks/helper';
@@ -31,7 +31,7 @@ function ParallaxImage({
   triggerHook,
   animationActive,
   caption,
-  className,
+ 
   asBackground,
   parallaxFrom,
   ...restProps
