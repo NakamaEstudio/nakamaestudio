@@ -19,6 +19,7 @@ function FadeUpTrigger({
   const animateChild = useRef(null);
 
   useEffect(() => {
+    // @ts-ignore
     if (animateChild.current) ref.current = animateChild.current.children;
 
     if (!ref.current) return;
