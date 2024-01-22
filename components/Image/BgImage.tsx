@@ -66,6 +66,7 @@ const BgImage = forwardRef(
         {video && imageOnly && (
           <Image
             className="cover-bg-img"
+             // @ts-ignore
             src={video.poster}
             fill
             alt={alt}
