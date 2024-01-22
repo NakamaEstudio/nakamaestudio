@@ -3,6 +3,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { gsap } from 'gsap';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../features/store';
+import React from 'react';
 
 function RightScrollTop({ options }: { options?: gsap.TweenVars }) {
   const scroll = useRef<HTMLDivElement>(null);

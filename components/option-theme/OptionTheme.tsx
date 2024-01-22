@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import dsnSplitting from '../../hooks/spltting';
 import { dsnCN } from '../../hooks/helper';
+import React from 'react';
 
 function OptionTheme({ className = '', lineTheme, pageColor }) {
   const styleColor = useRef(null);
