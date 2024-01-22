@@ -1,4 +1,4 @@
-import Logo from '../components/logo/Logo';
+
 import {dsnCN, pageLoad} from "../hooks/helper";
 import {useEffect, useMemo, useRef, useState} from "react";
 import {gsap} from "gsap";
@@ -8,7 +8,7 @@ const Sibling = ({isSibling}: { isSibling?: boolean }) => {
     return (
         <span className={dsnCN("dsnload__row", isSibling && "dsnload__row--sibling")}>
                 <span className="dsnload__img">
-                    <Logo/>
+                    <LogoPAD/>
                 </span>
         </span>
     );
@@ -20,7 +20,7 @@ interface LoadingProps {
     glitchLogo?: boolean
 }
 
-function LoadingPage({className, glitchLogo = true}: LoadingProps) {
+function LoadingPAD({className, glitchLogo = true}: LoadingProps) {
 
     const preloader = useRef<HTMLDivElement>(null);
     const $ = useMemo(() => gsap.utils.selector(preloader), [preloader]);
@@ -124,4 +124,4 @@ function LoadingPage({className, glitchLogo = true}: LoadingProps) {
 }
 
 
-export default LoadingPage;
+export default LoadingPAD;

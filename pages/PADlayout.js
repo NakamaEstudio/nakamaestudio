@@ -17,7 +17,7 @@ import { store } from '../features/store';
 import OptionTheme from '../components/option-theme/OptionTheme';
 import RightScrollTop from '../components/option-theme/RightScrollTop';
 import { checkMobile, parallaxIt } from '../hooks/helper';
-import LoadingPage from '../layout/LoadingPage';
+import LoadingPAD from '../layout/LoadingPAD';
 import { tdEnd } from '../hooks/transition/transitionDefalut';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
@@ -126,7 +126,7 @@ function PADlayout({ Component, pageProps, children }) {
       </Head>
       <Provider store={store}>
         <div id="__dsn_content" className={colorPage}>
-          <LoadingPage />
+          <LoadingPAD />
           <PADMenu hamburger />
           <OptionTheme
             lineTheme={[creativeLine, setCreativeLine]}

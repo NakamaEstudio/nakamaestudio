@@ -93,7 +93,7 @@ const PADmenu = ({hamburger}) => {
 
     return (
         <Navbar hamburger={hamburger}>
-            <Navbar.Brand href={'/'} transitionPage={{title: "PAD"}}>
+            <Navbar.Brand href={'/'} transitionPage={{title: "Estudio Nákama"}}>
                 <LogoPAD width="60px" height="auto"/>
             </Navbar.Brand>
 

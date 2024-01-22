@@ -10,7 +10,7 @@ function InfoBox({className}) {
                     <h5 className="title-block mb-15">Contato</h5>
                     <p className="text-p ">+55 (48) 9127-7979</p>
                     <div className="over-hidden mt-5">
-                        <a className="link-hover" data-hover-text="andre@estudionakama.com.br.com"
+                        <a className="link-hover" data-hover-text="andre@estudionakama.com.br"
                            href="#">andre@estudionakama.com.br</a>
                     </div>
 
