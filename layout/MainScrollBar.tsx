@@ -17,7 +17,7 @@ function MainScrollBar({children, options, ...restProps}: ScrollbarOp) {
 
 
     useEffect(() => {
-
+// @ts-ignore 
         const scroll = Scrollbar.init(ref.current, options);
 
         ScrollTrigger.defaults({
