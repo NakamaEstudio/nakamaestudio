@@ -70,6 +70,7 @@ export const Dsn = forwardRef((props: DsnGridProps, ref) => {
                 '--dsn-row-gap-mobile': gapPx(rowGapMobile)
 
             }}
+             // @ts-ignore
             className={dsnCN('dsn-grid-layout', customGrid && "dsn-grid-custom", className)}
             ref={ref} {...restProps}
         >
