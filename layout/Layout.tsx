@@ -68,19 +68,22 @@ function Layout({className, children, tag: Tag = "div", activeScrollbar, options
 
 
     return (
+        
         <Tag id="main_layout" // @ts-ignore
-             className={dsnCN( 'background-main', className)} {...restProps}>
-                
-            <div className={dsnCN("main-content", activeScrollbar && "dsn-main-scrollbar")}>
-                {activeScrollbar ? <MainScrollBar options={optionsScrollbar}><div id="main-content" className="p-relative">{children}</div></MainScrollBar> : <div id="main-content" className="p-relative">{children}</div>}
-            </div>
+    className={dsnCN('background-main', className)} {...restProps}>
+{/* @ts-ignore */}
+    <div className={dsnCN("main-content", activeScrollbar && "dsn-main-scrollbar")}>
+        {activeScrollbar ? <MainScrollBar options={optionsScrollbar}><div id="main-content" className="p-relative">{children}</div></MainScrollBar> : <div id="main-content" className="p-relative">{children}</div>}
+    </div>
 
-            <div className="line-border-style w-100 h-100"/>
-            <SocialOne/>
-            <div className="dsn-paginate-right-page" ref={paginateRight}/>
-            {modelRight && <ModalRight {...modelRight.propsModal}>{modelRight.children}</ModalRight>}
-        </Tag>
-    );
+    <div className="line-border-style w-100 h-100" />
+    <SocialOne />
+    <div className="dsn-paginate-right-page" ref={paginateRight} />
+    {/* @ts-ignore */}
+    {modelRight && <ModalRight {...modelRight.propsModal}>{modelRight.children}</ModalRight>}
+</Tag>
+);
+
 }
 
 Layout.defaultProps = {
