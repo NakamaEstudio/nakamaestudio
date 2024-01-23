@@ -2,11 +2,11 @@ const data = [
   {
     id: 1,
     title: 'PV Operation',
-    slug: 'huggl-power-pack',
+    slug: 'pv-operation',
     category: ['Tecnologia'],
     description: 'Vin tries to reflect Diesel’s vision and combines.',
-    src: '/img/project/project1/1.jpg',
-    overlay: 1
+    src: '/img/portfolio/pv-operation/3.png',
+    overlay: 4
   },
   {
     id: 2,

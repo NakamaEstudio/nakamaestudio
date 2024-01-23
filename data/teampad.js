@@ -7,7 +7,7 @@ const dataPAD = [
       social: [
         { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
         { title: 'G', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },       
-        { title: 'LKD', url: 'https://www.linkedin.com/in/aderbalamorin/' },
+        { title: 'IN', url: 'https://www.linkedin.com/in/aderbalamorin/' },
         { title: 'WEB', url: 'https://www.estudionakama.com.br' }
       ]
     },
@@ -30,7 +30,7 @@ const dataPAD = [
         social: [
           { title: 'IG', url: 'https://www.instagram.com/zubiestudio/' },   
           { title: '★', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },     
-        { title: 'LKD', url: 'https://www.linkedin.com/in/fabiosung' },
+        { title: 'IN', url: 'https://www.linkedin.com/in/fabiosung' },
         { title: 'WEB', url: 'https://www.zubiestudio.com/' }
         ]
       },
@@ -42,7 +42,7 @@ const dataPAD = [
         social: [
           { title: 'IG', url: 'https://www.instagram.com/fabmidia/' },
           { title: '★', url: 'https://maps.app.goo.gl/WHacwfQtqPeo3Syq9' },
-          { title: 'LKD', url: 'http://linkedin.com/in/fabriciosousa' },
+          { title: 'IN', url: 'http://linkedin.com/in/fabriciosousa' },
           { title: 'WEB', url: 'https://retratos.fabriciosousa.com.br/' },
         ]
       }

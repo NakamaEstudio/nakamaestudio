@@ -18,6 +18,14 @@ const TestimonialDetails = [
     Gratidão à equipe Zubi por essa jornada maravilhosa e pelos resultados excepcionais alcançados juntos!"
     `
   },
+  {
+    name: 'Paola Francesca',
+    label: 'Mentora de Liderança',
+    src: '/img/paola-francesca.jpg',
+    description: `"Sem dúvidas o melhor fotógrafo que já contratei para fotos corporativas. Conseguiu passar exatamente a imagem que eu queria, através das fotos e locação. Sem contar no profissionalismo cumprindo prazos de entrega. Mega recomendo!
+    "
+    `
+  },
   
 ];
 

@@ -68,7 +68,7 @@ function PortfolioItem({portoDetails , styleBox, height = "100%", imageOnly, cla
 
                 </DsnLink>
             </div>
-            <div className="info-text box-content" {...parallaxContent}>
+            <div className="info-text box-content overlay-nakama" {...parallaxContent}>
                 {portoDetails.category && <MetaPost category={portoDetails.category}/>}
 
                 {portoDetails.title &&

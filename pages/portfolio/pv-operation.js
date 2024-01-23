@@ -12,19 +12,20 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 function Project3(params) {
-  const heroData = getPortfolioItem('huggl-power-pack');
+  const heroData = getPortfolioItem('pv-operation');
   return (
     <Layout>
       <Head>
         <title>PV Operation Case | Estudio Nákama</title>
       </Head>
+      <section class="overlay-nakama">
       <HeaderFull
-        className="dsn-container"
+        className="dsn-container overlay-nakama"
         alignItems="end"
         heroContent={heroData}
         overlay={heroData.overlay}
       />
-
+</section>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
@@ -32,35 +33,39 @@ function Project3(params) {
             <h4 className="title-block text-uppercase mb-20">Project</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
-                <strong>Agency</strong>Immersive interactive gallery
+                <strong>Website</strong>
               </li>
               <li className="p-relative">
-                <strong>creating</strong>Gianni Teruzzi
+                <strong>App</strong>
               </li>
               <li className="p-relative">
-                <strong> Published</strong>November 24th 2016
+                <strong>Identidade Visual</strong>
+              </li>
+              <li className="p-relative">
+                 <strong>2019</strong>
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
             <h4 className="title-block text-uppercase mb-20">info</h4>
             <p className="intro-project-description">
-              Huggl is an induction charging, portable power pack that uses
-              alternative materials to stimulate new product experiences and
-              higher social interactions.
+            Uma empresa pioneira com a melhor solução de gestão de
+
+ativos de geração (Usinas) e um excelente trabalho com efici-
+ência na geração de energia.
             </p>
             <div className="intro-project-cat mt-30">
-              <span className="cat-item"> Arthur Kenzo</span>
-              <span className="cat-item"> Smart Speaker </span>
-              <span className="cat-item">Voice Speaker </span>
-              <span className="cat-item">design</span>
+              <span className="cat-item">Branding</span>
+              <span className="cat-item">Authenticator </span>
+              <span className="cat-item">User Research </span>
+              <span className="cat-item">UX/UI</span>
             </div>
             <ButtonProject
-              href="https://www.behance.net/gallery/44548047/Huggl-Induction-Power-Pack"
+              href="https://pvoperation.com/"
               target="_blank"
               className="mt-30"
             >
-              VIST PROJECT
+              Ver Projeto
             </ButtonProject>
           </div>
         </DsnGrid>
@@ -70,21 +75,21 @@ function Project3(params) {
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/project/project3/2.jpg'}
-        overlay={3}
-        caption="asdsadsa"
+        src={'/img/portfolio/pv-operation/1.png'}
+        overlay={1}
+        caption="Interface"
       />
       {/*End Parallax Img*/}
 
       {/*Start Gallery List*/}
       <BoxGallery className="section-margin container" col={2}>
         <BoxGalleryItem
-          src="/img/project/project3/3.jpg"
+          src="/img/portfolio/pv-operation/2.png"
           groupPopup="gallery"
-          caption={'Photography'}
+          caption={'Folder'}
         />
         <BoxGalleryItem
-          src="/img/project/project3/4.jpg"
+          src="/img/portfolio/pv-operation/3.png"
           groupPopup="gallery"
           caption={'Photography'}
         />
@@ -94,7 +99,7 @@ function Project3(params) {
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/project/project3/5.jpg'}
+        src={'/img/portfolio/pv-operation/4.png'}
         caption="asdsadsa"
       />
       {/*End Parallax Img*/}
@@ -109,15 +114,15 @@ function Project3(params) {
           <Image
             className="w-100"
             alt={''}
-            src={'/img/project/project3/6.gif'}
+            src={'/img/portfolio/pv-operation/5.png'}
             width={1200}
             height={700}
             sizes="100vw"
           />
           <p className="dsn-up mt-30 max-w570 ml-auto mr-auto">
-            The LEDs are activated by holding the mAh button on the back, next
-            to the power button; both of which help avoid accidental power use
-            and/or drainage whilst on-the-move.
+          Pela Vigilância Ativa Remota de diagnosticar possíveis falhas ou defeitos da
+operação, com a capacidade de realizar manutenção preventiva e corretiva de
+forma ágil. Com o melhor custo benefício do mercado.
           </p>
         </div>
       </section>

@@ -71,7 +71,7 @@ function Portfolio({
       )}
       <DsnGrid
         {...restProps}
-        className={useFilter && 'dsn-grid-masonry'}
+        className={useFilter && 'dsn-grid-masonry overlay-nakama'}
         ref={refIsotope}
       >
         {data.map((item, index) => (
