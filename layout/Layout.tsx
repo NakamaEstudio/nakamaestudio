@@ -48,10 +48,12 @@ function Layout({className, children, tag: Tag = "div", activeScrollbar, options
                 const scrollDiv = document.createElement("div");
                 scrollDiv.classList.add("dsn-link-paginate");
                 scrollDiv.innerText = title.toUpperCase();
+                 // @ts-ignore
                 paginateRight.current.append(scrollDiv);
                 el["paginateTarget"] = scrollDiv;
                 scrollDiv.addEventListener('click', (e) => {
                     e.preventDefault();
+                    // @ts-ignore
                     scrollTop({element: el, scrollbar, duration: -80});
                 });
             });
@@ -66,8 +68,9 @@ function Layout({className, children, tag: Tag = "div", activeScrollbar, options
 
 
     return (
-        <Tag id="main_layout"
+        <Tag id="main_layout" // @ts-ignore
              className={dsnCN( 'background-main', className)} {...restProps}>
+                
             <div className={dsnCN("main-content", activeScrollbar && "dsn-main-scrollbar")}>
                 {activeScrollbar ? <MainScrollBar options={optionsScrollbar}><div id="main-content" className="p-relative">{children}</div></MainScrollBar> : <div id="main-content" className="p-relative">{children}</div>}
             </div>

@@ -5,10 +5,11 @@ import {gsap} from "gsap";
 import LogoPAD from '../components/logo/LogoPAD';
 
 const Sibling = ({isSibling}: { isSibling?: boolean }) => {
-    return (
+    return ( // @ts-ignore
         <span className={dsnCN("dsnload__row", isSibling && "dsnload__row--sibling")}>
                 <span className="dsnload__img">
-                    <LogoPAD/>
+                    
+                    <LogoPAD height={60} width={60}/>
                 </span>
         </span>
     );
@@ -81,7 +82,7 @@ function LoadingPAD({className, glitchLogo = true}: LoadingProps) {
     if(remove)
         return ;
     return (
-
+ // @ts-ignore
         <div id="dsn_preloader" className={dsnCN("preloader", className)} ref={preloader}>
 
 
