@@ -21,6 +21,7 @@ import NextPage from '../components/next/NextPage';
 import Footer from '../components/footer/Footer';
 import ModalContact from '../components/model-right/ModalContact';
 import Head from 'next/head';
+import FactsNakama from '../components/facts/FactsNakama';
 
 function Servicos() {
   TitleSection.defaultProps = {
@@ -86,7 +87,7 @@ function Servicos() {
         <BgDot />
         <BgDot rightPosition />
         <div className="container">
-          <Facts className="text-center" col={4} colTablet={2} />
+          <FactsNakama className="text-center" col={4} colTablet={2} />
         </div>
       </div>
       {/*<!-- ========== end facts-section ========== */}
@@ -98,10 +99,10 @@ function Servicos() {
       >
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-left">
-            <div className="box-im h-100 ">
+            <div className="box-im   h-100 ">
               <Image
-                className="cover-bg-img "
-                src="/img/rachel-claire.jpg"
+                className="cover-bg-img overlay-nakama "
+                src="/img/servicos/aura.jpg"
                 alt=""
                 fill
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
@@ -177,9 +178,9 @@ function Servicos() {
             </p>
 
             <ServiceGrid
-              className="icon-left border-top pb-30 pt-30  align-items-center p-0"
+              className="icon-left pb-30 pt-25  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 align-self-center'
+                className: ' p-15 align-self-center'
               }}
               data={[
                 {
@@ -194,7 +195,7 @@ function Servicos() {
             <ServiceGrid
               className="icon-left border-top pb-30 pt-30 align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 align-self-center'
+                className: ' p-15 align-self-center'
               }}
               data={[
                 {
@@ -208,7 +209,7 @@ function Servicos() {
             <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 align-self-center'
+                className: ' p-15 align-self-center'
               }}
               data={[
                 {
@@ -222,7 +223,7 @@ function Servicos() {
             <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 align-self-center'
+                className: ' p-15 align-self-center'
               }}
               data={[
                 {
@@ -236,7 +237,7 @@ function Servicos() {
             <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 align-self-center'
+                className: ' p-15 align-self-center'
               }}
               data={[
                 {
@@ -250,7 +251,7 @@ function Servicos() {
             <ServiceGrid
               className="icon-left border-top pt-30  align-items-center p-0"
               iconOption={{
-                className: 'background-main p-15 align-self-center'
+                className: ' p-15 align-self-center'
               }}
               data={[
                 {
@@ -381,7 +382,7 @@ function Servicos() {
             <div className="box-im h-100 ">
               <Image
                 className="cover-bg-img "
-                src="/img/help-project.jpg"
+                src="/img/servicos/ambiente.jpg"
                 alt=""
                 fill
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"
@@ -398,6 +399,7 @@ function Servicos() {
         data-dsn-title="Gestão de Marcas"
       >
         <div className="container">
+       
           <TitleSection
             className="text-center"
             description="Autonomia"
@@ -405,6 +407,7 @@ function Servicos() {
           >
             Gestão de Marcas
           </TitleSection>
+          <TitleCover className="text-center max-w570" >Autonomia</TitleCover>
           <TitleSection
             className="mt-15 text-center"
             tag="p"
@@ -438,7 +441,7 @@ function Servicos() {
                 rowGapTablet={30}
                 rowGapMobile={30}
                 iconOption={{
-                  className: 'background-section p-15 align-self-center'
+                  className: ' p-15 align-self-center'
                 }}
                 data={[
                   {
@@ -469,7 +472,7 @@ function Servicos() {
               <div className="box-im h-100 ">
                 <Image
                   className="cover-bg-img "
-                  src="/img/corporate.jpg"
+                  src="/img/servicos/autonomia.jpg"
                   alt=""
                   fill
                   sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"
@@ -478,7 +481,7 @@ function Servicos() {
             </div>
           </DsnGrid>
           <ServiceGrid
-            className="mt-50 p-0 text-center"
+            className="mt-70 p-0 text-center"
             data={getServiceData().slice(0, 3)}
             col={3}
             colTablet={2}

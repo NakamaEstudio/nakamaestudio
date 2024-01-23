@@ -2,25 +2,26 @@ const data = [
   {
     id: 1,
     name: 'Aderbal Amorin',
-    position: 'Diretor de Criação',
-    src: '/img/team/1.jpg',
+    position: 'Founder & Diretor de Criação - Estúdio Nákama',
+    src: '/img/sobre/aderbalface.jpg',
     social: [
-      { title: 'FB', url: '#0' },
-      { title: 'TW', url: '#0' },
-      { title: 'LN', url: '#0' }
+      { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
+      { title: 'G', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },       
+      { title: 'LKD', url: 'https://www.linkedin.com/in/aderbalamorin/' },
+      { title: 'WEB', url: 'https://www.estudionakama.com.br' }
     ]
   },
   {
     id: 2,
     name: 'André Arins',
-    position: 'Diretor Comercial Administrativo',
-    src: '/img/team/2.jpg',
+    position: 'Sócio Administrador & Comercial - Estúdio Nákama',
+    src: '/img/sobre/andreface.jpg',
     social: [
-      { title: 'FB', url: '#0' },
-      { title: 'TW', url: '#0' },
-      { title: 'LN', url: '#0' }
+      { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
+      { title: 'G', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },         
+      { title: 'WEB', url: 'https://www.estudionakama.com.br' }
     ]
-  }
+  },
 ];
 
 export const getTeamData = () => data;

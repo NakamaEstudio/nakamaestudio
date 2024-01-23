@@ -319,7 +319,7 @@ em três pilares fundamentais:
               }}
               data={[
                 {
-                  icon: NakamaIcon,
+                  icon: <Image src='/img/pad/section-logo.png' alt='Marca com Identidade Única' width={0} height={0}/>,
                   title: 'Estúdio nákama',
                   description:
                     'Estúdio de Branding especializado em posicionamento e construção de Marcas.'

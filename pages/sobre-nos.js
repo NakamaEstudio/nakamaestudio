@@ -54,15 +54,17 @@ function About() {
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
+      <section className="overlay-nakama">
       <ParallaxImage
         alt={''}
-        src={'/img/about/5.jpg'}
-        parallaxFrom={{ scale: 1.3 }}
-        parallax={{ scale: 1 }}
-        overlay={5}
+        src={'/img/sobre/hero.jpg'}
+        parallaxFrom={{ scale: 1.1 }}
+        parallax={{ scale: 0.8 }}
+        overlay={3}
+        
       />
       {/*End Parallax Img*/}
-
+      </section>
       {/*<!-- ========== About Section ========== */}
       <div className="section-margin container" data-dsn-title="Sobre nós">
         <TitleSection
@@ -141,9 +143,25 @@ function About() {
             chamados de:
           </TitleSection>
           <Service.grid
-            className="icon-left"
+            className="icon-left important-services flex-column justify-content-start "
             styleBox="list"
-            data={getServiceData().slice(0, 3)}
+            data={[
+              {
+                icon: NakamaIcon,
+                title: 'Aura - Identidade e Posicionamento de Marca',
+                description: ` Para estabelecer bases sólidas e criar uma identidade marcante que ressoa com seu público.`
+              },
+              {
+                icon: NakamaIcon,
+                title: 'Ambiente - Pontos de Contato e Experiência da Marca',
+                description: `Criando experiências autênticas e impactantes para seus clientes em todos os pontos de contato. `
+              },
+              {
+                icon: NakamaIcon,
+                title: 'Autonomia - Consultoria de Gestão de Marcas',
+                description: `Capacitando marcas para gerenciar e fortalecer suas identidades no mercado. `
+              },              
+            ]}
           />
         </div>
       </section>
@@ -185,7 +203,7 @@ function About() {
 
       {/*Start testimonial Section*/}
       <div className="section-margin container" data-dsn-title="Depoimentos">
-        <TitleSection description={' Feedback'}>What Clients Say</TitleSection>
+        <TitleSection description={' Feedback'}>O que dizem</TitleSection>
 
         <Testimonial
           className=" text-center"

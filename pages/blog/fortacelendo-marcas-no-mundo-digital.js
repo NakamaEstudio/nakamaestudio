@@ -2,6 +2,8 @@ import Layout from '../../layout/Layout';
 import TitleSection from '../../components/heading/TitleSection';
 import ParallaxImage from '../../components/Image/ParallaxImage';
 
+import NextPage from '../../components/next/NextPage';
+
 import Footer from '../../components/footer/Footer';
 import ModalContact from '../../components/model-right/ModalContact';
 import HeaderNormal from '../../components/header/HeaderNormal';
@@ -14,8 +16,13 @@ import { faThLarge } from '@fortawesome/free-solid-svg-icons';
 import CommentForm from '../../components/bolg/CommentForm';
 import Link from 'next/link';
 import Head from 'next/head';
+import Button from '../../components/button/Button';
 
 function Post4() {
+  const NextContent = {
+    
+    buttonText: "Conheça o PAD"
+};
   TitleSection.defaultProps = {
     classDesc: 'line-shape line-shape-before',
     classDesInner: 'line-bg-right'
@@ -41,7 +48,10 @@ function Post4() {
         <h1 className="title text-uppercase">
           Fortalecendo Marcas no Mundo Digital: A Importância do Branding no
           Projeto Autoridade Digital
-        </h1>
+        </h1><br/>
+        <h2 >
+        Descubra como o Branding é a Base do Sucesso na Construção da Sua Autoridade Online
+        </h2>
       </HeaderNormal>
       {/*========== End Header Normal ==========*/}
 
@@ -58,30 +68,15 @@ function Post4() {
 
       <div className="news-content mb-section mt-40">
         <div className="single-post post-content container  ">
-          <h3>Wildlife could be amazing, see why.</h3>
+          <h3>A Força do Branding no Projeto Autoridade Digital
+.</h3>
           <p>
-            Mauris ut augue ac ligula commodo pretium. Cras aliquet nec purus et
-            imperdiet. Donec tempor tellus ut tortor finibus, ut convallis elit
-            eleifend. Etiam aliquet molestie lobortis. Morbi tempor auctor
-            semper. Maecenas cursus maximus erat, tincidunt venenatis odio
-            molestie tempor. Fusce sagittis leo porta dolor auctor viverra eu a
-            ante. Suspendisse tristique nulla quis augue suscipit facilisis.
-            Proin tincidunt, sapien sit amet malesuada scelerisque, metus dolor
-            ultricies quam, vitae lobortis mauris eros non enim. Aliquam et quam
-            eget mauris lacinia aliquam. Fusce vitae massa sed nisl ultrices
-            imperdiet. Integer vehicula sapien eros, in bibendum sem pretium
-            vitae. Nulla tempor dapibus elit, nec tempus tortor commodo
-            sagittis. Interdum et malesuada fames ac ante ipsum primis in
-            faucibus.
+          No dinâmico cenário digital, o Projeto Autoridade Digital se destaca como uma abordagem estratégica para solidificar marcas como líderes no mundo online. Central a esse projeto está o poder transformador do Branding, uma peça-chave na construção de marcas memoráveis e influentes.
           </p>
-
+          
           <blockquote className="block-quote">
             <p>
-              On her way she met a copy. The copy warned the Little Blind Text,
-              that where it came from it would have been rewritten a thousand
-              times and everything that was left from its origin would be the
-              word “and” and the Little Blind Text should turn around and return
-              to its own, safe country.
+            O Projeto Autoridade Digital é uma fusão de especialidades - Branding, Conteúdo Audiovisual, Fotografia, Consultoria, Marketing, Design e Publicidade - unidas para criar uma presença digital marcante. No centro dessa estratégia está o Branding, delineando a identidade e a essência de cada marca.
             </p>
           </blockquote>
           {/*Start Box Info Center Content*/}
@@ -98,57 +93,73 @@ function Post4() {
           </div>
           {/*End Box Info Center Content*/}
 
-          <h3>Illum ad nostrum et inventore illo dolorem</h3>
+          <h3>O Papel Vital do Branding na Autoridade Digital</h3>
           <p>
-            Nunc finibus blandit interdum. Pellentesque nec dapibus mauris, a
-            placerat risus. Nullam pretium neque in justo rutrum, eu lacinia
-            nibh placerat. Sed et magna metus. Sed ut lacus tincidunt nisi
-            volutpat luctus. Integer eget nulla vitae nisl convallis cursus.
-            Vivamus vel finibus purus. Duis pulvinar, dui nec dignissim semper,
-            nibh elit finibus leo, quis feugiat arcu urna ut felis. Cras est
-            risus, dapibus sed arcu at, porta blandit felis. Quisque maximus
-            ante vel risus tristique aliquet. Mauris facilisis nisi nec ipsum
-            feugiat pharetra. Cum sociis natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Praesent aliquam augue
-            diam, a lacinia est ornare ut. In mauris elit, elementum porttitor
-            placerat a, ornare in elit. Praesent id tortor arcu.
+          Brand Story: Construindo Identidade e Reconhecimento
           </p>
+          <p>
+          O Branding vai além do visual; é a narrativa que guia e conecta a marca ao seu público-alvo. É a expressão autêntica da missão, visão e valores, criando conexões emocionais que perduram.
+          </p>
+          <p>
+          Estratégia de Branding: Fundamentação para o Sucesso
+          </p>
+          <p>
+          No Projeto Autoridade Digital, cada estratégia de Branding é construída sob medida. Entendemos profundamente os valores e objetivos de cada cliente, transformando-os em uma identidade visual e narrativa coesa e única.
+          </p><br/><br/>
+
+          <h4>
+          Participe da Revolução Digital com o Projeto Autoridade Digital
+          </h4>
+          <Button
+                            href={"/pad"}
+                            className="mr-15 line-head"
+                            borderStyle={"border-color-heading-color"}
+                            borderRadius
+                            transitionPage={{title: NextContent.buttonText}}
+                        >
+                            {NextContent.buttonText}
+                        </Button>
 
           {/*<CommentForm className="mt-section"/>*/}
 
-          <div className="post-tags p-relative heading-color font-heading">
+          <div className="post-tags mt-50 p-relative heading-color font-heading">
             <a href="#0" title="View All Posts in Tag " rel="tag">
-              <span className="post_tag post_tag">Creative</span>
+              <span className="post_tag post_tag">ProjetoAutoridadeDigital</span>
             </a>
             <a href="#0" title="View All Posts in Tag " rel="tag">
-              <span className="post_tag post_tag">Design</span>
+              <span className="post_tag post_tag">PAD</span>
+            </a>
+            <a href="#0" title="View All Posts in Tag " rel="tag">
+              <span className="post_tag post_tag">Branding</span>
             </a>
           </div>
         </div>
       </div>
       <div className="pagination-post d-flex align-items-center border-style border-radius section-margin background-section container">
         <div className="pagination-item w-100 p-20">
-          <Link href="single-blog">
-            <span className="mb-5">PREVIOUS</span>
-            <h4 className="title-block word-wrap">Why a public figure</h4>
+          <Link href="desvendando-a-essencia-da-sua-marca">
+            <span className="mb-5">Anterior</span>
+            <h4 className="title-block word-wrap">Desvendando a essencia da sua marca</h4>
           </Link>
         </div>
 
         <div className="icon border-right border-left p-20">
-          <a className="h-100 heading-color" href="#">
+          <Link className="h-100 heading-color" href="/blog">
             <FontAwesomeIcon icon={faThLarge} />
-          </a>
+          </Link>
         </div>
         <div className="pagination-item w-100 p-20 text-right">
-          <Link href="single-blog">
-            <span className="mb-5">NEXT</span>
-            <h4 className="title-block word-wrap">Newly-launched campaign</h4>
+          <Link href="o-poder-dos-pontos-de-contato">
+            <span className="mb-5">Próximo</span>
+            <h4 className="title-block word-wrap">O poder dos pontos de contato</h4>
           </Link>
         </div>
       </div>
 
-      <CommentForm className="container" />
-
+     
+{/*========== Next Page ==========*/}
+<NextPage className="section-padding border-top background-section" />
+      {/*========== End Next Page ==========*/}
       {/*========== Footer ==========*/}
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}

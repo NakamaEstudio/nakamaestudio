@@ -2,6 +2,8 @@ import Layout from '../../layout/Layout';
 import TitleSection from '../../components/heading/TitleSection';
 import ParallaxImage from '../../components/Image/ParallaxImage';
 
+import NextPage from '../../components/next/NextPage';
+
 import Footer from '../../components/footer/Footer';
 import ModalContact from '../../components/model-right/ModalContact';
 import HeaderNormal from '../../components/header/HeaderNormal';
@@ -80,7 +82,7 @@ function Post1({ className, ...restProps }) {
               personalidade e é a conexão que sua marca estabelece com o mundo.
               Trabalhamos lado a lado com você para entender sua história, seus
               valores e sua visão, transformando esses elementos em uma
-              identidade tangível. .
+              identidade tangível.
             </p>
           </blockquote>
           {/*Start Box Info Center Content*/}
@@ -147,45 +149,47 @@ function Post1({ className, ...restProps }) {
             hoje mesmo!
           </p>
 
-          <CommentForm className="mt-section" />
+          
 
           <div className="post-tags p-relative heading-color font-heading">
             <a href="#0" title="View All Posts in Tag " rel="tag">
-              <span className="post_tag post_tag">Creative</span>
+              <span className="post_tag post_tag">Liderança</span>
             </a>
             <a href="#0" title="View All Posts in Tag " rel="tag">
-              <span className="post_tag post_tag">Design</span>
+              <span className="post_tag post_tag">Branding</span>
             </a>
           </div>
         </div>
       </div>
       <div className="pagination-post d-flex align-items-center border-style border-radius section-margin background-section container">
         <div className="pagination-item w-100 p-20">
-          <Link href="fortacelendo-marcas-no-mundo-digital">
-            <span className="mb-5">Post anterior</span>
+          <Link href="a-importancia-da-gestao-estrategica">
+            <span className="mb-5">Anterior</span>
             <h4 className="title-block word-wrap">
-              Fortalecendo marcas no mundo digital
+              A importancia da gestao estrategica
             </h4>
           </Link>
         </div>
 
         <div className="icon border-right border-left p-20">
-          <Link className="h-100 heading-color" href="/portfolio">
+          <Link className="h-100 heading-color" href="/blog">
             <FontAwesomeIcon icon={faThLarge} />
           </Link>
         </div>
         <div className="pagination-item w-100 p-20 text-right">
-          <Link href="o-poder-dos-pontos-de-contato">
-            <span className="mb-5">Próximo post</span>
+          <Link href="fortacelendo-marcas-no-mundo-digital">
+            <span className="mb-5">Próximo</span>
             <h4 className="title-block word-wrap">
-              O poder dos pontos de contato
+              Fortalecendo marcas no mundo digital
             </h4>
           </Link>
         </div>
       </div>
 
-      <CommentForm className="container" />
-
+      
+{/*========== Next Page ==========*/}
+<NextPage className="section-padding border-top background-section" />
+      {/*========== End Next Page ==========*/}
       {/*========== Footer ==========*/}
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}

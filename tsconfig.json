@@ -5,6 +5,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "jsx": "preserve",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -15,7 +16,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
     "plugins": [
       {
         "name": "next"
@@ -25,13 +25,14 @@
   },
   "include": [
     "next-env.d.ts",
-    
-    ".next/types/**/*.ts"
+    "**/*.ts",
+    "**/*.tsx",
+    "**/**/*.ts",
+    "**/**/*.tsx"
   ],
   "exclude": [
     "node_modules",
     "components/*",
-    "hooks/*",
-
+    "hooks/*"
   ]
 }

@@ -102,7 +102,7 @@ function ParallaxImage({
         data-overlay={overlay}
         ref={target}
         style={
-          {
+          {'overlay-nakama': className,
             '--height': height,
             '--height-table': heightTable,
             '--height-mobile': heightMobile

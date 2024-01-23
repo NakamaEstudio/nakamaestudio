@@ -92,6 +92,10 @@
 
 //-- End Line --//
 
+#main-content > footer > div > div > div > div.column-right > h5 > a{
+  margin-left: 0.4rem;
+}
+
 a.link-hover {
   color: $heading-color;
   display: inline-block;
@@ -102,7 +106,7 @@ a.link-hover {
   position: relative;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
-  margin-left:0.4rem;
+  
 
   &:before {
     content: attr(data-hover-text);

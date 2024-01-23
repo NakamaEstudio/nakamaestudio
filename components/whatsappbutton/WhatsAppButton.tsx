@@ -4,7 +4,7 @@ import React from 'react';
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/554891277979?text="
+      href="https://wa.me/554899562440?text="
       style={{
         position: 'fixed',
         width: '64px',
@@ -17,7 +17,7 @@ const WhatsAppButton = () => {
         textAlign: 'center',
         fontSize: '30px',
         boxShadow: '1px 1px 2px #888',
-        zIndex: 1000,
+        zIndex: 9,
         textDecoration: 'none',
        
         

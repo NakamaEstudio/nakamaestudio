@@ -14,8 +14,8 @@ const HeroContent = {
     authorTitle: "Aderbal Amorin ",
     authorJob: "Founder & Diretor de Criação",
     experienceNumber: "+ de 32",
-    experienceDescription: `somados em Business & Branding`,
-    heroImage: '/img/about-intro.jpg',
+    experienceDescription: `anos somados em Business & Branding`,
+    heroImage: '/img/home/dupla.jpg',
     awards: [
         {number: 12, description: `Anos Criando Marcas`},
         {number: 200, description: `Clientes <br/> Atendidos`},
@@ -71,8 +71,8 @@ function HeroSection({className, ...restProps}) {
                         <div className="line line-left"/>
                         <div className="line line-right"/>
 
-                        <div className="img-box h-100">
-                            <ParallaxImage src={HeroContent.heroImage} alt={"about"} height="100%" overlay={4}
+                        <div className="img-box h-100 overlay-nakama">
+                            <ParallaxImage src={HeroContent.heroImage} alt={"Andre e Aderbal"} height="100%" overlay={3}
                                            sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"/>
                         </div>
 

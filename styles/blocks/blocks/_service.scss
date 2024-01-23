@@ -94,9 +94,15 @@
         }
         svg {
           width: 60px;
-          fill: #ffffff;
+          fill: $theme-color;
         }
       }
+
+      #main-content > div.section-margin.container > div.dsn-isotope.icon-nakama > svg {
+        width: 60px;
+        fill: #e34e35!important;
+      }
+      
     }
 
     .service-title + p {
@@ -109,7 +115,7 @@
       .services-item .services-item-inner .services-content {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     margin: auto;
         
 

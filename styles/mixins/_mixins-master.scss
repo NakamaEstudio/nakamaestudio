@@ -98,11 +98,11 @@
 
 //-------------------- overlay --------------------//
 
-@mixin overlay($count: 0) {
+@mixin overlay($count: 0, $color: #1d2e53) {
   [data-overlay]:before {
     content: '';
     position: absolute;
-    background: #1d2e53;
+    background: $color;
     width: 100%;
     height: 100%;
     top: 0;
@@ -115,6 +115,11 @@
       opacity: $i / 10;
     }
   }
+}
+
+// Exemplo de uso para uma seção específica do site com a cor #121212
+.overlay-nakama {
+  @include overlay(3, #e34e35); // Especifica a contagem e a cor desejadas
 }
 
 @mixin grid-mix($from : 2 , $to : 3) {
