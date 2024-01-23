@@ -19,6 +19,7 @@ function Teampad({ className, data, ...restProps }: TeamProps) {
   const teamDataPad = data || getTeamPad();
 
   return (
+    // @ts-ignore 
     <DsnGrid className={dsnCN('team', className)} {...restProps}>
       {teamDataPad &&
         teamDataPad.map(($item) => (
