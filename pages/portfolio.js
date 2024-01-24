@@ -16,7 +16,7 @@ function Work() {
       }}
     >
       <Head>
-        <title>Portfolio | Eremia Creative Portfolio Multi-Purpose</title>
+        <title>Portfólio | Estúdio Nákama</title>
       </Head>
 
       {/*========== Header Normal ========== */}
@@ -33,7 +33,7 @@ function Work() {
       </HeaderNormal>
       {/*========== End Header Normal ==========*/}
 
-      <div className="section-margin container">
+      <div className="section-margin container z-index-999">
         <Portfolio
           stylePortfolio={'work-section'}
           className="title-inherit h4"

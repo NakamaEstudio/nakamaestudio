@@ -13,35 +13,43 @@ import { getPortfolioItem } from '../../data/portfolio';
 import NextProject from '../../components/next/NextProject';
 
 function Project1() {
-  const heroData = getPortfolioItem('artisan-marcenaria');
+  const heroData = getPortfolioItem('artisan');
   return (
     <Layout>
+      <section class="overlay-nakama">
       <HeaderFull
         className="dsn-container"
         alignItems="end"
         heroContent={heroData}
         overlay={heroData.overlay}
       />
+      </section>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
           <div className="intro-project-left">
-            <h4 className="title-block text-uppercase mb-20">Project</h4>
+            <h4 className="title-block text-uppercase mb-20">Projeto</h4>
             <ul className="intro-project-list">
             
               <li className="p-relative">
-                <strong>Direção de Arte:</strong> Aderbal Amorin
+                <strong>Direção de Arte</strong>
               </li>
               <li className="p-relative">
-                <strong>Ano</strong> 2019
+                <strong>Design de Interiores</strong>
+              </li>
+              <li className="p-relative">
+                <strong>Pontos de Contato</strong>
+              </li>
+              <li className="p-relative">
+                <strong>2019</strong> 
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
-            <h4 className="title-block text-uppercase mb-20">info</h4>
+            <h4 className="title-block text-uppercase mb-20">informações</h4>
             <p className="intro-project-description">
-            A Artisan Marcenaria e Design é mais do que uma simples empresa de mobiliário personalizado - é a materialização da personalidade em cada detalhe. Fundada na ideia de trazer à vida espaços que contam histórias, cada projeto é uma obra de arte única, moldada pela habilidade artesanal e uma abordagem sofisticada. Nossa missão é transcender o convencional, criando lares e ambientes comerciais que não apenas atendam às necessidades, mas celebrem a individualidade de cada cliente. Combinando precisão técnica com um olhar meticuloso para os detalhes, cada peça é um testemunho da paixão pelo artesanato e pelo design inovador. Na Artisan, a criação vai além do tangível - é a expressão autêntica do caráter e do estilo de vida, transformando espaços em experiências memoráveis.
+            A Artisan Marcenaria e Design é mais do que uma simples empresa de mobiliário personalizado - é a materialização da personalidade em cada detalhe. Fundada na ideia de trazer à vida espaços que contam histórias, cada projeto é uma obra de arte única, moldada pela habilidade artesanal e uma abordagem sofisticada. 
             </p>
             <div className="intro-project-cat mt-30">
               <span className="cat-item">
@@ -107,36 +115,26 @@ function Project1() {
           </div>
           <div className="p-relative pt-lg-section">
             <div className="box-info h-100 box-padding background-section ">
-              <TitleCover>speaker</TitleCover>
+              <TitleCover>Manifesto</TitleCover>
               <TitleSection
                 className={'text-uppercase mb-30'}
                 defaultSpace={false}
               >
-                Maybe speaker
+                Manifesto
               </TitleSection>
 
-              <p>
-                A system that young people around the world with a club culture
-                and techno enthusiasts feel identified. We generated a simple
-                logo that is the basis for generating a geometric and liquid
-                system.
-              </p>
+              
               <p className="mt-15">
-                A system that young people around the world with a club culture
-                and techno enthusiasts feel identified. We generated a simple
-                logo that is the basis for generating a geometric and liquid
-                system.
+              Nossa missão é transcender o convencional, criando lares e ambientes comerciais que não apenas atendam às necessidades, mas celebrem a individualidade de cada cliente. Combinando precisão técnica com um olhar meticuloso para os detalhes, cada peça é um testemunho da paixão pelo artesanato e pelo design inovador. Na Artisan, a criação vai além do tangível - é a expressão autêntica do caráter e do estilo de vida, transformando espaços em experiências memoráveis.
               </p>
-              <Button href="#0" className="mt-30">
-                View More <span className="icon">⟶</span>
-              </Button>
+              
             </div>
           </div>
         </DsnGrid>
       </section>
       {/*End box vertical Section*/}
 
-      <NextProject heroContent={getPortfolioItem('lengshuikeng')} number={4} />
+      <NextProject heroContent={getPortfolioItem('famillevet')} number={4} />
     </Layout>
   );
 }

@@ -58,8 +58,8 @@ function About() {
       <ParallaxImage
         alt={''}
         src={'/img/sobre/hero.jpg'}
-        parallaxFrom={{ scale: 1.1 }}
-        parallax={{ scale: 0.8 }}
+        parallaxFrom={{ scale: 1.3 }}
+        parallax={{ scale: 1 }}
         overlay={3}
         
       />
@@ -127,8 +127,8 @@ function About() {
 
       {/*Start Gallery List*/}
       <BoxGallery className="section-margin container" col={2}>
-        <BoxGalleryItem src="/img/help-project.jpg" groupPopup="gallery" />
-        <BoxGalleryItem src="/img/plan-project.jpg" groupPopup="gallery" />
+        <BoxGalleryItem src="/img/sobre/box2.jpg" groupPopup="gallery" />
+        <BoxGalleryItem src="/img/sobre/box1.jpg" groupPopup="gallery" />
       </BoxGallery>
       {/*End Gallery List*/}
 
@@ -197,7 +197,8 @@ function About() {
           Especialistas em Branding, Design e Negócios.
         </TitleSection>
 
-        <Team data={getTeamData().slice(0, 4)} col={2} colTablet={2} />
+        <Team data={getTeamData().slice(0, 2)} col={2} colTablet={2} colMobile={2} colGap={50}
+          rowGap={80} />
       </section>
       {/*========== End team Section ========== */}
 

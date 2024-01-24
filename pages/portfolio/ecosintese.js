@@ -10,15 +10,17 @@ import NextProject from '../../components/next/NextProject';
 import Image from 'next/image';
 
 function Project2(params) {
-  const heroData = getPortfolioItem('artisan-case');
+  const heroData = getPortfolioItem('ecosintese');
   return (
     <Layout>
+      <section class="overlay-nakama">
       <HeaderFull
         className="dsn-container"
         alignItems="end"
         heroContent={heroData}
         overlay={heroData.overlay}
       />
+      </section>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
@@ -26,32 +28,30 @@ function Project2(params) {
             <h4 className="title-block text-uppercase mb-20">Project</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
-                <strong>Agency</strong>Immersive interactive gallery
+                <strong>Website</strong>
               </li>
               <li className="p-relative">
-                <strong>creating</strong>vere
+                <strong>Identidade Visual</strong>
               </li>
               <li className="p-relative">
-                <strong> Published</strong>April 2nd 2019
+                <strong>2021</strong>
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
-            <h4 className="title-block text-uppercase mb-20">info</h4>
+            <h4 className="title-block text-uppercase mb-20">INFORMAÇÃO</h4>
             <p className="intro-project-description">
-              Vin tries to reflect Diesel’s vision and combines the universe of
-              the rock of the 80’s with a clear and essential design to be more
-              confident with its customers who need strong symbols through which
-              express themselves
+            Construção da consciência de sustentabilidade das empresas e fazer com que elas também sejam um reflexo para
+sociedade, contribuindo para o meio que está inserido, se mostrando como exemplo de que é correto e importante ter
+a conscientização sobre o meio ambiente.
             </p>
             <div className="intro-project-cat mt-30">
-              <span className="cat-item"> Arthur Kenzo</span>
-              <span className="cat-item"> Smart Speaker </span>
-              <span className="cat-item">Voice Speaker </span>
-              <span className="cat-item">design</span>
+              <span className="cat-item"> ESG</span>
+              <span className="cat-item"> Ambiente </span>
+              
             </div>
-            <ButtonProject href="#0" className="mt-30">
-              VIST PROJECT
+            <ButtonProject href="https://www.ecosintese.com.br" className="mt-30">
+              Visitar projeto
             </ButtonProject>
           </div>
         </DsnGrid>
@@ -63,7 +63,7 @@ function Project2(params) {
         <Image
           className="w-100"
           alt={''}
-          src={'/img/project/project2/2.jpg'}
+          src={'/img/portfolio/ecosintese/4.png'}
           width={1400}
           height={688}
           sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
@@ -74,11 +74,11 @@ function Project2(params) {
       {/*Start Gallery List*/}
       <BoxGallery className="section-margin container" col={2}>
         <BoxGalleryItem
-          src="/img/project/project2/3.jpg"
+          src="/img/portfolio/ecosintese/5.png"
           groupPopup="gallery"
         />
         <BoxGalleryItem
-          src="/img/project/project2/4.jpg"
+          src="/img/portfolio/ecosintese/1.png"
           groupPopup="gallery"
         />
       </BoxGallery>
@@ -89,7 +89,7 @@ function Project2(params) {
         <Image
           className="w-100"
           alt={''}
-          src={'/img/project/project2/5.jpg'}
+          src={'/img/portfolio/ecosintese/2.png'}
           width={1400}
           height={688}
           sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
@@ -98,21 +98,7 @@ function Project2(params) {
       {/*End Img*/}
 
       {/*Start Gallery List*/}
-      <BoxGallery className="section-margin container" col={3}>
-        <BoxGalleryItem
-          src="/img/project/project2/6.jpg"
-          groupPopup="gallery"
-        />
-        <BoxGalleryItem
-          src="/img/project/project2/7.jpg"
-          groupPopup="gallery"
-        />
-
-        <BoxGalleryItem
-          src="/img/project/project2/8.jpg"
-          groupPopup="gallery"
-        />
-      </BoxGallery>
+      
       {/*End Gallery List*/}
 
       {/*Start Intro Project*/}
@@ -120,18 +106,17 @@ function Project2(params) {
         <DsnGrid col={2}>
           <div>
             <h4 className="title-block dsn-text sm-mb-20 words splitting overflow-hidden">
-              Customisable & <br />
-              Flexible
+              Visão & <br />
+              Missão
             </h4>
           </div>
 
           <div>
             <p className="dsn-up">
-              We learned that different house have different preferences. So we
-              decide that CareDot with different color to match different
-              interior isn’t enough. We also make the alarm button customisable.
-              This allow user to choose a symbol that make the most sense for
-              their use case scenario along with personal message surrounding
+            Levar conhecimento e educação de mercado. Dando suporte técnico e estando ao lado das empresas em suas
+necessidades.
+Ser reconhecida no mercado levando conhecimento e importância aos clientes. Dando suporte técnico e estando ao
+lado das empresas em suas necessidades para seu desenvolvimento.
               it.
             </p>
           </div>
@@ -140,8 +125,8 @@ function Project2(params) {
       {/*End Intro Project*/}
 
       <NextProject
-        heroContent={getPortfolioItem('huggl-power-pack')}
-        number={2}
+        heroContent={getPortfolioItem('artisan')}
+        number={1}
       />
     </Layout>
   );

@@ -3,10 +3,9 @@ import {dsnCN} from "../../../hooks/helper";
 
 function MenuContent({className}) {
     const socialData = [
-        {link: "#0", name: "Instagram."},
-        {link: "#0", name: "Linkedin."},
-        {link: "#0", name: "Facebook."},
-        {link: "#0", name: "Twitter."}
+        {link: "https://www.instagram.com/nakamaestudio/", name: "Instagram."},
+        {link: "https://www.linkedin.com/company/est%C3%BAdio-n%C3%A1kama-branding-design", name: "Linkedin."},
+       
     ];
     return (
         <div className={dsnCN('container-content  d-flex flex-column justify-content-center', className)}>

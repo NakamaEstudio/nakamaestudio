@@ -30,7 +30,7 @@ function Project3(params) {
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
           <div className="intro-project-left">
-            <h4 className="title-block text-uppercase mb-20">Project</h4>
+            <h4 className="title-block text-uppercase mb-20">Projeto</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
                 <strong>Website</strong>
@@ -47,7 +47,7 @@ function Project3(params) {
             </ul>
           </div>
           <div className="intro-project-right">
-            <h4 className="title-block text-uppercase mb-20">info</h4>
+            <h4 className="title-block text-uppercase mb-20">INFORMAÇÕES</h4>
             <p className="intro-project-description">
             Uma empresa pioneira com a melhor solução de gestão de
 
@@ -91,7 +91,7 @@ ativos de geração (Usinas) e um excelente trabalho com efici-
         <BoxGalleryItem
           src="/img/portfolio/pv-operation/3.png"
           groupPopup="gallery"
-          caption={'Photography'}
+          
         />
       </BoxGallery>
       {/*End Gallery List*/}
@@ -100,7 +100,7 @@ ativos de geração (Usinas) e um excelente trabalho com efici-
       <ParallaxImage
         alt={''}
         src={'/img/portfolio/pv-operation/4.png'}
-        caption="asdsadsa"
+        
       />
       {/*End Parallax Img*/}
 
@@ -108,7 +108,8 @@ ativos de geração (Usinas) e um excelente trabalho com efici-
       <section className="section-margin container text-center">
         <div className="p-relative">
           <h4 className="title-block dsn-text max-w570 mb-70 sm-mb-30 ml-auto mr-auto">
-            These lights also provide guidance on power pack charge.
+          Uma empresa responsável e comprometida com o gerenciamento (monitoramento), manu-
+tenção e operação de usinas.
           </h4>
 
           <Image

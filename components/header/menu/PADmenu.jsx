@@ -7,7 +7,7 @@ import LogoPAD from "../../logo/LogoPAD";
 
 const menuContent = [
     {
-        name: "Home", href: "/",
+        name: "Estudio Nákama", href: "/",
         
         
     },

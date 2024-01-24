@@ -10,52 +10,51 @@ import HeaderFull from '../../components/header/HeaderFull';
 import NextProject from '../../components/next/NextProject';
 
 function Project6(params) {
-  const heroData = getPortfolioItem('lengshuikeng');
+  const heroData = getPortfolioItem('famillevet');
   return (
     <Layout>
+       <section class="overlay-nakama">
       <HeaderFull
         className="dsn-container"
         alignItems="end"
         heroContent={heroData}
         overlay={heroData.overlay}
       />
+      </section>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
           <div className="intro-project-left">
-            <h4 className="title-block text-uppercase mb-20">Project</h4>
+            <h4 className="title-block text-uppercase mb-20">Projeto</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
-                <strong>Agency</strong>Clint Davis
+                <strong>Branding</strong>
               </li>
               <li className="p-relative">
-                <strong>creating</strong>Bo wen HUANG
+                <strong>Pontos de Contato</strong>
               </li>
               <li className="p-relative">
-                <strong> Published</strong>November 17th 2019
+                <strong>2020</strong> 
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
-            <h4 className="title-block text-uppercase mb-20">info</h4>
+            <h4 className="title-block text-uppercase mb-20">INFORMAÇÕES</h4>
             <p className="intro-project-description">
-              The Lengshuikeng region is a low-lying depression which was
-              created when the lava from Mt. Qixing and Mt. Qigu formed a
-              barrage. Water then accumulated, turning the area into a lake,
-              which eventually leaked out and dried up to expose the lake bottom
-              and form today is landscape.
+            Uma clínica veterinária que visa o atendimento humanizado e uma relação próxima, onde o principal
+objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a transparência.
             </p>
             <div className="intro-project-cat mt-30">
-              <span className="cat-item">automotive</span>
-              <span className="cat-item">Photography</span>
+              <span className="cat-item">Ambiente</span>
+              <span className="cat-item">Clinica</span>
             </div>
             <ButtonProject
-              href="https://www.behance.net/gallery/88246491/-Lengshuikeng?tracking_source=curated_galleries_photography"
+              href="https://www.instagram.com/famillevet/"
               target="_blank"
               className="mt-30"
             >
-              VIST PROJECT
+              Visitar projeto
             </ButtonProject>
           </div>
         </DsnGrid>
@@ -65,8 +64,8 @@ function Project6(params) {
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/project/project6/2.jpg'}
-        caption="PHOTOGRAPHY"
+        src={'/img/portfolio/famillevet/7.jpg'}
+        
       />
       {/*End Parallax Img*/}
 
@@ -76,11 +75,11 @@ function Project6(params) {
         <div className="dsn-container">
           <BoxGallery col={2}>
             <BoxGalleryItem
-              src="/img/project/project6/3.jpg"
+              src="/img/portfolio/famillevet/2.png"
               groupPopup="gallery"
             />
             <BoxGalleryItem
-              src="/img/project/project6/4.jpg"
+              src="/img/portfolio/famillevet/1.png"
               groupPopup="gallery"
             />
           </BoxGallery>
@@ -113,11 +112,11 @@ function Project6(params) {
         <div className="dsn-container">
           <BoxGallery col={2}>
             <BoxGalleryItem
-              src="/img/project/project6/5.jpg"
+              src="/img/portfolio/famillevet/5.png"
               groupPopup="gallery"
             />
             <BoxGalleryItem
-              src="/img/project/project6/6.jpg"
+              src="/img/portfolio/famillevet/4.png"
               groupPopup="gallery"
             />
           </BoxGallery>
@@ -129,36 +128,12 @@ function Project6(params) {
       <ParallaxImage
         className="section-margin p-relative"
         alt={''}
-        src={'/img/project/project6/7.jpg'}
-        caption="PHOTOGRAPHY"
+        src={'/img/portfolio/famillevet/dog.jpg'}
+       
       />
       {/*End Parallax Img*/}
 
-      {/*Start Gallery List*/}
-      <div className="section-margin p-relative">
-        <div className="dsn-container">
-          <BoxGallery col={4}>
-            <BoxGalleryItem
-              src="/img/project/project6/8.jpg"
-              groupPopup="gallery"
-            />
-            <BoxGalleryItem
-              src="/img/project/project6/9.jpg"
-              groupPopup="gallery"
-            />
-
-            <BoxGalleryItem
-              src="/img/project/project6/10.jpg"
-              groupPopup="gallery"
-            />
-
-            <BoxGalleryItem
-              src="/img/project/project6/11.jpg"
-              groupPopup="gallery"
-            />
-          </BoxGallery>
-        </div>
-      </div>
+      
       {/*End Gallery List*/}
       <NextProject
         heroContent={getPortfolioItem('principal-garden')}

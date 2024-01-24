@@ -10,17 +10,17 @@ const data = [
   },
   {
     id: 2,
-    title: 'Case 2',
-    slug: 'lengshuikeng',
+    title: 'Famillevet',
+    slug: 'famillevet',
     category: ['Saúde-e-Beleza'],
-    description: 'symbols through which express themselves.',
-    src: '/img/project/project2/1.jpg',
+    description: '',
+    src: '/img/portfolio/famillevet/3.png',
     overlay: 2
   },
   {
     id: 3,
     title: 'Artisan - Marcenaria & Design',
-    slug: 'artisan-marcenaria',
+    slug: 'artisan',
     category: ['Arquitetura-e-Marcenaria'],
     description: 'We are thrilled to share our new reel with you all.',
     src: '/img/project/artisan/hero.jpg',
@@ -28,41 +28,80 @@ const data = [
   },
   {
     id: 4,
-    title: 'Prevenção - Segurança do Trabalho',
-    slug: 'principal-garden',
+    title: 'Ecosintese',
+    slug: 'ecosintese',
     category: ['Engenharia'],
+    src: '/img/portfolio/ecosintese/3.jpg',
+    description: 'We are thrilled to share our new reel with you all.',
+    overlay: 3
+  },
+  
+  
+  {
+    id: 7,
+    title: 'Gastrobeef',
+    slug: 'gastrobeef',
+    category: ['Gastronomia'],
+    src: '/img/portfolio/gastrobeef/4.jpg',
+    description: 'We are thrilled to share our new reel with you all.',
+    overlay: 3
+  },
+  {
+    id: 8,
+    title: 'Ricky Autocenter',
+    slug: 'procidade-case',
+    category: ['Automotivo'],
     src: '/img/project/project3/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
   {
-    id: 5,
-    title: 'Artisan',
-    slug: 'artisan-case',
-    category: ['Arquitetura-e-Marcenaria'],
+    id: 9,
+    title: 'Dellavaz Boutique',
+    slug: 'procidade-case',
+    category: ['Varejo-e-atacado'],
     src: '/img/project/project3/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
   {
-    id: 6,
-    title: 'Procidade',
+    id: 10,
+    title: 'Nexmoby',
     slug: 'procidade-case',
-    category: ['Engenharia'],
-    src: '/img/procidade.png',
+    category: ['Imobiliaria'],
+    src: '/img/project/project3/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
   {
-    id: 6,
-    title: 'Procidade',
+    id: 11,
+    title: 'Brisapollar Climatização',
     slug: 'procidade-case',
-    category: ['Alimentação'],
-    src: '/img/procidade.png',
+    category: ['Profissionais-liberais'],
+    src: '/img/project/project3/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
-  }
+  },
+  {
+    id: 12,
+    title: 'Strattax',
+    slug: 'procidade-case',
+    category: ['Contabilidade-e-finanças'],
+    src: '/img/project/project3/1.jpg',
+    description: 'We are thrilled to share our new reel with you all.',
+    overlay: 3
+  },
+  {
+    id: 13,
+    title: 'J. Ex',
+    slug: 'procidade-case',
+    category: ['Eventos'],
+    src: '/img/project/project3/1.jpg',
+    description: 'We are thrilled to share our new reel with you all.',
+    overlay: 3
+  },
 ];
+
 
 export const getPortfolioData = () => data;
 

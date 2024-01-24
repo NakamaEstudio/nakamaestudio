@@ -10,52 +10,51 @@ import HeaderFull from '../../components/header/HeaderFull';
 import NextProject from '../../components/next/NextProject';
 
 function Project4() {
-  const heroData = getPortfolioItem('principal-garden');
+  const heroData = getPortfolioItem('gastrobeef');
   return (
     <Layout>
+      <section class="overlay-nakama">
       <HeaderFull
         className="dsn-container"
         alignItems="end"
         heroContent={heroData}
         overlay={heroData.overlay}
       />
+      </section>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
           <div className="intro-project-left">
-            <h4 className="title-block text-uppercase mb-20">Project</h4>
+            <h4 className="title-block text-uppercase mb-20">Projeto</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
-                <strong>Agency</strong>Read Full Article
+                <strong>Identidade Visual</strong>
               </li>
               <li className="p-relative">
-                <strong>creating</strong>932 Designs
+                <strong>Clothing</strong>
               </li>
               <li className="p-relative">
-                <strong> Published</strong>June 5th 2020
+                <strong>2020</strong>
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
-            <h4 className="title-block text-uppercase mb-20">info</h4>
+            <h4 className="title-block text-uppercase mb-20">INFORMAÇÕES</h4>
             <p className="intro-project-description">
-              Nestled in a quiet enclave along the recreational waterway of
-              Alexandra Canal, on the fringe of the embassy district, Principal
-              Garden reflects a new daring in residential design thinking that
-              purposefully seeks to maximise unbuilt space amid the density of
-              urban Singapore.
+            Um Restaurante especialista em cortes nobres, servindo pratos muito bem elaborados e
+servidos por um atendimento atencioso e simpático.
             </p>
             <div className="intro-project-cat mt-30">
-              <span className="cat-item">Architecture </span>
-              <span className="cat-item">Photography</span>
-              <span className="cat-item">nterior Design</span>
+              <span className="cat-item">Restaurante </span>
+              <span className="cat-item">Prime</span>
+              <span className="cat-item">Interior Design</span>
             </div>
             <ButtonProject
               href="https://www.behance.net/gallery/98338319/Principal-Garden-I"
               target="_blank"
               className="mt-30"
             >
-              VISIT PROJECT
+              Visitar projeto
             </ButtonProject>
           </div>
         </DsnGrid>
@@ -65,41 +64,31 @@ function Project4() {
       <FJustifiedGallery
         images={[
           {
-            src: '/img/project/project4/3.jpg',
-            caption: 'Web Design'
+            src: '/img/portfolio/gastrobeef/1.jpg',
+            
           },
           {
-            src: '/img/project/project4/4.jpg',
-            caption: 'Web Design'
+            src: '/img/portfolio/gastrobeef/2.jpg',
+            
+          },
+          
+          {
+            src: '/img/portfolio/gastrobeef/4.jpg',
+            
           },
           {
-            src: '/img/project/project4/5.jpg',
-            caption: 'Web Design'
+            src: '/img/portfolio/gastrobeef/5.jpg',
+            
+          },
+          
+          {
+            src: '/img/portfolio/gastrobeef/7.jpg',
+            
           },
           {
-            src: '/img/project/project4/6.jpg',
-            caption: 'Web Design'
-          },
-          {
-            src: '/img/project/project4/7.jpg',
-            caption: 'Web Design'
-          },
-          {
-            src: '/img/project/project4/8.jpg',
-            caption: 'Web Design'
-          },
-          {
-            src: '/img/project/project4/9.jpg',
-            caption: 'Web Design'
-          },
-          {
-            src: '/img/project/project4/10.jpg',
-            caption: 'Web Design'
-          },
-          {
-            src: '/img/project/project4/11.jpg',
-            caption: 'Web Design'
-          }
+            src: '/img/portfolio/gastrobeef/8.png',
+            
+          }          
         ]}
         className="section-margin"
       />
@@ -107,7 +96,7 @@ function Project4() {
       {/*Start Box Info Move Content*/}
       <div className="p-relative section-margin v-light">
         <ParallaxImage
-          src="/img/project/project4/12.jpg"
+          src="/img/portfolio/gastrobeef/3.jpg"
           overlay={2}
           alt={''}
         />
@@ -120,13 +109,10 @@ function Project4() {
           </TitleSection>
 
           <p className="mb-10">
-            Nestled in a quiet enclave along the recreational waterway of
-            Alexandra Canal, on the fringe of the embassy district
+          A missão deste projeto é estabelecer a marca como referência no segmento de restaurantes especializados em cortes nobres. A visão é centrada na entrega de uma experiência gastronômica única, onde a beleza na apresentação e o sabor encantador dos pratos são oferecidos com simpatia e atenção no atendimento, seguindo o lema da empresa.
           </p>
           <p>
-            Principal Garden reflects a new daring in residential design
-            thinking that purposefully seeks to maximise unbuilt space amid the
-            density of urban Singapore.
+          Os valores fundamentais incluem um compromisso inabalável com o bom atendimento, honestidade, comprometimento, propósito claro, forte apelo visual e dedicação à gastronomia. Esses princípios são a espinha dorsal que guiará cada ação e decisão, permitindo que a marca alcance não apenas a excelência culinária, mas também estabeleça relações sólidas e duradouras com os clientes. 
           </p>
         </MoveBox>
       </div>
