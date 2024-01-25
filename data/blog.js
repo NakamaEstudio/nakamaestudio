@@ -8,7 +8,7 @@ const data = [
     date: '17/11/23',
     category: ['Identidade Visual'],
     description: `Você já se perguntou sobre a verdadeira essência por trás de uma marca poderosa? Aquela sensação...`,
-    src: '/img/blog/1.jpg',
+    src: '/img/blog/Identidade-de-Marca-1200x800.jpg',
     overlay: 4
   },
   {
@@ -19,7 +19,7 @@ const data = [
     date: '12/11/23',
     category: ['Experiência do consumidor'],
     description: `Você já parou para considerar como as marcas criam conexões duradouras? A resposta está...`,
-    src: '/img/blog/2.jpg',
+    src: '/img/blog/Experiência-do-Consumidor-1200x800.jpg',
     overlay: 4
   },
   {
@@ -30,7 +30,7 @@ const data = [
     date: '7/11/23',
     category: ['Gestão Estratégica'],
     description: `A gestão estratégica desempenha um papel crucial no desenvolvimento e sucesso das...`,
-    src: '/img/blog/3.jpg',
+    src: '/img/blog/Gestão-estratégica-1200x800.jpg',
     overlay: 4
   },
   {
@@ -42,7 +42,7 @@ const data = [
     date: '2/11/23',
     category: ['Branding'],
     description: `No dinâmico cenário digital, o Projeto Autoridade Digital se destaca como uma abordagem estratégica para...`,
-    src: '/img/blog/4.jpg',
+    src: '/img/blog/Branding-1200x800.jpg',
     overlay: 4
   }
 ];

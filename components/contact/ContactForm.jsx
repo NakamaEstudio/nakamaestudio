@@ -51,7 +51,7 @@ function ContactForm({className}) {
                             <div className="entry-box">
                                 <label>Seu nome *</label>
                                 <input id="form_name" type="text" name="name"
-                                       placeholder="Como devemos ti chamar?" required="required"
+                                       placeholder="Como devemos te chamar?" required="required"
                                        data-error="name is required." />
                             </div>
                         </div>

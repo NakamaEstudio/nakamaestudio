@@ -47,14 +47,16 @@ function Post1({ className, ...restProps }) {
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
+      <div class="overlay-nakama">
       <ParallaxImage
         alt={''}
-        src={'/img/blog/4.jpg'}
+        src={'/img/blog/Identidade-de-Marca-1440x900.jpg'}
         height={'80vh'}
         parallaxFrom={{ scale: 1.3 }}
         parallax={{ scale: 1 }}
         overlay={5}
       />
+      </div>
       {/*End Parallax Img*/}
 
       <div className="news-content mb-section mt-40">
@@ -86,16 +88,14 @@ function Post1({ className, ...restProps }) {
             </p>
           </blockquote>
           {/*Start Box Info Center Content*/}
-          <div className="p-relative v-dark-head text-center">
+          <div className="p-relative  text-center overlay-nakama">
             <ParallaxImage
-              src="/img/blog/2.jpg"
-              overlay={4}
+              src="/img/blog/6.jpg"
+              overlay={3}
               height={'80vh'}
               alt={''}
             />
-            <div className="v-middle z-index-1">
-              <ButtonPopup href="//media.w3.org/2010/05/sintel/trailer.mp4" />
-            </div>
+            
           </div>
           {/*End Box Info Center Content*/}
 

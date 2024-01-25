@@ -54,7 +54,7 @@ function BlogSwiper({
         <SwiperSlide key={index}>
           <BlogItem
             portoDetails={item}
-            textButton="Load More"
+            textButton="Ver mais"
             parallaxImage={parallaxImage}
             metaData={hideMetaData}
             parallaxContent={parallaxContent}

@@ -6,7 +6,7 @@ import {dsnCN} from "../../hooks/helper";
 function TitleCover({className, children, from, to, ease, start, end, scrub, markers}) {
     return (
         <MoveTrigger from={from} to={to} markers={markers} scrub={scrub} end={end} start={start} ease={ease}>
-            {(ref) => <div className={dsnCN('p-absolute title-cover', className)} ref={ref}>{children}</div>}
+            {(ref) => <div className={dsnCN('p-absolute title-cover max-w570', className)} ref={ref}>{children}</div>}
         </MoveTrigger>
 
     );

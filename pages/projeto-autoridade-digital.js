@@ -28,6 +28,7 @@ import BgPAD from '../components/header/BgPAD';
 
 import { Globo }  from '../public/img/pad/globo.png';
 import { NakamaIcon } from '../components/Nakamaicon';
+import TestimonialPad from '../components/testimonial/Testimonialpad';
 
 export default function PAD () {
   TitleSection.defaultProps = {
@@ -138,14 +139,11 @@ export default function PAD () {
             />
           </div>
           <div className="p-relative box-left">
-            <div className="box-im h-100 ">
-              <Image
-                className="cover-bg-img "
-                src="/img/pad/Time.png"
-                alt=""
-                fill
-                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 100vw,100vw"
-              />
+            <div className="box-im h-100  ">
+            <video className="cover-bg-img overlay-nakama" autoPlay muted loop>
+    <source src="/img/video/padvideo.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
             </div>
           </div>
         </DsnGrid>
@@ -185,13 +183,10 @@ export default function PAD () {
                   tag="p"
                   dirDescription="after"
                   classDesInner="max-w570"
-                  description="Acreditamos que ações isoladas não alcançam resultados duradouros nem exploram todo o potencial de uma marca e dificultam o gerenciamento. 
-
-                                 "
+                  description="Unimos os esforços de três empresas especializadas, cada uma trazendo suas habilidades únicas para a mesa. Juntos, lapidamos seu conteúdo, levando sua mensagem mais longe de maneira estratégica e coesa. Nossa abordagem é colaborativa, orientada para resultados e adaptada às suas necessidades. "
                 />
                 <h4 className="mb-20  ">
-                É exatamente aí que entra
-a proposta do projeto. 
+                Unimos esforços para potencializar conquistas. 
           </h4>
             
           <ServiceGrid
@@ -305,7 +300,7 @@ a proposta do projeto.
         <DsnGrid className="container" col={2} colTablet={1}>
          
           <div className="p-relative background-section p-40 order-md-2">
-            <TitleCover>PAD</TitleCover>
+            
 
             
             <h4 className="mb-30">
@@ -329,7 +324,7 @@ em três pilares fundamentais:
              <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: ' p-15 '
+                className: ' p-20 '
               }}
               data={[
                 {
@@ -360,7 +355,7 @@ em três pilares fundamentais:
             <div className="box-im w-100 h-100 p-absolute">
               <ParallaxImage
                 alt={''}
-                src={'img/pad/bannertwo.png'}
+                src={'img/pad/estudiotime.jpg'}
                 overlay={3}
                 height="100%"
                 heightTable={'70vh'}
@@ -390,7 +385,7 @@ em três pilares fundamentais:
 
       {/*Start testimonial Section*/}
       <div className="section-margin" data-dsn-title="O que falam">
-        <Testimonial
+        <TestimonialPad
           className="section-margin container"
           title="O que falam sobre nós."
           skin={['testimonials-half']}
@@ -411,7 +406,7 @@ em três pilares fundamentais:
           <SwiperPagination
             className={`justify-content-between dsn-container mt-30`}
           />
-        </Testimonial>
+        </TestimonialPad>
       </div>
       {/*========== End team Section ========== */}
 

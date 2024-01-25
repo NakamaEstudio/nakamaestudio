@@ -70,7 +70,10 @@ function Home() {
 
       {/*Start Box Info Move Content*/}
       <div className="p-relative section-margin overlay-nakama">
-        <ParallaxImage src="/img/home/marcantes.jpg" className={''}overlay={3} alt={'Analogia da marca às marcas marcantes'} />
+     
+        <ParallaxImage src="/img/home/marcantes.jpg" height="100vh"
+                heightTable={'80vh'}
+                heightMobile={'25vh'} className={''}overlay={3} alt={'Analogia da marca às marcas marcantes'} />
         <MoveBox tablet={false}>
           <TitleSection
             className={`align-items-start mb-30`}
@@ -91,20 +94,21 @@ function Home() {
           </p>
 
           <Button
-            href={'portfolio'}
+            href={'sobre-nos'}
             className={'image-zoom'}
             data-dsn="parallax"
-            transitionPage={{ title: 'Cases de Sucesso' }}
+            transitionPage={{ title: 'Nákama Estudio' }}
           >
-            Mais projetos <span>⟶</span>
+            Saiba mais <span>⟶</span>
           </Button>
 
-          <p className={`sm-p mt-15 theme-color`}>
+          <p className={`sm-p mt-30 theme-color`}>
             NOTA : Marcas são posicionadas no detalhe, na postura diante das
             situações boas e ruins.
           </p>
         </MoveBox>
       </div>
+      
       {/*End Box Info Move Content*/}
       <section
         className="box-gallery-vertical section-margin container"
@@ -119,14 +123,14 @@ function Home() {
           rowGapMobile={0}
         >
           <div className="p-relative mb-lg-section">
-            <div className="box-im w-100 h-100 p-absolute">
+            <div className="box-im w-100 h-100 p-absolute overlay-nakama">
               <ParallaxImage
                 alt={''}
-                src={'/img/home/home-pilares.jpg'}
-                overlay={3}
+                src={'/img/home/pilares.png'}
+                overlay={0}
                 height="100%"
                 heightTable={'70vh'}
-                heightMobile={'70vh'}
+                heightMobile={'32vh'}
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 70vw,33vw"
               />
             </div>

@@ -57,12 +57,29 @@ const menuContent = [
     ]
 },*/
   {
-    name: 'Serviços',
-    href: '/servicos'
+    
+    name: "Serviços",
+    dropdownMenu: [
+        
+        
+        {
+            name: "Serviços do Estudio Nákama", href: "/servicos",
+           
+        },
+        {
+            name: "Talk-Show: Laboratório de Negócios", href: "/",
+           
+        },
+        {
+            name: "Projeto Autoridade Digital", href: "/projeto-autoridade-digital",
+           
+        },
+        
+    ]
   },
 
   { name: 'Sobre nós', href: '/sobre-nos' },
-  { name: 'Projeto Autoridade Digital', href: '/projeto-autoridade-digital' },
+  
   {
     name: 'Blog',
     href: '/blog'

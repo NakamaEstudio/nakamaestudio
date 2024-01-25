@@ -12,7 +12,7 @@ const dataServicos = [
   {
     id: 2,
     title: 'Aura - Identidade e<br/> Posicionamento de Marca',
-    slug: 'marcas',
+    slug: 'servicos',
     category: ['Distinção', 'DNA', 'Conexão'],
     description:
       'Você já reparou que marcas que expressão claramente causas ambientais, propósitos sociais, discursos culturais ou posicionamento político são muito mais engajadas com seu público? Pense nos seus ideais e as marcas que consome.',
@@ -22,7 +22,7 @@ const dataServicos = [
   {
     id: 3,
     title: 'Ambiente - Pontos de Contato e Experiência da Marca',
-    slug: 'materiais-graficos',
+    slug: 'servicos',
     src: '/img/home/ambiente.jpg',
 
     category: [
@@ -39,7 +39,7 @@ const dataServicos = [
   {
     id: 4,
     title: 'Autonomia - Consultoria de<br/> Gestão de Marcas',
-    slug: 'siteseapps',
+    slug: 'servicos',
     category: ['Acompanhamento', 'Otimização', 'Implementação'],
     src: '/img/home/autonomia.jpg',
     description:
@@ -54,7 +54,7 @@ export const getServicosItem = (value, whereName = 'slug') => {
   return dataServicos.find((item) => item[whereName] === value);
 };
 export const getServicosLink = (item) => {
-  if (item) return item.slug && 'servicos' + item.slug;
+  if (item) return item.slug && 'servicos';
 
   return '';
 };

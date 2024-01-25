@@ -1,30 +1,23 @@
 const TestimonialDetails = [
   {
     name: 'Júlio César Siqueira',
-    label: 'sócio-proprietário da empresa Nexmob imobiliária',
+    label: 'Sócio-Proprietário da empresa Nexmob Imobiliária',
     src: '/img/pad/disclaimer.png',
-    description: `" E o que mais me chamou atenção quando eu o contratei é o grau de profissionalismo do Aderbal e a imensa criatividade que ele demonstrou, criando algo além daquilo que eu imaginava para a minha empresa. Sou super grato ao Aderbal pelo que ele fez pela minha empresa e recomendo ele e a empresa dele para os empreendedores que querem criar algo diferente para seu negócio.”`
+    description: `"E o que mais me chamou atenção quando eu o contratei é o grau de profissionalismo do Aderbal e a imensa criatividade que ele demonstrou, criando algo além daquilo que eu imaginava para a minha empresa. Sou super grato ao Aderbal pelo que ele fez pela minha empresa e recomendo ele e a empresa dele para os empreendedores que querem criar algo diferente para seu negócio.”`
   },
   {
-    name: 'Arno Ribeiro Rocha',
-    label: 'CEO Futuro Rocha',
-    src: '/img/pad/arno-ribeiro.png',
-    description: `"Não poderia deixar de expressar o quanto a parceria com a Zubi foi fundamental para o sucesso da minha empresa no mercado digital. O Zubi vai muito além de um estúdio profissional de gravação e criação de conteúdo; eles proporcionam uma experiência única, marcada pela proximidade e pessoalidade em cada projeto que realizamos juntos.
-
-    A equipe da Zubi não apenas forneceu um suporte exemplar, mas também compartilhou valiosas mentorias e experiências, contribuindo significativamente para o crescimento do meu negócio. Os resultados obtidos foram surpreendentes, refletindo não apenas em números, mas também em um aumento nas vendas e uma maior exposição no meio digital.
-    
-    Estou verdadeiramente satisfeito com a qualidade do serviço prestado pela Zubi e recomendo a todos que buscam não apenas um estúdio, mas uma parceria que realmente faça a diferença em sua presença online. 
-    
-    Gratidão à equipe Zubi por essa jornada maravilhosa e pelos resultados excepcionais alcançados juntos!"
-    `
+    name: 'Delair Vaz',
+    label: 'Fundadora e Proprietária Boutique Dellavaz',
+    src: '/img/depoimentos/Delair.png',
+    description: `"Sem dúvida a melhor escolha para a nova fase da DellaVAZ! Superou todas as nossas expectativas em relação ao Rebranding da nossa marca!!.”`
   },
   {
-    name: 'Paola Francesca',
-    label: 'Mentora de Liderança',
-    src: '/img/paola-francesca.jpg',
-    description: `"Sem dúvidas o melhor fotógrafo que já contratei para fotos corporativas. Conseguiu passar exatamente a imagem que eu queria, através das fotos e locação. Sem contar no profissionalismo cumprindo prazos de entrega. Mega recomendo!
-    "
-    `
+    name: 'Fefeu',
+    label: 'Sócio Fundador DA Barbearia São Chico',
+    src: '/img/depoimentos/Fefeu.png',
+    description: `"O ápice do nosso processo de criação da marca São Chico reside na transcrição magistral das ideias, propósito, estilo de vida e missão pessoal. Cada conceito que concebemos foi cuidadosamente traduzido para a imagem de forma impecável. O primeiro projeto, a primeira ideia, a primeira sugestão foram executados com excelência e receberam aprovação total, proporcionando total satisfação.
+    A comunicação durante todo o projeto foi extraordinária. Encontros e reuniões foram frequentes, sem qualquer ausência. Cada passo necessário para a criação deste projeto foi realizado com carinho e dedicação por todos os envolvidos.
+    Tenho absoluta certeza de que este projeto foi como um filho para ambas as partes, algo feito com extremo carinho. Gostaria de expressar meu agradecimento especial a Aderbal, a pessoa que atuou como elo e conduziu brilhantemente este projeto. Em nossa história, não poderíamos ter escolhido alguém melhor para desempenhar essa função; ele foi verdadeiramente extraordinário.”`
   },
   
 ];

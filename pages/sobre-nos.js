@@ -197,7 +197,7 @@ function About() {
           Especialistas em Branding, Design e Negócios.
         </TitleSection>
 
-        <Team data={getTeamData().slice(0, 2)} col={2} colTablet={2} colMobile={2} colGap={50}
+        <Team data={getTeamData().slice(0, 2)} col={2} colTablet={2} colMobile={2} colGap={20}
           rowGap={80} />
       </section>
       {/*========== End team Section ========== */}

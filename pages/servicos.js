@@ -324,7 +324,7 @@ function Servicos() {
               data={[
                 {
                   icon: NakamaIcon,
-                  title: 'Estratégias de Mídias Sociais',
+                  title: 'Estratégias de Posicionamento Digital',
                   description:
                     'Planejamos e executamos estratégias para maximizar o alcance e a interação com seu público-alvo.'
                 }
@@ -398,8 +398,8 @@ function Servicos() {
         className="p-relative background-section section-padding"
         data-dsn-title="Gestão de Marcas"
       >
-        <div className="container">
-       
+        <div className="container p-relative ">
+        
           <TitleSection
             className="text-center"
             description="Autonomia"
@@ -407,7 +407,7 @@ function Servicos() {
           >
             Gestão de Marcas
           </TitleSection>
-          <TitleCover className="text-center max-w570" >Autonomia</TitleCover>
+          
           <TitleSection
             className="mt-15 text-center"
             tag="p"

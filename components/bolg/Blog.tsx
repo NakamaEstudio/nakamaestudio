@@ -19,13 +19,14 @@ function BlogSwiper({
   const dataPortfolio = getBlogData();
 
   return (
-    <DsnGrid className={dsnCN('our-blog', className, styleBlog)} {...restProps}>
+    <DsnGrid className={dsnCN('our-blog overlay-nakama', className, styleBlog)} {...restProps}>
       {dataPortfolio.map((item, index) => (
         <BlogItem
           key={index}
           portoDetails={item}
           textButton="Ver o post"
           metaData={hideMetaData}
+          
         />
       ))}
     </DsnGrid>

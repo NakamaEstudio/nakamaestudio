@@ -47,14 +47,16 @@ function Post3() {
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
+      <div className="overlay-nakama">
       <ParallaxImage
         alt={''}
-        src={'/img/blog/4.jpg'}
+        src={'/img/blog/Branding-1440x900.jpg'}
         height={'80vh'}
-        parallaxFrom={{ scale: 1.3 }}
+        parallaxFrom={{ scale: 1.1 }}
         parallax={{ scale: 1 }}
         overlay={5}
       />
+      </div>
       {/*End Parallax Img*/}
 
       <div className="news-content mb-section mt-40">
@@ -83,19 +85,7 @@ function Post3() {
           Adaptação às Mudanças: Capacidade de ajustar estratégias para acompanhar as mudanças no mercado e no comportamento do consumidor.
             </p>
           
-          {/*Start Box Info Center Content*/}
-          <div className="p-relative v-dark-head text-center">
-            <ParallaxImage
-              src="/img/blog/2.jpg"
-              overlay={4}
-              height={'80vh'}
-              alt={''}
-            />
-            <div className="v-middle z-index-1">
-              <ButtonPopup href="//media.w3.org/2010/05/sintel/trailer.mp4" />
-            </div>
-          </div>
-          {/*End Box Info Center Content*/}
+          
 
           <h3>Benefícios de uma Gestão Estratégica de Marcas</h3>
           <p>

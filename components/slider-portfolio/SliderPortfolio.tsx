@@ -189,7 +189,7 @@ function SliderPortfolio({
     modules: [Parallax, Controller],
     spaceBetween: 50,
     slidesPerView: 1,
-    speed: 1500,
+    speed: 10000,
     ...optionSlider,
     onInit: init,
     onSlideChange: swiperChange

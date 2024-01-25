@@ -56,14 +56,16 @@ function Post4() {
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
+      <div className="overlay-nakama">
       <ParallaxImage
         alt={''}
-        src={'/img/blog/4.jpg'}
+        src={'/img/blog/Identidade-de-Marca-1200x800.jpg'}
         height={'80vh'}
-        parallaxFrom={{ scale: 1.3 }}
+        parallaxFrom={{ scale: 1.1 }}
         parallax={{ scale: 1 }}
         overlay={5}
       />
+      </div>
       {/*End Parallax Img*/}
 
       <div className="news-content mb-section mt-40">
@@ -80,15 +82,15 @@ function Post4() {
             </p>
           </blockquote>
           {/*Start Box Info Center Content*/}
-          <div className="p-relative v-dark-head text-center">
+          <div className="p-relative overlay-nakama text-center">
             <ParallaxImage
-              src="/img/blog/2.jpg"
+              src="/img/pad/estudiotime.jpg"
               overlay={4}
               height={'80vh'}
               alt={''}
             />
             <div className="v-middle z-index-1">
-              <ButtonPopup href="//media.w3.org/2010/05/sintel/trailer.mp4" />
+              <ButtonPopup href="/img/video/padvideo.mp4" />
             </div>
           </div>
           {/*End Box Info Center Content*/}
@@ -111,7 +113,7 @@ function Post4() {
           Participe da Revolução Digital com o Projeto Autoridade Digital
           </h4>
           <Button
-                            href={"/pad"}
+                            href={"/projeto-autoridade-digital"}
                             className="mr-15 line-head"
                             borderStyle={"border-color-heading-color"}
                             borderRadius

@@ -39,7 +39,7 @@ function Post2() {
 
       {/*========== Header Normal ========== */}
       <HeaderNormal container={'container'}>
-        <MetaPost category={['Branding']} />
+        <MetaPost category={['Experiência do consumidor']} />
         <h1 className="title text-uppercase">
           O Poder dos Pontos de Contato na Experiência do Consumidor
         </h1>
@@ -47,14 +47,16 @@ function Post2() {
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
+      <div className="overlay-nakama">
       <ParallaxImage
         alt={''}
-        src={'/img/blog/4.jpg'}
+        src={'/img/blog/Experiência-do-Consumidor-1440x900.jpg'}
         height={'80vh'}
-        parallaxFrom={{ scale: 1.3 }}
+        parallaxFrom={{ scale: 1.1 }}
         parallax={{ scale: 1 }}
-        overlay={5}
+        overlay={3}
       />
+      </div>
       {/*End Parallax Img*/}
 
       <div className="news-content mb-section mt-40">
@@ -64,7 +66,7 @@ function Post2() {
           Você já parou para considerar como as marcas criam conexões duradouras? A resposta está nos pontos de contato, os momentos em que os consumidores interagem com uma marca. Vamos explorar como esses pontos de contato moldam a experiência do consumidor.
 
           </p>
-          <h3>Wildlife could be amazing, see why.</h3>
+          
           <blockquote className="block-quote">
             <p>
             Pontos de contato são todas as oportunidades de interação entre uma marca e seu público. Desde o primeiro acesso ao site até a embalagem de um produto, cada interação molda a percepção e a experiência do cliente.
@@ -72,16 +74,14 @@ function Post2() {
             </p>
           </blockquote>
           {/*Start Box Info Center Content*/}
-          <div className="p-relative v-dark-head text-center">
+          <div className="p-relative overlay-nakama text-center">
             <ParallaxImage
-              src="/img/blog/2.jpg"
+              src="/img/blog/5.jpg"
               overlay={4}
               height={'80vh'}
               alt={''}
             />
-            <div className="v-middle z-index-1">
-              <ButtonPopup href="//media.w3.org/2010/05/sintel/trailer.mp4" />
-            </div>
+           
           </div>
           {/*End Box Info Center Content*/}
 

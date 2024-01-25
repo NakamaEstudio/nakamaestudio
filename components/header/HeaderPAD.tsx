@@ -27,7 +27,7 @@ function HeaderPAD({
       {...restProps}
     >
       <BgPAD />
-      <div className={dsnCN(container, 'h-100')}>
+      <div className={dsnCN(container, 'h-50')}>
         <div
           className={dsnCN(
             'content-hero p-relative d-flex flex-column',
