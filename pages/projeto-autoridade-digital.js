@@ -324,7 +324,7 @@ em três pilares fundamentais:
              <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
-                className: ' p-20 '
+                className: ' p-15 '
               }}
               data={[
                 {

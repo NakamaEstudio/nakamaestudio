@@ -91,15 +91,7 @@ const data = [
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
-  {
-    id: 13,
-    title: 'J. Ex',
-    slug: 'procidade-case',
-    category: ['Eventos'],
-    src: '/img/project/project3/1.jpg',
-    description: 'We are thrilled to share our new reel with you all.',
-    overlay: 3
-  },
+  
 ];
 
 

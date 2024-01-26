@@ -1,16 +1,6 @@
 const dataServicos = [
   {
     id: 1,
-    title: 'Estúdio Nákama',
-    slug: '/',
-    category: ['BRANDING & DESIGN'],
-    description:
-      'Já imaginou como seria ter sua marca, conectada com seu cliente a ponto de ser preferência e não a opção mais em conta? Tudo começa na sua marca.',
-    src: '/img/project/project1/Background.jpg',
-    overlay: 2
-  },
-  {
-    id: 2,
     title: 'Aura - Identidade e<br/> Posicionamento de Marca',
     slug: 'servicos',
     category: ['Distinção', 'DNA', 'Conexão'],
@@ -19,6 +9,17 @@ const dataServicos = [
     src: '/img/home/aura.jpg',
     overlay: 5
   },
+  {
+    id: 2,
+    title: 'Estúdio Nákama',
+    slug: '/',
+    category: ['BRANDING & DESIGN'],
+    description:
+      'Já imaginou como seria ter sua marca, conectada com seu cliente a ponto de ser preferência e não a opção mais em conta? Tudo começa na sua marca.',
+    src: '/img/project/project1/Background.jpg',
+    overlay: 2
+  },
+  
   {
     id: 3,
     title: 'Ambiente - Pontos de Contato e Experiência da Marca',

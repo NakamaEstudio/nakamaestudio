@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Controller, Parallax } from 'swiper';
+import { Autoplay, Controller, Parallax } from 'swiper';
 import { dsnCN } from '../../hooks/helper';
 import { useArrayRef } from '../../hooks/dsnHooks';
 import { getServicosData } from '../../data/servicos';
@@ -34,7 +34,7 @@ export interface SliderPortfolioProps {
       };
   webgel?: boolean;
   webgelOptions?: {
-    displacement?: '/img/displacement/1.jpg' | string;
+    displacement?: '/img/project/project1/Background.jpg' | string;
     intensity?: number;
     onComplete?: React.ReactNode;
     speedIn?: number;
@@ -186,9 +186,10 @@ function SliderPortfolio({
   };
 
   const optionSwiper = {
-    modules: [Parallax, Controller],
+    modules: [Parallax, Controller, Autoplay],
     spaceBetween: 50,
     slidesPerView: 1,
+    autoplay:true,
     speed: 10000,
     ...optionSlider,
     onInit: init,

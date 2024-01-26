@@ -6,7 +6,7 @@ const data = [
     src: '/img/sobre/aderbalface.jpg',
     social: [
       { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
-      { title: 'G', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },       
+      { title: 'G', url: 'https://maps.app.goo.gl/VNEazTPkqEnn7DbL9' },       
       { title: 'LKD', url: 'https://www.linkedin.com/in/aderbalamorin/' },
       { title: 'WEB', url: 'https://www.estudionakama.com.br' }
     ]
@@ -18,7 +18,7 @@ const data = [
     src: '/img/sobre/andreface.jpg',
     social: [
       { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
-      { title: 'G', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },         
+      { title: 'G', url: 'https://maps.app.goo.gl/VNEazTPkqEnn7DbL9' },         
       { title: 'WEB', url: 'https://www.estudionakama.com.br' }
     ]
   },

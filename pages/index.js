@@ -40,12 +40,14 @@ function Home() {
       </Head>
       <section className="overlay-nakama">
       <SliderPortfolio
+      priority
+      loop
         webgel
         fullWidth
         className={'align-items-end pb-80 overlay-nakama'}
         webgelOptions={{
-          displacement: '/img/displacement/8.jpg',
-          speedIn: 3.5
+          displacement: '/img/project/project1/Background.jpg',
+          speedIn: 3
         }}
         metaData={{ hasSeparator: true }}
       />

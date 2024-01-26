@@ -118,12 +118,12 @@ const getFragment = (direction) => {
 function DsnWebgelDirction(props: DsnWebgelDirctionParams) {
   const {
     parent,
-    displacement = '/img/displacement/8.jpg',
+    displacement = '/img/project/project1/Background.jpg',
     data = [],
-    intensity = 1,
+    intensity = 2,
     direction,
     onComplete,
-    speedIn = 1.6,
+    speedIn = 3,
     easing = Expo.easeOut
   } = props;
 
