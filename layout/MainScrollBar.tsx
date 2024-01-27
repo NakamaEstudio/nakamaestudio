@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { useEffect, useRef} from 'react';
 import Scrollbar from 'smooth-scrollbar';
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
