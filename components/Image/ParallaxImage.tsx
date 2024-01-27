@@ -52,7 +52,7 @@ function ParallaxImage({
     if (triggerHook === 'center')
       gsap.set(img.current, {
     // @ts-ignore
-        height: `+=${speed / 2}%`,
+        height: `+=${speed / 4}%`,
         // @ts-ignore
         yPercent: `-=${speed / 2}`
       });
@@ -102,7 +102,7 @@ function ParallaxImage({
         data-overlay={overlay}
         ref={target}
         style={
-          {'overlay-nakama': className,
+          {
             '--height': height,
             '--height-table': heightTable,
             '--height-mobile': heightMobile
@@ -135,7 +135,7 @@ ParallaxImage.defaultProps = {
   overlay: 0,
   triggerHook: 'bottom',
   animationActive: true,
-  speed: 30,
+  speed: 20,
   parallax: {}
 };
 

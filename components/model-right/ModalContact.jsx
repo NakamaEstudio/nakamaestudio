@@ -6,7 +6,7 @@ import React from "react";
 
 function ModalContact({className = "", ...restProps}) {
     return (
-        <div className={dsnCN("section-padding", className)} {...restProps}>
+        <div className={dsnCN("section-padding-modal", className)} {...restProps}>
             <DsnGrid col={2} colTablet={1}>
                 <ContactForm/>
                 <InfoBox className="align-self-center"/>

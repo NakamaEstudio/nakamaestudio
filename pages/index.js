@@ -23,6 +23,10 @@ import ModalContact from '../components/model-right/ModalContact';
 import Head from 'next/head';
 
 function Home() {
+  const HomeContent = {
+    buttonText:"Vamos iniciar um projeto?",
+    buttonTransition: "Se surpreenda"
+  }
   TitleSection.defaultProps = {
     classDesc: 'line-shape line-shape-before',
     classDesInner: 'line-bg-right'
@@ -46,15 +50,18 @@ function Home() {
           className={'align-items-end pb-80 overlay-nakama'}
           optionSlider={{
             autoplay: true,
-            spaceBetween: 6,
+            spaceBetween: 4,
             speed: 10000,
             parallax:true,
           }}
           webgelOptions={{
+            intensity:3,
+            priority:true,
             displacement: '/img/project/project1/Background.jpg',
             speedIn: 6
           }}
           metaData={{ hasSeparator: true }}
+          autoplayDelayStart={2000} // 10 segundos de atraso antes de iniciar o autoplay
         />
       </section>
       <HeroSection
@@ -72,6 +79,15 @@ function Home() {
           devemos ser&quot;
         </TitleSection>
         <ServiceOne />
+        <Button
+                            href={"https://drive.google.com/drive/folders/1d0Eu5Gs0gPuS7vYBxASbW9ZxIJh_xWOX"}
+                            className="mb-30 line-head btn-project"
+                            borderStyle={"border-color-heading-color"}
+                            borderRadius
+                            transitionPage={{title: HomeContent.buttonTransition}}
+                        >
+                            {HomeContent.buttonText}
+                        </Button>
       </div>
       {/*End Service*/}
 
@@ -83,7 +99,7 @@ function Home() {
           heightTable={'80vh'}
           heightMobile={'25vh'}
           className={''}
-          overlay={3}
+          overlay={6}
           alt={'Analogia da marca às marcas marcantes'}
         />
         <MoveBox tablet={false}>
@@ -139,7 +155,7 @@ function Home() {
               <ParallaxImage
                 alt={''}
                 src={'/img/home/pilares.png'}
-                overlay={0}
+                overlay={1}
                 height="100%"
                 heightTable={'70vh'}
                 heightMobile={'32vh'}

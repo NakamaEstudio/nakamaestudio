@@ -31,7 +31,7 @@ function InfoBox({className}) {
                     </div>
     */}
                     <div className="social-item over-hidden">
-                        <a className="link-hover" data-hover-text="Linkedin." href="#"
+                        <a className="link-hover" data-hover-text="Linkedin." href="https://www.linkedin.com/company/est%C3%BAdio-n%C3%A1kama-branding-design/"
                            target="_blank" rel="nofollow">Linkedin.</a>
                     </div>
                     

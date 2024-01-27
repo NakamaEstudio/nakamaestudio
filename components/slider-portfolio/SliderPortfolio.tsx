@@ -73,6 +73,7 @@ function SliderPortfolio({
     bg = useRef();
 
   const tl = useRef(gsap.timeline());
+  
 
   useEffect(() => {
     const q = gsap.utils.selector(rootSlider);

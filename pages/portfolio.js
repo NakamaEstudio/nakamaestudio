@@ -35,11 +35,12 @@ function Work() {
         </p>
         <h1 className="title text-uppercase">Projetos de Sucesso.</h1>
         <Button
-                            href={"#"}
+                            href={"https://drive.google.com/drive/folders/1d0Eu5Gs0gPuS7vYBxASbW9ZxIJh_xWOX"}
                             className="mb-30 line-head btn-portfolio"
                             borderStyle={"border-color-heading-color"}
                             borderRadius
                             transitionPage={{title: PortContent.buttonText}}
+                            target="_blank"
                         >
                             {PortContent.buttonText}
                         </Button>

@@ -16,6 +16,7 @@ export function AccordionItem({
   number?: number;
 }) {
   return (
+    // @ts-ignore
     <div className={dsnCN('accordion__item', className)}>
       <div
         className={`accordion__question ${
@@ -37,7 +38,7 @@ function Accordion({ duration = 0.4, className, children }) {
 
   useEffect(() => {
     let activeIndex: number;
-
+ // @ts-ignore
     const items = accordion.current.querySelectorAll('.accordion__item');
     if (!items) return;
 

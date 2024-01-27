@@ -1,11 +1,10 @@
-import { filter } from 'core-js/core/array';
 import React from 'react';
 
 const WhatsAppButton = () => {
   return (
     <a
       href="https://wa.me/554899562440?text="
-      style={{
+     style={{
         position: 'fixed',
         width: '64px',
         height: '64px',

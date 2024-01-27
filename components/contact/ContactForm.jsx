@@ -14,10 +14,10 @@ function ContactForm({className}) {
         setResult(false);
         setLoading(true);
         emailjs.sendForm(
-            'service_mxt8ue9',
-            'template_1f1243o',
+            'service_lwh55sj',
+            'template_zkky8lb',
             form.current,
-            'bvnMqTU1Ir-7kgLNL')
+            'ektIYmNqDUxLowZkA')
             .then((result) => {
                 setLoading(false);
                 setResult(true);
@@ -42,7 +42,7 @@ function ContactForm({className}) {
                    Entre em contato
                 </TitleSection>
                 <p className="mb-30 mt-20">
-                O que realmente importa são os seres humanos por trás da marca e aqueles que a experimentam. No meio.
+                Em breve retornaremos!
                 </p>
 
                 <form  className="form"  ref={form} onSubmit={sendEmail} >
@@ -50,7 +50,7 @@ function ContactForm({className}) {
                         <div className="form-group">
                             <div className="entry-box">
                                 <label>Seu nome *</label>
-                                <input id="form_name" type="text" name="name"
+                                <input id="form_name" type="text" name="from_name"
                                        placeholder="Como devemos te chamar?" required="required"
                                        data-error="name is required." />
                             </div>
@@ -59,7 +59,7 @@ function ContactForm({className}) {
                         <div className="form-group">
                             <div className="entry-box">
                                 <label>Seu e-mail *</label>
-                                <input id="form_email" type="email" name="email"
+                                <input id="form_email" type="email" name="from_email"
                                        placeholder="Por favor, insira seu e-mail comercial." required="required"
                                        data-error="Valid email is required." />
                             </div>

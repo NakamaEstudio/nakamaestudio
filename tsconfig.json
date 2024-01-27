@@ -32,7 +32,8 @@
   ],
   "exclude": [
     "node_modules",
-    "components/*",
-    "hooks/*"
+    "components",
+    "hooks"
+    
   ]
 }

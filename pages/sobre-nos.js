@@ -56,7 +56,8 @@ function About() {
       {/*Start Parallax Img*/}
       <section className="overlay-nakama">
       <ParallaxImage
-        alt={''}
+      priority
+        alt={'Aderbal e Andre sorrindo'}
         src={'/img/sobre/hero.jpg'}
         parallaxFrom={{ scale: 1.3 }}
         parallax={{ scale: 1 }}

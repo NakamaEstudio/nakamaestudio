@@ -4,7 +4,7 @@ import {dsnCN} from "../../hooks/helper";
 const socialContent = [
     
     {name: "Instagram.", href: "https://www.instagram.com.br/nakamaestudio"},
-    {name: "Linkedin.", href: "#0"},
+    {name: "Linkedin.", href: "https://www.linkedin.com/company/est%C3%BAdio-n%C3%A1kama-branding-design/"},
     
 ];
 

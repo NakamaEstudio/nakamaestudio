@@ -20,15 +20,17 @@
     "@reduxjs/toolkit": "^1.9.3",
     "@vercel/analytics": "^1.1.2",
     "@vercel/speed-insights": "^1.0.8",
+    "emailjs-com": "^3.2.0",
     "flickr-justified-gallery": "^2.1.2",
     "google-map-react": "^2.2.0",
     "gsap": "^3.11.4",
     "isotope-layout": "^3.0.6",
-    "next": "^13.2.1",
+    "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "sass": "^1.55.0",
+    "sharp": "^0.33.2",
     "smooth-scrollbar": "^8.8.1",
     "splitting": "^1.0.6",
     "styled-components": "^5.3.5",
@@ -46,6 +48,6 @@
     "eslint-plugin-sonarjs": "^0.23.0",
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.9",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.4.1"
   }
 }

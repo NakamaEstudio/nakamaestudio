@@ -5,6 +5,7 @@ function Awards() {
   return (
     <div className="awards-inner mt-30">
       {getAwardsData().map((item, index) => (
+         // @ts-ignore
         <AwardsItem data={item} key={index} />
       ))}
     </div>

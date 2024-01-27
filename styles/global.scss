@@ -6,6 +6,10 @@
 @import "typography/_typography.scss";
 //--> Background color
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @include nth_of_type(1, 5);
 
@@ -874,6 +878,8 @@ a.link-hover {
     }
   }
 }
+
+
 
 
 
