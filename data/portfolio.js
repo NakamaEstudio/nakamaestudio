@@ -104,7 +104,8 @@ export const getPortfolioItem = (value, whereName = 'slug') => {
   return data.find((item) => item[whereName] === value);
 };
 export const getPortfolioLink = (item) => {
-  if (item) return item.slug && 'servicos'
+  if (item)
+        return item.slug && '/portfolio/' + item.slug;
 
-  return '';
+    return '';
 };
