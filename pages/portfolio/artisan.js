@@ -70,7 +70,7 @@ function Project1() {
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/project/artisan/sub-hero.jpg'}
+        src={'/img/portfolio/artisan/sub-hero.jpg'}
         overlay={3}
         caption="Stationary"
       />
@@ -79,15 +79,15 @@ function Project1() {
       {/*Start Gallery List*/}
       <BoxGallery className="section-margin container" col={3}>
         <BoxGalleryItem
-          src="/img/project/artisan/3.jpg"
+          src="/img/portfolio/artisan/3.jpg"
           groupPopup="gallery"
         />
         <BoxGalleryItem
-          src="/img/project/artisan/4.jpg"
+          src="/img/portfolio/artisan/4.jpg"
           groupPopup="gallery"
         />
         <BoxGalleryItem
-          src="/img/project/artisan/5.jpg"
+          src="/img/portfolio/artisan/5.jpg"
           groupPopup="gallery"
         />
       </BoxGallery>
@@ -95,8 +95,9 @@ function Project1() {
 
       {/*Start Parallax Img*/}
       <ParallaxImage
+      priority
         alt={''}
-        src={'/img/project/artisan/8.gif'}
+        src={'/img/portfolio/artisan/8.gif'}
         caption="Crafting"
       />
       {/*End Parallax Img*/}
@@ -107,8 +108,9 @@ function Project1() {
           <div className="p-relative mb-lg-section">
             <div className="box-im w-100 h-100 p-absolute">
               <ParallaxImage
+              priority
                 alt={''}
-                src={'/img/project/artisan/6.gif.gif'}
+                src={'/img/portfolio/artisan/6.gif.gif'}
                 height="100%"
               />
             </div>

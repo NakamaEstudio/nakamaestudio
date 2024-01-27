@@ -146,6 +146,10 @@ a:hover {
 
 //-------------------- Parallax Image --------------------//
 
+#dsn-scrollbar>.scroll-content{
+  --dsn-width-scroll: 0px;
+}
+
 [data-dsn-grid="move-up"],
 [data-dsn-grid="moveUp"] {
   position: relative;

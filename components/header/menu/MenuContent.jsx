@@ -13,15 +13,15 @@ function MenuContent({className}) {
                 <div className="nav-content">
                     <h5 className="sm-title-block mb-10">Estudio Nákama</h5>
                     <p>
-                    Zona UTM: 22J <br/> Biguaçu - SC - Brasil
+                    Biguaçu - SC - Brasil
                     </p>
 
                 </div>
                 <div className="nav-content mt-30">
                     <h5 className="sm-title-block mb-10">Contato</h5>
                     <p className="links over-hidden mb-1">
-                        <a className="link-hover" href="tel:+55 48 9127-7979" data-hover-text="+55 48 9127-7979">
-                        +55 48 9127-7979
+                        <a className="link-hover" href="tel:+55 48 9 9956 2440" data-hover-text="+55 48 9 9956 2440">
+                        +55 48 9 9956 2440
                         </a>
                     </p>
                     <p className="links over-hidden">

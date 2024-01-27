@@ -187,13 +187,13 @@ function SliderPortfolio({
 
   const optionSwiper = {
     modules: [Parallax, Controller, Autoplay],
-    spaceBetween: 50,
-    slidesPerView: 1,
-    autoplay:true,
-    speed: 10000,
-    ...optionSlider,
-    onInit: init,
-    onSlideChange: swiperChange
+        spaceBetween: 50,
+        slidesPerView: 1,
+        
+        speed: 1500,
+        ...optionSlider,
+        onInit: init,
+        onSlideChange: swiperChange,
   };
 
   if (restProps.webgel) {

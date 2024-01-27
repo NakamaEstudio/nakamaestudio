@@ -39,18 +39,23 @@ function Home() {
         <title>Estudio Nákama - Branding e Design</title>
       </Head>
       <section className="overlay-nakama">
-      <SliderPortfolio
-      priority
-      loop
-        webgel
-        fullWidth
-        className={'align-items-end pb-80 overlay-nakama'}
-        webgelOptions={{
-          displacement: '/img/project/project1/Background.jpg',
-          speedIn: 3
-        }}
-        metaData={{ hasSeparator: true }}
-      />
+        <SliderPortfolio
+          priority
+          webgel
+          fullWidth
+          className={'align-items-end pb-80 overlay-nakama'}
+          optionSlider={{
+            autoplay: true,
+            spaceBetween: 6,
+            speed: 10000,
+            parallax:true,
+          }}
+          webgelOptions={{
+            displacement: '/img/project/project1/Background.jpg',
+            speedIn: 6
+          }}
+          metaData={{ hasSeparator: true }}
+        />
       </section>
       <HeroSection
         className="section-margin fill-right-container container"
@@ -72,10 +77,15 @@ function Home() {
 
       {/*Start Box Info Move Content*/}
       <div className="p-relative section-margin overlay-nakama">
-     
-        <ParallaxImage src="/img/home/marcantes.jpg" height="100vh"
-                heightTable={'80vh'}
-                heightMobile={'25vh'} className={''}overlay={3} alt={'Analogia da marca às marcas marcantes'} />
+        <ParallaxImage
+          src="/img/home/marcantes.jpg"
+          height="100vh"
+          heightTable={'80vh'}
+          heightMobile={'25vh'}
+          className={''}
+          overlay={3}
+          alt={'Analogia da marca às marcas marcantes'}
+        />
         <MoveBox tablet={false}>
           <TitleSection
             className={`align-items-start mb-30`}
@@ -110,7 +120,7 @@ function Home() {
           </p>
         </MoveBox>
       </div>
-      
+
       {/*End Box Info Move Content*/}
       <section
         className="box-gallery-vertical section-margin container"
@@ -251,7 +261,7 @@ function Home() {
       {/*End testimonial Section*/}
 
       {/*Start box vertical Section*/}
-      
+
       {/*End box vertical Section*/}
 
       {/*Start Blog*/}

@@ -1,16 +1,6 @@
 const dataServicos = [
   {
     id: 1,
-    title: 'Aura - Identidade e<br/> Posicionamento de Marca',
-    slug: 'servicos',
-    category: ['Distinção', 'DNA', 'Conexão'],
-    description:
-      'Você já reparou que marcas que expressão claramente causas ambientais, propósitos sociais, discursos culturais ou posicionamento político são muito mais engajadas com seu público? Pense nos seus ideais e as marcas que consome.',
-    src: '/img/home/aura.jpg',
-    overlay: 5
-  },
-  {
-    id: 2,
     title: 'Estúdio Nákama',
     slug: '/',
     category: ['BRANDING & DESIGN'],
@@ -19,6 +9,17 @@ const dataServicos = [
     src: '/img/project/project1/Background.jpg',
     overlay: 2
   },
+  {
+    id: 2,
+    title: 'Aura - Identidade e<br/> Posicionamento de Marca',
+    slug: 'servicos',
+    category: ['Distinção', 'DNA', 'Conexão'],
+    description:
+      'Você já reparou que marcas que expressão claramente causas ambientais, propósitos sociais, discursos culturais ou posicionamento político são muito mais engajadas com seu público? Pense nos seus ideais e as marcas que consome.',
+    src: '/img/home/aura.jpg',
+    overlay: 5
+  },
+  
   
   {
     id: 3,
@@ -55,7 +56,7 @@ export const getServicosItem = (value, whereName = 'slug') => {
   return dataServicos.find((item) => item[whereName] === value);
 };
 export const getServicosLink = (item) => {
-  if (item) return item.slug && 'servicos';
+  if (item) return item.slug && '/' + 'servicos';
 
   return '';
 };

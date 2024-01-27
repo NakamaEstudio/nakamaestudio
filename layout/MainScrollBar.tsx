@@ -17,7 +17,7 @@ function MainScrollBar({children, options, ...restProps}: ScrollbarOp) {
 
 
     useEffect(() => {
-// @ts-ignore 
+
         const scroll = Scrollbar.init(ref.current, options);
 
         ScrollTrigger.defaults({
@@ -27,10 +27,10 @@ function MainScrollBar({children, options, ...restProps}: ScrollbarOp) {
         scroll?.addListener(() => ScrollTrigger.refresh());
         dispatch(setScrollbar(scroll));
 
-// @ts-ignore 
+
         ref.current?.style.removeProperty("overflow");
         document.body.classList.add("dsn-active-scrollbar");
-// @ts-ignore 
+
         ref.current.querySelector(".scrollbar-track.scrollbar-track-x")?.remove();
 
         return () => {

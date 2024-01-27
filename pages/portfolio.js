@@ -6,8 +6,12 @@ import Portfolio from '../components/portfolio/Portfolio';
 import ModalContact from '../components/model-right/ModalContact';
 import Footer from '../components/footer/Footer';
 import Head from 'next/head';
-
+import Button from '../components/button/Button';
 function Work() {
+  const PortContent = {
+    
+    buttonText: "Conheça todos os nossos cases"
+};
   return (
     <Layout
       modelRight={{
@@ -29,7 +33,16 @@ function Work() {
             Projetos de Sucesso
           </span>
         </p>
-        <h1 className="title text-uppercase">Seja mais um.</h1>
+        <h1 className="title text-uppercase">Projetos de Sucesso.</h1>
+        <Button
+                            href={"#"}
+                            className="mb-30 line-head btn-portfolio"
+                            borderStyle={"border-color-heading-color"}
+                            borderRadius
+                            transitionPage={{title: PortContent.buttonText}}
+                        >
+                            {PortContent.buttonText}
+                        </Button>
       </HeaderNormal>
       {/*========== End Header Normal ==========*/}
 

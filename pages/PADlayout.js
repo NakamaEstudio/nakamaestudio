@@ -48,10 +48,7 @@ function PADlayout({ Component, pageProps, children }) {
     scrollDiv.style.cssText =
       'width:100px;height:100px;overflow: scroll;position: absolute;top: -9999px;';
     document.body.appendChild(scrollDiv);
-    document.body.style.setProperty(
-      '--dsn-width-scroll',
-      scrollDiv.offsetWidth - scrollDiv.clientWidth + 'px'
-    );
+   
     document.body.removeChild(scrollDiv);
   }, []);
 

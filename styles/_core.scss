@@ -394,5 +394,7 @@ body, .main-root {
     }
   }
 }
-
+#main-content > section.overlay-nakama > div > div > div.dsn-slider-content.hero-content.dsn-container.d-flex.align-items-end.pb-80.overlay-nakama > div.slide-content.dsn-active > h1 > a:focus{
+  text-decoration: none;
+}
 @import "global/load";

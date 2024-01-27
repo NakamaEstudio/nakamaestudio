@@ -4,27 +4,27 @@ const data = [
     title: 'PV Operation',
     slug: 'pv-operation',
     category: ['Tecnologia'],
-    description: 'Vin tries to reflect Diesel’s vision and combines.',
+    description: 'PV Operation.',
     src: '/img/portfolio/pv-operation/3.png',
-    overlay: 4
+    overlay: 3
   },
   {
     id: 2,
     title: 'Famillevet',
     slug: 'famillevet',
     category: ['Saúde-e-Beleza'],
-    description: '',
+    description: 'Famillevet',
     src: '/img/portfolio/famillevet/3.png',
-    overlay: 2
+    overlay: 3
   },
   {
     id: 3,
     title: 'Artisan - Marcenaria & Design',
     slug: 'artisan',
     category: ['Arquitetura-e-Marcenaria'],
-    description: 'We are thrilled to share our new reel with you all.',
-    src: '/img/project/artisan/hero.jpg',
-    overlay: 4
+    description: 'Artisan - Marcenaria & Design.',
+    src: '/img/portfolio/artisan/hero.jpg',
+    overlay: 3
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const data = [
     slug: 'ecosintese',
     category: ['Engenharia'],
     src: '/img/portfolio/ecosintese/3.jpg',
-    description: 'We are thrilled to share our new reel with you all.',
+    description: 'Ecosintese.',
     overlay: 3
   },
   
@@ -43,9 +43,11 @@ const data = [
     slug: 'gastrobeef',
     category: ['Gastronomia'],
     src: '/img/portfolio/gastrobeef/4.jpg',
-    description: 'We are thrilled to share our new reel with you all.',
+    description: 'Gastrobeef.',
     overlay: 3
   },
+];
+{/*
   {
     id: 8,
     title: 'Ricky Autocenter',
@@ -92,7 +94,8 @@ const data = [
     overlay: 3
   },
   
-];
+
+*/}
 
 
 export const getPortfolioData = () => data;
@@ -101,7 +104,7 @@ export const getPortfolioItem = (value, whereName = 'slug') => {
   return data.find((item) => item[whereName] === value);
 };
 export const getPortfolioLink = (item) => {
-  if (item) return item.slug && '/portfolio/' + item.slug;
+  if (item) return item.slug && 'servicos'
 
   return '';
 };
