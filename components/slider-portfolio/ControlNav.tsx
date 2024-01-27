@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {memo, MutableRefObject, useEffect, useState} from 'react';
 import {dsnCN} from "../../hooks/helper";
 

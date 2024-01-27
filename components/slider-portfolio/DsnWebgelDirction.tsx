@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {memo, useEffect, useRef} from 'react';
 import * as THREE from 'three';
 import {gsap ,Expo} from "gsap";
