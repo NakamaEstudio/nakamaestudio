@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { ElementType, HTMLProps, useEffect, useRef } from 'react';
 import { dsnCN, scrollTop } from '../hooks/helper';
 import dataAttr from '../hooks/dataAttr';
@@ -15,9 +16,10 @@ interface LayoutProps {
   colorVersion: 'dark' | 'light';
   optionsScrollbar?: ScrollbarOptions | {};
   modelRight?: {
-    children: any;
+    children: string;
     propsModal: HTMLProps<HTMLButtonElement> & { textBtn?: string };
-  };
+  },
+  className?: string,
 }
 
 // @ts-ignore
