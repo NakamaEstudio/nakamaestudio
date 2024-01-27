@@ -27,7 +27,7 @@ import { checkMobile, parallaxIt } from '../hooks/helper';
 import LoadingPage from '../layout/LoadingPage';
 import { tdEnd } from '../hooks/transition/transitionDefalut';
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { Analytics } from '@vercel/analytics/react';
 
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
@@ -142,6 +142,7 @@ function MyApp({Component, pageProps}) {
       <SpeedInsights/>
           <LoadingPage />
           <EremiaMenu hamburger />
+          <Analytics />
           <Component {...pageProps} />
           <OptionTheme
             lineTheme={[creativeLine, setCreativeLine]}
@@ -153,6 +154,7 @@ function MyApp({Component, pageProps}) {
           return(
           <Provider store={store}>
         <div id="__dsn_content" className={colorPage}>
+        <Analytics />
         {getLayout(<Component {...pageProps} />)}
         </div>
       </Provider>
