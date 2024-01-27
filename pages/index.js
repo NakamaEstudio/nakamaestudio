@@ -14,19 +14,19 @@ import Accordion, { AccordionItem } from '../components/accordion/Accordion';
 import DsnGrid from '../layout/DsnGrid';
 import TitleCover from '../components/heading/TitleCover';
 import BlogSwiper from '../components/bolg/BlogSwiper';
-import Team from '../components/Team/Team';
 import BrandClient from '../components/brand-client/BrandClient';
 
 import NextPage from '../components/next/NextPage';
 import Footer from '../components/footer/Footer';
 import ModalContact from '../components/model-right/ModalContact';
 import Head from 'next/head';
+import Image from 'next/image';
 
 function Home() {
   const HomeContent = {
-    buttonText:"Vamos iniciar um projeto?",
-    buttonTransition: "Se surpreenda"
-  }
+    buttonText: 'Vamos iniciar um projeto?',
+    buttonTransition: 'Se surpreenda'
+  };
   TitleSection.defaultProps = {
     classDesc: 'line-shape line-shape-before',
     classDesInner: 'line-bg-right'
@@ -52,12 +52,12 @@ function Home() {
             autoplay: true,
             spaceBetween: 4,
             speed: 10000,
-            parallax:true,
+            parallax: true
           }}
           webgelOptions={{
-            intensity:3,
-            priority:true,
-            displacement: '/img/project/project1/Background.jpg',
+            intensity: 3,
+            priority: true,
+            displacement: "/img/project/project1/Background.jpg",
             speedIn: 6
           }}
           metaData={{ hasSeparator: true }}
@@ -80,14 +80,16 @@ function Home() {
         </TitleSection>
         <ServiceOne />
         <Button
-                            href={"https://drive.google.com/drive/folders/1d0Eu5Gs0gPuS7vYBxASbW9ZxIJh_xWOX"}
-                            className="mb-30 line-head btn-project"
-                            borderStyle={"border-color-heading-color"}
-                            borderRadius
-                            transitionPage={{title: HomeContent.buttonTransition}}
-                        >
-                            {HomeContent.buttonText}
-                        </Button>
+          href={
+            '/contato'
+          }
+          className="mb-30 line-head btn-project"
+          borderStyle={'border-color-heading-color'}
+          borderRadius
+          transitionPage={{ title: HomeContent.buttonTransition }}
+        >
+          {HomeContent.buttonText}
+        </Button>
       </div>
       {/*End Service*/}
 

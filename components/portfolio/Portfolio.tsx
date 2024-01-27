@@ -84,7 +84,7 @@ function Portfolio({
             }
             key={index}
             portoDetails={item}
-            textButton="View Case"
+            textButton="Ver Case"
             styleBox={styleBox}
           />
         ))}

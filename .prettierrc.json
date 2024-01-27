@@ -1,5 +1,9 @@
 {
     "trailingComma": "none",
+    "tabWidth": 2,
+    "printWidth":120,
+    "endOfLine":"auto",
+    "bracketSpacing":true,
     "semi": true,
     "singleQuote": true,    
     "pluginSearchDirs": false

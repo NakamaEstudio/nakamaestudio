@@ -140,7 +140,14 @@ export default function PAD () {
           </div>
           <div className="p-relative box-left">
             <div className="box-im h-100  ">
-            <video className="cover-bg-img overlay-nakama" autoPlay muted loop>
+            <video
+  className="cover-bg-img overlay-nakama"
+  autoPlay
+  muted
+  loop
+  preload="metadata" // Carrega metadados primeiro (tamanho, duração, etc.)
+  poster="img/pad/bannerone.png" // Mostra esta imagem até que o vídeo seja carregado
+>
     <source src="/img/video/padvideo.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>

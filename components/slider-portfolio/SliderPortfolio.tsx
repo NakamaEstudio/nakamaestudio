@@ -34,7 +34,7 @@ export interface SliderPortfolioProps {
       };
   webgel?: boolean;
   webgelOptions?: {
-    displacement?: '/img/project/project1/Background.jpg' | string;
+    displacement?:string;
     intensity?: number;
     onComplete?: React.ReactNode;
     speedIn?: number;
