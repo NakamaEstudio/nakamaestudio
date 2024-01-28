@@ -50,7 +50,7 @@ function Home() {
           className={'align-items-end pb-80 overlay-nakama'}
           optionSlider={{
             autoplay: true,
-            spaceBetween: 4,
+            spaceBetween: 2,
             speed: 10000,
             parallax: true
           }}
@@ -58,7 +58,7 @@ function Home() {
             intensity: 3,
             priority: true,
             displacement: '/img/project/project1/Background.jpg',
-            speedIn: 6
+            speedIn: 3
           }}
           metaData={{ hasSeparator: true }}
           autoplayDelayStart={2000} // 10 segundos de atraso antes de iniciar o autoplay

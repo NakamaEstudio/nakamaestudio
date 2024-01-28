@@ -215,6 +215,7 @@ function About() {
           speed={1000}
           grabCursor
           loop
+          autoHeight = {true}
           loopedSlides={2}
           parallax
           parallaxImage={{ 'data-swiper-parallax-scale': 0.7 }}

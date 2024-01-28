@@ -3,12 +3,12 @@ import { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import MoveTrigger from '../../animation/MoveTrigger';
 import {
+  autoHeight,
   Controller,
   Pagination,
   Parallax,
   SwiperOptions,
-  resizeObserver,
-  Thumbs
+ 
 } from 'swiper';
 import { dsnCN } from '../../hooks/helper';
 import Image from 'next/image';
@@ -130,9 +130,17 @@ function Testimonial({
           <div className="testimonial-nav">
             <div className="testimonial-nav-inner">
               <Swiper
-                modules={[Parallax, Controller]}
-                autoHeight={true}
-                autoplay={true}
+              autoHeight={true}
+             
+              pagination={{
+                  clickable: true, el: '.swiper-pagination'
+              }}
+              direction={'horizontal'}
+            
+              
+                modules={[Parallax, Controller, Pagination]}
+               
+                autoplay={autoPlay}
                 spaceBetween={10}
                 slidesPerView={1}
                 resizeObserver={true}
@@ -185,11 +193,12 @@ function Testimonial({
               loopedSlides={loopedSlides}
               allowTouchMove={false}
               speed={speed}
+              autoHeight={true}
             >
               {TestimonialDetails.map(($item, $index) => (
-                <SwiperSlide key={$index}>
+                <SwiperSlide  key={$index}>
                   <p
-                    data-swiper-parallax="90%"
+                    data-swiper-parallax="0"
                     data-swiper-parallax-opacity="0"
                   >
                     {$item.description}

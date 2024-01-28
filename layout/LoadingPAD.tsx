@@ -87,6 +87,7 @@ function LoadingPage({className, glitchLogo = true}: LoadingProps) {
             window.removeEventListener('load', handleLoad); // Limpa o listener ao desmontar
         }
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     if(remove) {
