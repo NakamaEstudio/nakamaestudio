@@ -5,6 +5,7 @@ import { Autoplay, Controller, Parallax } from 'swiper';
 import { dsnCN } from '../../hooks/helper';
 import { useArrayRef } from '../../hooks/dsnHooks';
 import { getServicosData } from '../../data/servicos';
+
 import dsnSplitting from '../../hooks/spltting';
 import { gsap } from 'gsap';
 
@@ -68,10 +69,11 @@ function SliderPortfolio({
 }: SliderPortfolioProps) {
   const rootSlider = useRef(),
     [contentRef, setContentRef] = useArrayRef(),
+    
     dataServicos = data || getServicosData(),
     [active, setActive] = useState(0),
     bg = useRef();
-
+    
   const tl = useRef(gsap.timeline());
   
 

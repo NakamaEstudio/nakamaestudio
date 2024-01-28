@@ -1,6 +1,6 @@
 import MetaPost from "../meta/MetaPost";
 import {dsnCN} from "../../hooks/helper";
-import {getPortfolioLink} from '../../data/portfolio';
+import { getServicosLink } from '../../data/servicos';
 import Button from "../button/Button";
 import {forwardRef} from "react";
 import DsnLink from "../../hooks/DsnLink";
@@ -30,7 +30,7 @@ function ContentSlider({
 
                     <h1 className="title" >
                         {
-                            item.slug ? <DsnLink href={getPortfolioLink(item)} dangerouslySetInnerHTML={{__html: item.title}}
+                            item.slug ? <DsnLink href={getServicosLink(item)} dangerouslySetInnerHTML={{__html: item.title}}
                                     transitionPage={{title : item.title}}
                                 />
                                 :

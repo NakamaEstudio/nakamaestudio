@@ -194,6 +194,7 @@
     position: relative;
     width: 80%;
     margin: auto;
+    height: auto;
 
     @include media_991 {
       width: 100%;
@@ -237,6 +238,7 @@
     .testimonial-content,
     .testimonial-nav .testimonial-nav-inner {
       width: 100%;
+      height: auto;
     }
 
     .testimonial-nav {

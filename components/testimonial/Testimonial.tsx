@@ -7,6 +7,7 @@ import {
   Pagination,
   Parallax,
   SwiperOptions,
+  resizeObserver,
   Thumbs
 } from 'swiper';
 import { dsnCN } from '../../hooks/helper';
@@ -14,10 +15,14 @@ import Image from 'next/image';
 import { ParallaxOption } from '../../type/DsnSwiper';
 import { getTestimonialData } from '../../data/testimonial';
 import { backgroundColor, styleBox } from '../../hooks/EremiaType';
+import React from 'react';
 
 interface TestimonialProps extends SwiperOptions {
+  autoHeight?: boolean,
+  autoPlay?: boolean,
   className?: string;
   title?: string;
+  resizeObserver?: boolean | SwiperOptions;
   desktop?: {} | SwiperOptions;
   mobile?: {} | SwiperOptions;
   tablet?: {} | SwiperOptions;
@@ -31,8 +36,11 @@ interface TestimonialProps extends SwiperOptions {
 }
 
 function Testimonial({
+  autoHeight,
+  autoPlay,
   className,
   title,
+  resizeObserver,
   desktop,
   mobile,
   tablet,
@@ -123,8 +131,11 @@ function Testimonial({
             <div className="testimonial-nav-inner">
               <Swiper
                 modules={[Parallax, Controller]}
+                autoHeight={true}
+                autoplay={true}
                 spaceBetween={10}
                 slidesPerView={1}
+                resizeObserver={true}
                 breakpoints={{
                   992: desktop,
                   768: tablet,
@@ -139,6 +150,8 @@ function Testimonial({
                   <SwiperSlide
                     key={$index}
                     className="d-flex align-items-center"
+                    autoHeight={true}
+                    autoplay={true}
                   >
                     <div className="box-img" {...parallaxImage}>
                       <Image

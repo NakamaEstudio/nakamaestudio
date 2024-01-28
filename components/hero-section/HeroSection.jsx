@@ -10,7 +10,7 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 const HeroContent = {
     title: "Bem vindo ao<br/>  Estúdio Nákama",
     subtitle: `"Qual a MARCA que seu negócio está deixando nas pessoas?”`,
-    description: `Aqui no Estúdio Nákama, não apenas forjamos marcas; cultivamos relacionamentos duradouros entre marcas e pessoas. Cada design, cada estratégia, é uma expressão autêntica do compromisso que temos em conectar sua marca ao coração e à mente do seu público. Sinta-se em casa enquanto exploramos juntos o poder da autenticidade, criatividade e conexão.`,
+    description: `Aqui no Estúdio, cultivamos relacionamentos duradouros entre Marcas e Pessoas. Cada design, cada estratégia, é uma expressão autêntica do compromisso que temos em conectar sua marca ao coração e à mente do seu público.`,
     authorTitle: "Aderbal Amorin ",
     authorJob: "Founder & Diretor de Criação",
     experienceNumber: "+ de 32",

@@ -1,4 +1,4 @@
-const data = [
+const dataportfolio = [
   {
     id: 1,
     title: 'PV Operation',
@@ -98,14 +98,14 @@ const data = [
 */}
 
 
-export const getPortfolioData = () => data;
+export const getPortfolioData = () => dataportfolio;
 
 export const getPortfolioItem = (value, whereName = 'slug') => {
-  return data.find((item) => item[whereName] === value);
+  return dataportfolio.find((item) => item[whereName] === value);
 };
 export const getPortfolioLink = (item) => {
   if (item)
-        return item.slug && item.slug;
+        return item.slug && '/portfolio/' + item.slug;
 
     return '';
 };

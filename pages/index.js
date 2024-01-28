@@ -57,32 +57,23 @@ function Home() {
           webgelOptions={{
             intensity: 3,
             priority: true,
-            displacement: "/img/project/project1/Background.jpg",
+            displacement: '/img/project/project1/Background.jpg',
             speedIn: 6
           }}
           metaData={{ hasSeparator: true }}
           autoplayDelayStart={2000} // 10 segundos de atraso antes de iniciar o autoplay
         />
       </section>
-      <HeroSection
-        className="section-margin fill-right-container container"
-        data-dsn-title="Quem nós somos"
-      />
+      <HeroSection className="section-margin fill-right-container container" data-dsn-title="Quem nós somos" />
 
       {/*Start Service*/}
-      <div className="section-margin container" data-dsn-title="O que fazemos">
-        <TitleSection
-          className="align-items-center text-center"
-          description={'O que fazemos'}
-        >
-          &quot;Saber o que não somos, é tão importante quanto a clareza do que
-          devemos ser&quot;
+      <div className="section-margin container" data-dsn-title="Como fazemos">
+        <TitleSection className="align-items-center text-center" description={'O que fazemos'}>
+          &quot;Acreditamos que: Saber “quem não somos”, é tão importante quanto a clareza de quem devemos ser!&quot;
         </TitleSection>
         <ServiceOne />
         <Button
-          href={
-            '/contato'
-          }
+          href={'/contato'}
           className="mb-30 line-head btn-project"
           borderStyle={'border-color-heading-color'}
           borderRadius
@@ -114,13 +105,11 @@ function Home() {
           </TitleSection>
 
           <p className="mb-10">
-            Acreditamos que o verdadeiro poder de uma marca está na conexão
-            genuína com seu público.
+            Acreditamos que o verdadeiro poder de uma marca está na conexão genuína com seu público.
           </p>
           <p className="mb-30">
-            Construímos marcas não apenas para serem reconhecidas, mas para
-            serem amadas e defendidas por seus seguidores, ou seja, para serem
-            MARCANTES
+        
+        Construímos marcas não apenas para serem reconhecidas, mas para serem amadas e defendidas por seus seguidores, ou seja, para serem MARCANTES
           </p>
 
           <Button
@@ -133,25 +122,14 @@ function Home() {
           </Button>
 
           <p className={`sm-p mt-30 theme-color`}>
-            NOTA : Marcas são posicionadas no detalhe, na postura diante das
-            situações boas e ruins.
+            NOTA : Marcas são posicionadas no detalhe, na postura diante das situações boas e ruins.
           </p>
         </MoveBox>
       </div>
 
       {/*End Box Info Move Content*/}
-      <section
-        className="box-gallery-vertical section-margin container"
-        data-dsn-title="Nossos serviços"
-      >
-        <DsnGrid
-          col={2}
-          colTablet={1}
-          colGap={0}
-          rowGap={0}
-          rowGapTablet={0}
-          rowGapMobile={0}
-        >
+      <section className="box-gallery-vertical section-margin container" data-dsn-title="Nossos serviços">
+        <DsnGrid col={2} colTablet={1} colGap={0} rowGap={0} rowGapTablet={0} rowGapMobile={0}>
           <div className="p-relative mb-lg-section">
             <div className="box-im w-100 h-100 p-absolute overlay-nakama">
               <ParallaxImage
@@ -169,45 +147,27 @@ function Home() {
             <div className="box-info h-100 box-padding background-section ">
               <DsnGrid className="box-info-inner" col={1} colGap={0}>
                 <TitleCover>NÁKAMA</TitleCover>
-                <TitleSection
-                  className={'text-uppercase'}
-                  description={'Serviços'}
-                  defaultSpace={false}
-                >
+                <TitleSection className={'text-uppercase'} description={'Serviços'} defaultSpace={false}>
                   Os 3 pilares do posicionamento
                 </TitleSection>
                 <Accordion>
-                  <AccordionItem
-                    title="Aura - ID e Posicionamento de Marca"
-                    active
-                    number={1}
-                  >
+                  <AccordionItem title="Aura - ID e Posicionamento de Marca" active number={1}>
                     <p>
-                      Criamos a alma da sua marca, desde o diagnóstico inicial
-                      até o desenvolvimento do logotipo, garantindo que sua
-                      identidade transmita a mensagem certa.
+                      Criamos a alma da sua marca, desde o diagnóstico inicial até o desenvolvimento do logotipo,
+                      garantindo que sua identidade transmita a mensagem certa.
                     </p>
                   </AccordionItem>
-                  <AccordionItem
-                    title="Ambiente - Pontos de Contato e Experiência da Marca"
-                    number={2}
-                  >
+                  <AccordionItem title="Ambiente - Pontos de Contato e Experiência da Marca" number={2}>
                     <p>
-                      Desenvolvemos o ambiente onde sua marca interage com o
-                      público, seja por meio do design de embalagens, do site e
-                      aplicativos, ou pela criação de estratégias de mídia
-                      social.
+                      Desenvolvemos o ambiente onde sua marca interage com o público, seja por meio do design de
+                      embalagens, do site e aplicativos, ou pela criação de estratégias de mídia social.
                     </p>
                   </AccordionItem>
-                  <AccordionItem
-                    title="Autonomia - Consultoria de Gestão de Marcas"
-                    number={3}
-                  >
+                  <AccordionItem title="Autonomia - Consultoria de Gestão de Marcas" number={3}>
                     <p>
-                      Oferecemos orientações estratégicas para o crescimento do
-                      seu negócio, desde o diagnóstico inicial até o
-                      acompanhamento e medição dos resultados, garantindo que
-                      sua marca siga um caminho de sucesso.
+                      Oferecemos orientações estratégicas para o crescimento do seu negócio, desde o diagnóstico inicial
+                      até o acompanhamento e medição dos resultados, garantindo que sua marca siga um caminho de
+                      sucesso.
                     </p>
                   </AccordionItem>
                 </Accordion>
@@ -218,10 +178,7 @@ function Home() {
       </section>
       {/*Start Portfolio*/}
       <div className="section-margin" data-dsn-title="Cases de Sucesso">
-        <TitleSection
-          className={`align-items-center container text-center`}
-          description={'Cases de Sucesso'}
-        >
+        <TitleSection className={`align-items-center container text-center`} description={'Cases de Sucesso'}>
           Hall da fama do
           <br />
           Estúdio Nákama
@@ -236,6 +193,7 @@ function Home() {
           centeredSlides
           loop
           blur
+          autoHeight={true}
           parallax
           speed={1200}
           watchSlidesProgress
@@ -243,9 +201,7 @@ function Home() {
           parallaxImage={{ 'data-swiper-parallax-scale': '0.85' }}
           parallaxContent={{ 'data-swiper-parallax-opacity': '0' }}
         >
-          <SwiperPagination
-            className={`justify-content-between dsn-container mt-30`}
-          />
+          <SwiperPagination autoHeight={true} className={`justify-content-between dsn-container mt-30`} />
         </PortfolioSwiper>
       </div>
       {/*End Portfolio*/}
@@ -270,9 +226,7 @@ function Home() {
             'data-swiper-parallax': '30%'
           }}
         >
-          <SwiperPagination
-            className={`justify-content-between dsn-container mt-30`}
-          />
+          <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
         </Testimonial>
       </div>
 
@@ -284,10 +238,7 @@ function Home() {
 
       {/*Start Blog*/}
       <div className="section-margin" data-dsn-title="Postagens">
-        <TitleSection
-          className={`align-items-center  container text-center`}
-          description={'Postagens'}
-        >
+        <TitleSection className={`align-items-center  container text-center`} description={'Postagens'}>
           Últimos e mais relevantes posts <br />
         </TitleSection>
         <BlogSwiper
@@ -306,9 +257,7 @@ function Home() {
           parallaxImage={{ 'data-swiper-parallax-scale': '0.85' }}
           parallaxContent={{ 'data-swiper-parallax-opacity': '0.5' }}
         >
-          <SwiperPagination
-            className={`justify-content-between dsn-container mt-30`}
-          />
+          <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
         </BlogSwiper>
       </div>
       {/*End Blog*/}
@@ -328,25 +277,13 @@ function Home() {
       {/*========== End team Section ========== */}
 
       {/*========== End brand-client Section ==========*/}
-      <section
-        className="section-margin container"
-        data-dsn-title="Nossos clientes"
-      >
-        <TitleSection
-          className={`align-items-center text-center`}
-          description={'Nossos clientes'}
-        >
+      <section className="section-margin container" data-dsn-title="Nossos clientes">
+        <TitleSection className={`align-items-center text-center`} description={'Nossos clientes'}>
           Seu sucesso, <br />
           nossa reputação
         </TitleSection>
 
-        <BrandClient
-          col={4}
-          colTablet={3}
-          colMobile={3}
-          colGap={0}
-          rowGap={0}
-        />
+        <BrandClient col={4} colTablet={3} colMobile={3} colGap={0} rowGap={0} />
       </section>
       {/*========== End brand-client Section ==========*/}
 

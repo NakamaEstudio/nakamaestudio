@@ -55,8 +55,4 @@ export const getServicosData = () => dataServicos;
 export const getServicosItem = (value, whereName = 'slug') => {
   return dataServicos.find((item) => item[whereName] === value);
 };
-export const getServicosLink = (item) => {
-  if (item) return item.slug && '/' + 'servicos';
-
-  return '';
-};
+export const getServicosLink = () => '/servicos';

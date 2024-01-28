@@ -74,24 +74,21 @@ function About() {
           defaultSpace={false}
         />
         <DsnGrid col={2} colTablet={1}>
-          <div className="box-left">
+          <div className="box-left pb-30">
             <h4>
               {' '}
               Buscamos ir além do óbvio, explorando o terreno dos significados e
               da autenticidade para moldar marcas memoráveis e duradouras.{' '}
             </h4>
+            
           </div>
           <div className="box-right">
-            <p className="max-w570 dsn-up mb-15 ">
+            <p className="pl-30 dsn-up mb-15 pb-30  ">
               No Estúdio Nákama, acreditamos no poder das conexões autênticas
               para forjar “Marcas mais marcantes”.
             </p>
 
-            <p className="max-w570 dsn-up pb-30">
-              Somos mais do que um estúdio de Branding e Design; somos guardiões
-              de histórias, artesãos de identidades e mestres na arte de
-              construir laços significativos entre marcas e seus públicos.
-            </p>
+           
           </div>
         </DsnGrid>
         <ServiceGrid

@@ -20,7 +20,7 @@ const servicesDetails = [
     ),
     title: 'Marca com Identidade Única',
     description:
-      'Desenvolvemos a identidade autêntica da sua marca, contando sua história de forma única.'
+      'Desenvolvemos a identidade autêntica da sua marca.'
   },
   {
     icon: (
@@ -38,9 +38,9 @@ const servicesDetails = [
         </g>
       </svg>
     ),
-    title: 'Experiências Memoráveis para Clientes',
+    title: 'Estratégias adaptáveis:',
     description:
-      'Criamos interações marcantes que se tornam momentos inesquecíveis para seus clientes.'
+      'Desenvolvemos projetos personalizados e alinhados com a estratégia e objetivo do seu negócio.'
   },
   {
     icon: (
@@ -56,7 +56,7 @@ const servicesDetails = [
         </g>
       </svg>
     ),
-    title: 'Estratégias Flexíveis e Adaptáveis',
+    title: 'Estratégias Flexíveis e Adaptáveis:',
     description:
       'Desenvolvemos estratégias ágeis que se ajustam ao crescimento e mudanças do seu negócio.'
   },
@@ -80,9 +80,9 @@ const servicesDetails = [
         </g>
       </svg>
     ),
-    title: 'Presença Online que Reflete sua Marca',
+    title: 'o	Presença Online que Reflete sua Marca:',
     description:
-      'Destacamos sua marca na internet, transmitindo sua verdadeira essência e valores.'
+      'Destacamos sua marca no meio digital transmitindo sua verdadeira essência.'
   },
   {
     icon: (
