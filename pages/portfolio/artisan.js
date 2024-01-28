@@ -136,7 +136,7 @@ function Project1() {
       </section>
       {/*End box vertical Section*/}
 
-      <NextProject heroContent={getPortfolioItem('famillevet')} number={4} />
+      <NextProject heroContent={getPortfolioItem('ecosintese')} number={2} />
     </Layout>
   );
 }

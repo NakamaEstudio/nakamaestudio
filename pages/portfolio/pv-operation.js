@@ -129,7 +129,7 @@ forma ágil. Com o melhor custo benefício do mercado.
       </section>
       {/*End Intro Project*/}
 
-      <NextProject heroContent={getPortfolioItem('kretzer-case')} number={3} />
+      <NextProject heroContent={getPortfolioItem('artisan')} number={1} />
     </Layout>
   );
 }

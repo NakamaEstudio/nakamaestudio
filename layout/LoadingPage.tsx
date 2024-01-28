@@ -2,7 +2,7 @@ import Logo from '../components/logo/Logo';
 import {dsnCN, pageLoad} from "../hooks/helper";
 import {useEffect, useMemo, useRef, useState} from "react";
 import {gsap} from "gsap";
-import LogoPAD from '../components/logo/LogoPAD';
+
 
 const Sibling = ({isSibling}: { isSibling?: boolean }) => {
     
@@ -60,29 +60,38 @@ function LoadingPage({className, glitchLogo = true}: LoadingProps) {
                     setRemove(true);
                     document.body.style.overflow = "";
                 });
+                tl.call(function () {
+                    setRemove(true); // Atualiza o estado para remover o pré-carregador
+                    document.body.style.overflow = ""; // Restaura o scroll
+                });
 
 
         }
 
-        const timer = pageLoad(0, 100, 300, function (val) {
+       
+        const timer = pageLoad(0, 100, 3000, function (val) {  // Exemplo: Duração total de 3000ms
             setProgressValue(val);
             present.value = val;
-            if (val >= 100)
+            if (val >= 100) {
                 handleLoad();
+            }
         });
 
+        // Adiciona o listener para o evento 'load'
+        window.addEventListener('load', handleLoad);
 
         return () => {
             document.body.style.overflow = "";
             clearInterval(timer);
             tl.kill();
+            window.removeEventListener('load', handleLoad); // Limpa o listener ao desmontar
         }
 
-    }, [])// eslint-disable-line react-hooks/exhaustive-deps
+    }, []);
 
-
-    if(remove)
-        return ;
+    if(remove) {
+        return null; // Retorna null para não renderizar o pré-carregador quando o carregamento estiver completo
+    }
     return (
 // @ts-ignore 
         <div id="dsn_preloader" className={dsnCN("preloader", className)} ref={preloader}>

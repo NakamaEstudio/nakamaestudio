@@ -136,8 +136,8 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
       
       {/*End Gallery List*/}
       <NextProject
-        heroContent={getPortfolioItem('principal-garden')}
-        number={5}
+        heroContent={getPortfolioItem('gastrobeef')}
+        number={4}
       />
     </Layout>
   );

@@ -125,8 +125,7 @@ lado das empresas em suas necessidades para seu desenvolvimento.
       {/*End Intro Project*/}
 
       <NextProject
-        heroContent={getPortfolioItem('artisan')}
-        number={1}
+       heroContent={getPortfolioItem('famillevet')} number={3}
       />
     </Layout>
   );

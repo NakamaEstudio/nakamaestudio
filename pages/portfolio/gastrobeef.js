@@ -119,8 +119,8 @@ servidos por um atendimento atencioso e simpático.
       {/*End Box Info Move Content*/}
 
       <NextProject
-        heroContent={getPortfolioItem('procidade-case')}
-        number={6}
+        heroContent={getPortfolioItem('pv-operation')}
+        number={5}
       />
     </Layout>
   );
