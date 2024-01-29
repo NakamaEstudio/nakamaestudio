@@ -44,15 +44,17 @@ function Home() {
       </Head>
       <section className="overlay-nakama">
         <SliderPortfolio
-          priority
+          priority={true}
           webgel
+          loop={true}
           fullWidth
           className={'align-items-end pb-80 overlay-nakama'}
           optionSlider={{
             autoplay: true,
             spaceBetween: 2,
-            speed: 10000,
-            parallax: true
+            speed: 5000,
+            parallax: true,
+           
           }}
           webgelOptions={{
             intensity: 3,

@@ -158,8 +158,8 @@ function Testimonial({
                   <SwiperSlide
                     key={$index}
                     className="d-flex align-items-center"
-                    autoHeight={true}
-                    autoplay={true}
+                    
+                  
                   >
                     <div className="box-img" {...parallaxImage}>
                       <Image
