@@ -83,8 +83,8 @@ export default function LAB() {
           </ul>
         </div>
       </DsnGrid>
-      {/*<TitleSection className={`align-items-center text-center`}>Realização</TitleSection>
-     <LabTeam col={3} colTablet={0} colMobile={0} colGap={1} rowGap={0} className={`mb-50 mt--50 flex`} />*/}
+    <TitleSection className={`align-items-center text-center`}>Realização</TitleSection>
+     <LabTeam col={4} colTablet={0} colMobile={0} colGap={1} rowGap={0} className={`mb-50 mt--50 flex`} />
 
       {/*========== End About Section  ==========*/}
 
@@ -281,7 +281,7 @@ export default function LAB() {
               }}
               data={[
                 {
-                  icon: <Image src="#" alt="Marca da Vanessa" width={0} height={0} />,
+                  icon: <Image src="/img/lab/vanessa.png" alt="Marca da Vanessa" width={0} height={0} />,
                   title: 'Vanessa Moiseis - Empreendedora ',
                   description: 'Empreendedora na região da Grande Florianópolis, destacando-se no ramo de vestuário, com faturamento anual superior a 2 milhões de reais. Em uma trajetória de sucesso, ela compartilha valiosos aprendizados sobre como despertar o desejo de compra através do Instagram.'
                 }
@@ -311,7 +311,7 @@ export default function LAB() {
       </section>
 
       {/*Start testimonial Section*/}
-      <section className="background-section p-40 mb-100 text-center container">
+      <section className="background-section p-40 mb-50 text-center container">
         <h4 className=" ">Garanta sua vaga!</h4>
         <PADSection
           className="text-center mt-15 max-w750"

@@ -70,7 +70,7 @@ const menuContent = [
            
         },
         {
-            name: "Talk-Show: Laboratório de Negócios", href: "/",
+            name: "Talk-Show: Laboratório de Negócios", href: "/laboratorio-de-negocios",
            
         },
         {

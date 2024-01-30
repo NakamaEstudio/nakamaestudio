@@ -67,7 +67,7 @@ const menuContent = [
            
         },
         {
-            name: "Talk-Show: Laboratório de Negócios", href: "https://www.sympla.com.br/evento/laboratorio-de-negocios-talk-show-colaborativo/2258821?referrer=www.google.com",
+            name: "Talk-Show: Laboratório de Negócios", href: "/laboratorio-de-negocios",
            
         },
         {

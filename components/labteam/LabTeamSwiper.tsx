@@ -5,9 +5,10 @@ import { Pagination, Parallax, SwiperOptions } from 'swiper';
 import Image from 'next/image';
 
 const data = [
-  { src: '/img/pad/Fabmidia.png' },
-  { src: '/img/pad/ZUBI.png' },
-  { src: '/img/pad/logo-pad-white.png' },
+  { src: '/img/lab/logotipocolor.png' },
+  { src: '/img/lab/SEL.png' },
+  { src: '/img/lab/strattax.png' },
+  { src: '/img/lab/mais1cafe.png' },
   
 ];
 
@@ -20,13 +21,13 @@ export interface BrandTeamProps extends SwiperOptions {
   blur?: boolean;
 }
 
-function BrandTeam({
+function LabTeam({
   className,
   desktop,
   mobile,
   tablet,
   ...retsProps
-}: BrandTeamProps) {
+}: LabTeamProps) {
   return (
     <Swiper
       modules={[Pagination, Parallax]}
@@ -55,7 +56,7 @@ function BrandTeam({
   );
 }
 
-BrandTeam.defaultProps = {
+LabTeam.defaultProps = {
   desktop: {
     slidesPerView: 3
   },
@@ -67,4 +68,4 @@ BrandTeam.defaultProps = {
   }
 };
 
-export default BrandTeam;
+export default LabTeam;
