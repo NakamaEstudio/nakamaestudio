@@ -71,7 +71,7 @@ function Home() {
       {/*Start Service*/}
       <div className="section-margin container" data-dsn-title="Como fazemos">
         <TitleSection className="align-items-center text-center" description={'O que fazemos'}>
-          &quot;Acreditamos que: Saber “quem não somos”, é tão importante quanto a clareza de quem devemos ser!&quot;
+          Acreditamos que: Saber “quem não somos”, é tão importante quanto a clareza de quem devemos ser!
         </TitleSection>
         <ServiceOne />
         <Button

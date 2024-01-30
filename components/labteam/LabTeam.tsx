@@ -3,7 +3,7 @@ import DsnGrid, { DsnGridProps } from '../../layout/DsnGrid';
 import Image from 'next/image';
 
 const data = [
-  { src: '/img/pad/logotipocolor.png' },
+  { src: '/img/logo-black.png' },
   { src: '/img/lab/SEL.png' },
   { src: '/img/lab/strattax.png' },
   { src: '/img/lab/mais1cafe.png' },

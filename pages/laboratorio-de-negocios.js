@@ -100,7 +100,7 @@ export default function LAB() {
       <div className="p-relative background-section section-padding" data-dsn-title="Desafio">
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-right">
-            <TitleCover>Acesso Privilegiado</TitleCover>
+            <TitleCover>VIP</TitleCover>
             <TitleSection className="mb-30" description="Acesso Privilegiado " defaultSpace={false}>
               Diversidade de experimentos de empreendedores
             </TitleSection>
@@ -257,7 +257,7 @@ export default function LAB() {
       <div className="p-relative section-margin" data-dsn-title="Proposta">
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative background-section p-40 order-md-2">
-            <TitleCover>Painel</TitleCover>
+           
 
             <h4 className="mb-30">Painel: Experimentos de Sucesso e Aprendizados</h4>
             <ServiceGrid
