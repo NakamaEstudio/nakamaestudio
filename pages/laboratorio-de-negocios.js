@@ -10,8 +10,6 @@ import ParallaxImage from '../components/Image/ParallaxImage';
 import { ServiceGrid } from '../components/services/Service';
 import LabTeam from '../components/labteam/LabTeam';
 
-import { getPadServiceData } from '../data/padservice';
-
 import React from 'react';
 import { getTeamLab } from '../data/teamlab';
 import Image from 'next/image';
@@ -85,8 +83,8 @@ export default function LAB() {
           </ul>
         </div>
       </DsnGrid>
-      <TitleSection className={`align-items-center text-center`}>Realização</TitleSection>
-      <LabTeam col={3} colTablet={0} colMobile={0} colGap={1} rowGap={0} className={`mb-50 mt--50 flex`} />
+      {/*<TitleSection className={`align-items-center text-center`}>Realização</TitleSection>
+     <LabTeam col={3} colTablet={0} colMobile={0} colGap={1} rowGap={0} className={`mb-50 mt--50 flex`} />*/}
 
       {/*========== End About Section  ==========*/}
 
@@ -119,17 +117,8 @@ export default function LAB() {
           </div>
           <div className="p-relative box-left">
             <div className="box-im h-100  ">
-              <video
-                className="cover-bg-img overlay-nakama"
-                autoPlay
-                muted
-                loop
-                preload="metadata" // Carrega metadados primeiro (tamanho, duração, etc.)
-                poster="img/pad/bannerone.png" // Mostra esta imagem até que o vídeo seja carregado
-              >
-                <source src="/img/video/padvideo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+             <Image src={'img/lab/timetodo.jpg'} alt={'test'} width={600} height={100}
+                />
             </div>
           </div>
         </DsnGrid>
@@ -278,12 +267,13 @@ export default function LAB() {
               }}
               data={[
                 {
-                  icon: <Image src="/img/pad/section-logo.png" alt="Marca com Identidade Única" width={0} height={0} />,
+                  icon: <Image src="/img/pad/fabimidia2.png" alt="Marca da Fabimidia" width={0} height={0} />,
                   title: 'Fabricio Sousa - Fotógrafo',
-                  description: 'Estúdio de Branding especializado em posicionamento e construção de Marcas.'
+                  description: 'Fotógrafo e videomaker há 19 anos, é especialista em retratos e vídeos de posicionamento estratégico de imagem, com forte embasamento em marketing, contribuindo para o crescimento das marcas de vários empreendedores no digital.'
                 }
               ]}
             />
+            
             <ServiceGrid
               className="icon-left border-top pb-30 pt-30  align-items-center p-0"
               iconOption={{
@@ -291,9 +281,9 @@ export default function LAB() {
               }}
               data={[
                 {
-                  icon: <Image src="/img/pad/zubi-ofc.png" alt="Marca com Identidade Única" width={0} height={0} />,
+                  icon: <Image src="#" alt="Marca da Vanessa" width={0} height={0} />,
                   title: 'Vanessa Moiseis - Empreendedora ',
-                  description: 'Estúdio especializado em captação de conteúdo digital.'
+                  description: 'Empreendedora na região da Grande Florianópolis, destacando-se no ramo de vestuário, com faturamento anual superior a 2 milhões de reais. Em uma trajetória de sucesso, ela compartilha valiosos aprendizados sobre como despertar o desejo de compra através do Instagram.'
                 }
               ]}
             />
@@ -302,7 +292,7 @@ export default function LAB() {
             <div className="box-im w-100 h-100 p-absolute">
               <ParallaxImage
                 alt={''}
-                src={'img/pad/estudiotime.jpg'}
+                src={'img/lab/duplalab.jpg'}
                 overlay={3}
                 height="100%"
                 heightTable={'70vh'}
@@ -321,15 +311,15 @@ export default function LAB() {
       </section>
 
       {/*Start testimonial Section*/}
-      <section className="background-section p-40 mb-30 text-center container">
+      <section className="background-section p-40 mb-100 text-center container">
         <h4 className=" ">Garanta sua vaga!</h4>
         <PADSection
-          className="text-center mt-15 max-w570"
+          className="text-center mt-15 max-w750"
           tag="p"
           dirDescription="after"
           classDesInner=""
           description="Junte-se a uma comunidade de empreendedores e descubra
-            e insights valiosos para impulsionar o seu negócio. "
+          insights valiosos para impulsionar o seu negócio. "
         />
         <Button
           href="https://www.sympla.com.br/evento/laboratorio-de-negocios-talk-show-colaborativo/2258821?referrer=www.google.com"

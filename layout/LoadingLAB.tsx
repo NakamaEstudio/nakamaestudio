@@ -2,7 +2,7 @@ import LogoPAD from '../components/logo/Logo';
 import {dsnCN, pageLoad} from "../hooks/helper";
 import {useEffect, useMemo, useRef, useState} from "react";
 import {gsap} from "gsap";
-import Logo from '../components/logo/Logo';
+import LogoLab from '../components/logo/LogoLAB';
 
 const Sibling = ({isSibling}: { isSibling?: boolean }) => {
     
@@ -11,7 +11,7 @@ const Sibling = ({isSibling}: { isSibling?: boolean }) => {
         <span className={dsnCN("dsnload__row", isSibling && "dsnload__row--sibling")}>
                 <span className="dsnload__img">
                     {/* @ts-ignore */}
-                    <Logo/>
+                    <LogoLab/>
                 </span>
         </span>
     );

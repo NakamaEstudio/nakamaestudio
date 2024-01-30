@@ -3,7 +3,7 @@ const dataLAB = [
       id: 1,
       name: 'Aderbal Amorin',
       position: 'Gestor de Marcas / Especialista em Branding',
-      src: '/img/pad/time/aderbal.jpg',
+      src: '/img/lab/Aderbal-amorin.jpg',
       social: [
         { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
         { title: 'G', url: 'https://maps.app.goo.gl/VNEazTPkqEnn7DbL9' },       
@@ -15,7 +15,7 @@ const dataLAB = [
       id: 2,
       name: 'Maiara Zacchi',
       position: 'Especialista em Inteligência Tributária',
-      src: '/img/pad/time/andre.jpg',
+      src: '/img/lab/Maiara-Zacchi.jpg',
       social: [
         { title: 'IG', url: 'https://www.instagram.com/nakamaestudio/' },
         { title: 'G', url: 'https://maps.app.goo.gl/VNEazTPkqEnn7DbL9' },         
@@ -26,24 +26,24 @@ const dataLAB = [
         id: 3,
         name: 'Camila Dutra',
         position: 'Consultora Financeira e Estratégica',
-        src: '/img/pad/time/sung.jpg',
+        src: '/img/lab/Camila-Dutra.jpg',
         social: [
-          { title: 'IG', url: 'https://www.instagram.com/zubiestudio/' },   
-          { title: 'G', url: 'https://maps.app.goo.gl/2JFR9Lf2wnSi2WuY8' },     
-        { title: 'IN', url: 'https://www.linkedin.com/in/fabiosung' },
-        { title: 'WEB', url: 'https://www.zubiestudio.com/' }
+          { title: 'IG', url: '#' },   
+          { title: 'G', url: '#' },     
+        { title: 'IN', url: '#' },
+        { title: 'WEB', url: '#' }
         ]
       },
       {
         id: 4,
         name: 'Fernanda Medeiros',
         position: 'Empreendedora e Franqueada',
-        src: '/img/pad/time/fabio.jpg',
+        src: '/img/lab/Fernanda-Medeiros.jpg',
         social: [
-          { title: 'IG', url: 'https://www.instagram.com/fabmidia/' },
-          { title: 'G', url: 'https://maps.app.goo.gl/WHacwfQtqPeo3Syq9' },
-          { title: 'IN', url: 'http://linkedin.com/in/fabriciosousa' },
-          { title: 'WEB', url: 'https://retratos.fabriciosousa.com.br/' },
+          { title: 'IG', url: '#' },
+          { title: 'G', url: '#' },
+          { title: 'IN', url: '#' },
+          { title: 'WEB', url: '#' },
         ]
       }
   ];

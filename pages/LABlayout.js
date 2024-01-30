@@ -1,6 +1,6 @@
 
 
-import PADMenu from '../components/header/menu/PADmenu'
+import LABMenu from '../components/header/menu/LABmenu'
 import { Back, gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/dist/ScrollToPlugin';
@@ -17,7 +17,7 @@ import { store } from '../features/store';
 import OptionTheme from '../components/option-theme/OptionTheme';
 import RightScrollTop from '../components/option-theme/RightScrollTop';
 import { checkMobile, parallaxIt } from '../hooks/helper';
-import LoadingPAD from '../layout/LoadingPAD';
+import LoadingLAB from '../layout/LoadingLAB';
 import { tdEnd } from '../hooks/transition/transitionDefalut';
 import WhatsAppButton from '../components/whatsappbutton/WhatsAppButton';
 
@@ -122,14 +122,15 @@ function LABlayout({ Component, pageProps, children }) {
       <Head>
       <meta
   name="description"
-  content="Programa que visa tornar empresas e marcas autoridade no digital com integração de profissionais especialistas em diversas áreas."
+  content="Diversos experimentos de empreendedores, desde os triunfos até as lições aprendidas, e transforme essas experiências em alavancas para o crescimento do seu próprio negócio."
 />
       </Head>
       <Provider store={store}>
         <div id="__dsn_content" className={colorPage}>
-          <WhatsAppButton />
-          <LoadingPAD />
-          <PADMenu hamburger />
+          
+        
+          <LoadingLAB />
+          <LABMenu hamburger />
           <OptionTheme
             lineTheme={[creativeLine, setCreativeLine]}
             pageColor={[colorPage, setColorPage]}
