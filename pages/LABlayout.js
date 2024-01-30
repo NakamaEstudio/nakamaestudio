@@ -37,7 +37,7 @@ function LABlayout({ Component, pageProps, children }) {
   
   const [creativeLine, setCreativeLine] = useState(true);
   //--> v-dark , v-light
-  const [colorPage, setColorPage] = useState('pad-theme');
+  const [colorPage, setColorPage] = useState('lab-theme');
 
   useEffect(() => {
     dsnEffect.registerEffect(tdEnd);
