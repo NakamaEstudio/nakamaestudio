@@ -4,8 +4,8 @@ import {forwardRef, memo} from "react";
 export interface DsnGridProps {
     col?: number | 1,
     className?: React.ReactNode,
-    colTablet?: number | 1,
-    colMobile?: number | 1,
+    colTablet?: number | 2,
+    colMobile?: number | 2,
     colGap?: number | string | 30,
     colGapTablet?: number | string | 30,
     colGapMobile?: number | string | 30,

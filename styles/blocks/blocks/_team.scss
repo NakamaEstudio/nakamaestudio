@@ -67,7 +67,7 @@
       }
 
       .box-img {
-        flex: 0 0 25%;
+        flex: 0 0 20%;
         height: 110px;
         border-radius: 16px;
         
@@ -76,7 +76,7 @@
           height: auto;
           margin-bottom: 0px;
           img{
-            width: auto;
+            width: 260px!important;
           }
         }
       }

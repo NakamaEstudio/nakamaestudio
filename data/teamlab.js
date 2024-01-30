@@ -31,6 +31,7 @@ const dataLAB = [
           { title: 'IG', url: 'https://www.instagram.com/camilacsd?igsh=dm1ucjN1bnNoa244' },   
            
         { title: 'IN', url: 'https://www.linkedin.com/in/consultoracamilasdutra' },
+        { title: 'WEB', url: 'https://consultoriasel.com/' },
         
         ]
       },

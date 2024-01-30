@@ -307,7 +307,7 @@ export default function LAB() {
       <section className="container section-margin " data-dsn-title="Especialistas">
         <TitleSection description={'Especialistas'}>Keynotes e Realizadores</TitleSection>
 
-        <Teamlab data={getTeamLab().slice(0, 4)} className={'team-classic'} col={4} colTablet={2} />
+        <Teamlab data={getTeamLab().slice(0, 4)} className={'team-classic'} col={4} colTablet={3} colMobile={2} colGap={0} rowGap={20} />
       </section>
 
       {/*Start testimonial Section*/}
