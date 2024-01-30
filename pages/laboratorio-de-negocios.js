@@ -130,7 +130,7 @@ export default function LAB() {
             <div className="box-im w-100 h-100 p-absolute">
               <ParallaxImage
                 alt={''}
-                src={'img/pad/bannerone.png'}
+                src={'img/lab/keynotes.jpeg'}
                 overlay={3}
                 height="100%"
                 heightTable={'70vh'}
