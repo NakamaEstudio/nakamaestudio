@@ -48,6 +48,7 @@ function Home() {
           webgel
           loop={true}
           fullWidth
+          loading={true}
           className={'align-items-end pb-80 overlay-nakama'}
           optionSlider={{
             autoplay: true,
@@ -57,13 +58,14 @@ function Home() {
            
           }}
           webgelOptions={{
-            intensity: 3,
+            intensity: 1,
             priority: true,
-            displacement: '/img/project/project1/Background.jpg',
-            speedIn: 3
+            displacement: '/img/project/project1/14.jpg',
+            speedIn: 4,
+            loading: 'lazy'
           }}
           metaData={{ hasSeparator: true }}
-          autoplayDelayStart={2000} // 10 segundos de atraso antes de iniciar o autoplay
+          
         />
       </section>
       <HeroSection className="section-margin fill-right-container container" data-dsn-title="Quem nós somos" />
@@ -89,6 +91,7 @@ function Home() {
       {/*Start Box Info Move Content*/}
       <div className="p-relative section-margin overlay-nakama">
         <ParallaxImage
+        loading="lazy"
           src="/img/home/marcantes.jpg"
           height="100vh"
           heightTable={'80vh'}
@@ -135,7 +138,8 @@ function Home() {
           <div className="p-relative mb-lg-section">
             <div className="box-im w-100 h-100 p-absolute overlay-nakama">
               <ParallaxImage
-                alt={''}
+                alt={'Camada de personalizada da marca'}
+                loading="lazy"
                 src={'/img/home/pilares.png'}
                 overlay={1}
                 height="100%"

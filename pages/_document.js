@@ -3,7 +3,7 @@ import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/react';
 export default function Document() {
   return (
-    <Html>
+    <Html lang="pt-br">
       <Head>
         <link
           rel="stylesheet"

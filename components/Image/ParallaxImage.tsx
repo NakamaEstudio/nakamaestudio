@@ -19,10 +19,12 @@ export interface ParallaxImageProps extends ImageProps {
   caption?: string;
   asBackground?: boolean;
   parallaxFrom?: Object;
+  loading?: string;
 }
 
 function ParallaxImage({
   speed,
+  loading,
   parallax,
   overlay,
   height,

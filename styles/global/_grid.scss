@@ -65,7 +65,7 @@
     }
   }
   @include media_768X991 {
-    --dsn-width-item: var(--dsn-col-number-tablet, var(--dsn-col-number, 2));
+    --dsn-width-item: var(--dsn-col-number-tablet, var(--dsn-col-number, 1));
     --dsn-col-item: var(--dsn-col-gap-tablet, var(--dsn-col-gap, 30px));
     --dsn-row-item: var(--dsn-row-gap-tablet, var(--dsn-row-gap, 30px));
     --dsn-custom-item: var(--dsn-col-custom-tablet);

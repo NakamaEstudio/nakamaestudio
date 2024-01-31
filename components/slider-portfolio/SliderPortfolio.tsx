@@ -156,11 +156,11 @@ function SliderPortfolio({
     ];
     const $isRight = oldNum < newNum;
     const animate = {
-      show: { autoAlpha: 1, x: 0, stagger: 0.05, ease: 'back.out(4)' },
+      show: { autoAlpha: 1, x: 0, stagger: 0.01, ease: 'back.out(4)' },
       hide: {
         autoAlpha: 0,
         x: !$isRight ? '40%' : '-40%',
-        stagger: 0.05,
+        stagger: 0.01,
         ease: 'back.in(4)'
       }
     };
