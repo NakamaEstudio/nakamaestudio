@@ -38,9 +38,9 @@ function HeroSection({className, ...restProps}) {
                     </MoveTrigger>
                     <FadeUpTrigger>
                         {(ref) => <>
-                            <h6 className="title-block border-bottom pb-30 mb-30" ref={ref}>{HeroContent.subtitle}</h6>
+                            <h3 className="title-block border-bottom pb-30 mb-30" ref={ref}>{HeroContent.subtitle}</h3>
                             <p className="mb-30" ref={ref} style={{maxWidth: 570}} dangerouslySetInnerHTML={{__html: HeroContent.description}}/>
-                            <h5 className="sm-title-block line-shape line-shape-after mb-10" ref={ref}>{HeroContent.authorTitle}</h5>
+                            <h4 className="sm-title-block line-shape line-shape-after mb-10" ref={ref}>{HeroContent.authorTitle}</h4>
                             <span className="sub-heading line-bg-left" ref={ref}>{HeroContent.authorJob}</span>
                             <DsnGrid className="box-awards pt-30" col={2} colTablet={2} colGap={15} rowGap={15}>
                                 {HeroContent.awards.map(
