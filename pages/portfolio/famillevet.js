@@ -92,14 +92,11 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
         <div className="container">
           <div className="max-w750 ml-auto mr-auto">
             <h4 className="title-block dsn-text words splitting mb-20 overflow-hidden">
-              The Small Silver Car That Changed Everything
+              A essência
             </h4>
             <p className="dsn-up">
-              What you see in this blog post pales vastly in comparison to the
-              painstaking attention to detail showcased in 000. A fine-toothed
-              comb driven by a team of true Porsche enthusiasts has formed one
-              of the finest pieces of automotive research, journalism, and
-              photography in existence.
+            Tornamos o nosso Pet um membro da Família, onde o tratamento é muito
+mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
             </p>
           </div>
         </div>

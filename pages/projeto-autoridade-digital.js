@@ -58,7 +58,7 @@ export default function PAD() {
 
       {/*========== About Section  ==========*/}
       <DsnGrid
-        className="container section-margin  mx-auto"
+        className="container section-margin "
         customGrid={{ desktop: '80% 20%' }}
         rowGapTablet={50}
         data-dsn-title="O que é"

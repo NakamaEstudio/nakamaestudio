@@ -70,67 +70,9 @@ function Home() {
       </section>
       <HeroSection className="section-margin fill-right-container container" data-dsn-title="Quem nós somos" />
 
-      {/*Start Service*/}
-      <div className="section-margin container" data-dsn-title="Como fazemos">
-        <TitleSection className="align-items-center text-center" description={'O que fazemos'}>
-          Acreditamos que: Saber “quem não somos”, é tão importante quanto a clareza de quem devemos ser!
-        </TitleSection>
-        <ServiceOne />
-        <Button
-          href={'/contato'}
-          className="mb-30 line-head btn-project"
-          borderStyle={'border-color-heading-color'}
-          borderRadius
-          transitionPage={{ title: HomeContent.buttonTransition }}
-        >
-          {HomeContent.buttonText}
-        </Button>
-      </div>
-      {/*End Service*/}
+     
 
-      {/*Start Box Info Move Content*/}
-      <div className="p-relative section-margin overlay-nakama">
-        <ParallaxImage
-        loading="lazy"
-          src="/img/home/marcantes.jpg"
-          height="100vh"
-          heightTable={'80vh'}
-          heightMobile={'25vh'}
-          className={''}
-          overlay={6}
-          alt={'Analogia da marca às marcas marcantes'}
-        />
-        <MoveBox tablet={false}>
-          <TitleSection
-            className={`align-items-start mb-30`}
-            description={'O pleonasmo intencional'}
-            defaultSpace={false}
-          >
-            MARCAS MARCANTES
-          </TitleSection>
-
-          <p className="mb-10">
-            Acreditamos que o verdadeiro poder de uma marca está na conexão genuína com seu público.
-          </p>
-          <p className="mb-30">
-        
-        Construímos marcas não apenas para serem reconhecidas, mas para serem amadas e defendidas por seus seguidores, ou seja, para serem MARCANTES
-          </p>
-
-          <Button
-            href={'sobre-nos'}
-            className={'image-zoom'}
-            data-dsn="parallax"
-            transitionPage={{ title: 'Nákama Estudio' }}
-          >
-            Saiba mais <span>⟶</span>
-          </Button>
-
-          <p className={`sm-p mt-30 theme-color`}>
-            NOTA : Marcas são posicionadas no detalhe, na postura diante das situações boas e ruins.
-          </p>
-        </MoveBox>
-      </div>
+      
 
       {/*End Box Info Move Content*/}
       <section className="box-gallery-vertical section-margin container" data-dsn-title="Nossos serviços">
@@ -236,51 +178,7 @@ function Home() {
         </Testimonial>
       </div>
 
-      {/*End testimonial Section*/}
-
-      {/*Start box vertical Section*/}
-
-      {/*End box vertical Section*/}
-
-      {/*Start Blog*/}
-      <div className="section-margin" data-dsn-title="Postagens">
-        <TitleSection className={`align-items-center  container text-center`} description={'Postagens'}>
-          Últimos e mais relevantes posts <br />
-        </TitleSection>
-        <BlogSwiper
-          className="dsn-container"
-          grabCursor
-          desktop={{ spaceBetween: 50, slidesPerView: 1.5 }}
-          tablet={{ spaceBetween: 30, slidesPerView: 1.3 }}
-          mobile={{ spaceBetween: 0, slidesPerView: 1 }}
-          centeredSlides
-          loop
-          blur
-          parallax
-          speed={1200}
-          watchSlidesProgress
-          loopedSlides={2}
-          parallaxImage={{ 'data-swiper-parallax-scale': '0.85' }}
-          parallaxContent={{ 'data-swiper-parallax-opacity': '0.5' }}
-        >
-          <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
-        </BlogSwiper>
-      </div>
-      {/*End Blog*/}
-
-      {/*========== team Section ========== */}
-      {/* <section className="container section-margin " data-dsn-title="Nosso time">
-                <TitleSection
-                    className={` align-items-center text-center`}
-                    description={"Nosso time"}
-                >
-                    O time Nákama Estúdio
-                </TitleSection>
-
-                <Team col={3} colTablet={2}/>
-            </section>
-        */}
-      {/*========== End team Section ========== */}
+     
 
       {/*========== End brand-client Section ==========*/}
       <section className="section-margin container" data-dsn-title="Nossos clientes">

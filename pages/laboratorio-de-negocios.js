@@ -85,15 +85,20 @@ export default function LAB() {
         </div>
       </DsnGrid>
       <section>
+      <Image src={'/img/lab/evento/LN_048.jpg'} class={'pt-20 border-top lab-image '} alt={'Palestrantes do evento'} width={400} height={0}></Image>
       <button className="lightbox-btn dsn-button mb-50 " type="button" onClick={() => setOpen(true)}>
-        <span className="dsn-border border-color-heading-color  ">Confira como foi nosso último evento </span>
+        <span className="dsn-border border-color-heading-color ">Confira as fotos do último evento</span>
       </button>
+
+      
 
       <Lightbox
         open={open}
         close={() => setOpen(false)}
         slides={[
           { src: "/img/lab/evento/LN_048.jpg" },
+          { src: "/img/lab/evento/LN_001.jpg" },
+          { src: "/img/lab/evento/LN_062.jpg" },
           { src: "/img/lab/evento/LN_058.jpg" },
           { src: "/img/lab/evento/LN_059.jpg" },
           { src: "/img/lab/evento/LN_068.jpg" },
@@ -114,7 +119,15 @@ export default function LAB() {
 
                     },
                     {
-                        src: "/img/lab/evento/LN_058.jpg",
+                      
+                        src: "/img/lab/evento/LN_001.jpg",
+                       
+
+                    },
+                    
+                    {
+                      
+                        src: "/img/lab/evento/LN_062.jpg",
                        
 
                     },
@@ -235,7 +248,7 @@ export default function LAB() {
             <div className="box-im w-100 h-100 p-absolute">
               <ParallaxImage
                 alt={''}
-                src={'img/lab/keynotes.jpeg'}
+                src={'img/lab/teste.webp'}
                 overlay={3}
                 height="100%"
                 heightTable={'70vh'}

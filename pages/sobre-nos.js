@@ -77,13 +77,15 @@ function About() {
           <div className="box-left pb-30">
             <h4>
               {' '}
-              Buscamos ir além do óbvio, explorando o terreno dos significados e
-              da autenticidade para moldar marcas memoráveis e duradouras.{' '}
+              Acreditamos que: Saber “quem não somos”, é tão importante quanto a clareza de quem devemos ser!{' '}
             </h4>
             
           </div>
           <div className="box-right">
             <p className="pl-30 dsn-up mb-15 pb-30  ">
+            Buscamos ir além do óbvio, explorando o terreno dos significados e
+              da autenticidade para moldar marcas memoráveis e duradouras.{' '}<br/><br/>
+
               No Estúdio Nákama, acreditamos no poder das conexões autênticas
               para forjar “Marcas mais marcantes”.
             </p>

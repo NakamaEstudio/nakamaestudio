@@ -18,6 +18,17 @@
     margin:auto
   }
 
+  .lab-image{
+    display:none
+        }
+  @media (max-width:768px){
+    .facts-item .number{
+      font-size: 80px;
+    }
+    .lab-image{
+display:block
+    }
+  }
   
   .lightbox-btn {
     display: none;

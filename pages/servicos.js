@@ -65,9 +65,7 @@ function Servicos() {
           <h4 className="mt-25 mr-10">
             Nossos serviços abrangem desde a criação de identidades visuais,
             materiais Gráficos, sites, canais digitais, eventos até estratégias
-            de gestão de marcas. Explore nossos pilares de serviços - Aura,
-            Ambiente e Autonomia - onde combinamos criatividade, estratégia e
-            paixão para elevar sua marca a um novo patamar.
+            de gestão de marcas. 
           </h4>
         </div>
         <div className="box-right border-left pl-30">
