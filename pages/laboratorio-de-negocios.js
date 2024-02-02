@@ -2,7 +2,7 @@ import Layout from '../layout/Layout';
 import HeaderLAB from '../components/header/HeaderLAB';
 import DsnGrid from '../layout/DsnGrid';
 import TitleSection from '../components/heading/TitleSection';
-
+import Lightbox from "yet-another-react-lightbox";
 import TitleCover from '../components/heading/TitleCover';
 
 import ParallaxImage from '../components/Image/ParallaxImage';
@@ -21,7 +21,7 @@ import PADSection from '../components/heading/PADSection';
 import Teamlab from '../components/Team/Teamlab';
 import LABlayout from './LABlayout';
 import BgPAD from '../components/header/BgPAD';
-
+import FJustifiedGallery from "../components/justified-gallery/FJustifiedGallery";
 import { Globo } from '../public/img/pad/globo.png';
 import { NakamaIcon } from '../components/Nakamaicon';
 import TestimonialPad from '../components/testimonial/Testimonialpad';
@@ -32,6 +32,7 @@ export default function LAB() {
   TitleSection.defaultProps = {
     classDesInner: 'line-bg-left'
   };
+  const [open, setOpen] = React.useState(false);
 
   return (
     <Layout
@@ -54,23 +55,23 @@ export default function LAB() {
 
       {/*========== About Section  ==========*/}
       <DsnGrid
-        className="container section-margin  mx-auto"
+        className="container section-margin "
         customGrid={{ desktop: '80% 20%' }}
         rowGapTablet={50}
         data-dsn-title="O que é"
       >
-        <div className="box-left">
+        <div className="box-left ">
           <TitleSection defaultSpace={false} description="Proposta do Encontro" />
           <h4 className="mt-25 mr-30">
             Conheça diversos experimentos de empreendedores, desde os triunfos até as lições aprendidas, e transforme
             essas experiências em alavancas para o crescimento do seu próprio negócio.
           </h4>
           <Button
-            href="https://www.sympla.com.br/evento/laboratorio-de-negocios-talk-show-colaborativo/2258821?referrer=www.google.com"
+            href="#"
             className="mt-30 "
-            target="_blank"
+           
           >
-            Inscreva-se
+            Em breve
           </Button>
         </div>
         <div className="box-right">
@@ -83,6 +84,110 @@ export default function LAB() {
           </ul>
         </div>
       </DsnGrid>
+      <section>
+      <button className="lightbox-btn dsn-button mb-50 " type="button" onClick={() => setOpen(true)}>
+        <span className="dsn-border border-color-heading-color  ">Confira como foi nosso último evento </span>
+      </button>
+
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={[
+          { src: "/img/lab/evento/LN_048.jpg" },
+          { src: "/img/lab/evento/LN_058.jpg" },
+          { src: "/img/lab/evento/LN_059.jpg" },
+          { src: "/img/lab/evento/LN_068.jpg" },
+          { src: "/img/lab/evento/LN_069.jpg" },
+          { src: "/img/lab/evento/LN_076.jpg" },
+          { src: "/img/lab/evento/LN_100.jpg" },
+          { src: "/img/lab/evento/LN_123.jpg" },
+          { src: "/img/lab/evento/LN_135.jpg" },
+          { src: "/img/lab/evento/LN_143.jpg" },
+        ]}
+      />
+      <FJustifiedGallery
+                images={[
+                    {
+                      
+                        src: "/img/lab/evento/LN_048.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_058.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_059.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_068.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_069.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_076.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_100.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_123.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_135.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_143.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_100.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_148.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_155.jpg",
+                       
+
+                    },
+                    {
+                        src: "/img/lab/evento/LN_161.jpg",
+                       
+
+                    },
+                  
+                    
+                    
+                ]}
+                
+                className="section-margin gallery-displaynone"
+            />
+           
+            
+          </section>
     <TitleSection className={`align-items-center text-center`}>Realização</TitleSection>
      <LabTeam col={4} colTablet={0} colMobile={0} colGap={1} rowGap={0} className={`mb-50 mt--50 flex`} />
 
@@ -195,6 +300,7 @@ export default function LAB() {
       {/*<!-- ========== End About section ========== */}
 
       {/*<!-- ========== About section ========== */}
+      {/*}
       <div className="p-relative background-section section-padding" data-dsn-title="Abordagem Integrada">
         <div className="container ">
           <TitleSection
@@ -253,6 +359,7 @@ export default function LAB() {
           />
         </div>
       </div>
+                */}
       {/*<!-- ========== End About section ========== */}
       <div className="p-relative section-margin" data-dsn-title="Proposta">
         <DsnGrid className="container" col={2} colTablet={1}>
@@ -311,6 +418,7 @@ export default function LAB() {
       </section>
 
       {/*Start testimonial Section*/}
+      {/*}
       <section className="background-section p-40 mb-50 text-center container">
         <h4 className=" ">Garanta sua vaga!</h4>
         <PADSection
@@ -322,12 +430,13 @@ export default function LAB() {
           insights valiosos para impulsionar o seu negócio. "
         />
         <Button
-          href="https://www.sympla.com.br/evento/laboratorio-de-negocios-talk-show-colaborativo/2258821?referrer=www.google.com"
-          target="_blank"
+          href="#"
+         
         >
-          Inscreva-se
+         Em breve
         </Button>
       </section>
+            */}
       {/*========== End team Section ========== */}
 
       {/*========== Next Page ==========*/}

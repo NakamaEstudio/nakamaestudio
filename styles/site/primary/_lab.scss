@@ -1,0 +1,59 @@
+
+@media (max-width: 768px) { /* ou outro breakpoint que preferir */
+    .fj-gallery-item:not(:first-child) {
+      display: none;
+    }
+  }
+
+
+  
+@media (max-width: 768px) { /* ou outro breakpoint que preferir */
+    .fj-gallery-item:not(:first-child) {
+      display: none;
+    }
+  }
+
+
+  .mx-auto{
+    margin:auto
+  }
+
+  
+  .lightbox-btn {
+    display: none;
+    position: relative;
+    padding:20px 16px;
+    
+  
+    @include media_768 {
+      display: inline-block;
+    }
+  }
+
+  .lightbox-btn span {
+   
+    position: relative;
+    padding:20px 30px;
+    z-index:2;
+  
+    @include media_768 {
+      display: block;
+    }
+  }
+
+
+  .gallery-displaynone{
+    display:block;
+    @include media_768 {
+        display: none;
+      }
+  }
+
+  #main-content > section:nth-child(3) > button > span {
+    -webkit-clip-path:border-box;
+    clip-path: border-box;
+
+  }
+
+
+

@@ -28,7 +28,7 @@ import LoadingPage from '../layout/LoadingPage';
 import { tdEnd } from '../hooks/transition/transitionDefalut';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/react';
-
+import "yet-another-react-lightbox/styles.css";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 

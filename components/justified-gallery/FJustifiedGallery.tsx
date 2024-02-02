@@ -12,7 +12,7 @@ export interface FJustifiedGalleryProps {
   className?: string;
   children?: React.ReactNode;
   images?: [
-    { src?: string; alt?: string; caption?: string; groupPopup?: string }
+    { className?: string; src?: string; alt?: string; caption?: string; groupPopup?: string }
   ];
   options?: {
     infinite: true | false;
@@ -49,14 +49,15 @@ function FJustifiedGallery({
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className={dsnCN('fj-gallery', className)} ref={ref}>
+    <div className={`fj-gallery-item ${className}`} ref={ref}>
       {images &&
-        images.map(({ src, alt, caption, groupPopup }, index) => (
+        images.map(({ src, alt, caption, groupPopup, className }, index) => (
           <FjgItem
             src={src}
             alt={alt}
             caption={caption}
             key={index}
+            className={className}
             groupPopup={groupPopup || generateId}
           />
         ))}
@@ -69,10 +70,10 @@ FJustifiedGallery.defaultProps = {
   gutter: 15
 };
 
-export function FjgItem({ src, alt, caption, groupPopup }) {
+export function FjgItem({ src, alt, caption, groupPopup, className }) {
   return (
     <div
-      className="fj-gallery-item"
+    className={`fj-gallery-item ${className}`}
       data-src={src}
       data-caption={caption}
       data-fancybox={groupPopup || ''}

@@ -9,15 +9,15 @@ function FactsLab({ className, ...restProps }: DsnGridProps) {
     >
       <div className="facts-item">
         <div className="p-relative text-center">
-          <span className="number">30/01</span>
-          <h6 className="sm-title-block v-middle w-100">Terça-Feira</h6>
+          <span className="number">XX/XX</span>
+          <h6 className="sm-title-block v-middle w-100">Data</h6>
         </div>
       </div>
 
       <div className="facts-item">
         <div className="p-relative text-center">
-          <span className="number">18h</span>
-          <h6 className="sm-title-block v-middle w-100">Início do evento</h6>
+          <span className="number">XXh</span>
+          <h6 className="sm-title-block v-middle w-100">Horário</h6>
         </div>
       </div>
 

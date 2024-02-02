@@ -35,7 +35,8 @@
     "splitting": "^1.0.6",
     "styled-components": "^5.3.5",
     "swiper": "^8.4.2",
-    "three": "^0.145.0"
+    "three": "^0.145.0",
+    "yet-another-react-lightbox": "^3.16.0"
   },
   "devDependencies": {
     "@types/node": "20.11.5",

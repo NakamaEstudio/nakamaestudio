@@ -61,7 +61,7 @@ function Home() {
             intensity: 1,
             priority: true,
             displacement: '/img/project/project1/14.jpg',
-            speedIn: 4,
+            speedIn: 3.5,
             loading: 'lazy'
           }}
           metaData={{ hasSeparator: true }}
