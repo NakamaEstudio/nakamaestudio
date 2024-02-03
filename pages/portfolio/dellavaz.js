@@ -13,12 +13,12 @@ import { getPortfolioItem } from '../../data/portfolio';
 import NextProject from '../../components/next/NextProject';
 import Head from 'next/head';
 
-function Project1() {
-  const heroData = getPortfolioItem('artisan');
+function Project8() {
+  const heroData = getPortfolioItem('dellavaz');
   return (
     <Layout>
       <Head>
-        <title>Artisan Marcenaria Case | Estudio Nákama</title>
+        <title>DellavazBoutique Case | Estudio Nákama</title>
       </Head>
       <section class="overlay-nakama">
       <HeaderFull
@@ -40,30 +40,35 @@ function Project1() {
                 <strong>Direção de Arte</strong>
               </li>
               <li className="p-relative">
-                <strong>Design de Interiores</strong>
+                <strong>Identidade Visual</strong>
               </li>
               <li className="p-relative">
-                <strong>Pontos de Contato</strong>
+                <strong>Storytelling</strong>
               </li>
               <li className="p-relative">
-                <strong>2019</strong> 
+                <strong>Mercado</strong>
+              </li>
+              <li className="p-relative">
+                <strong>2022</strong> 
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
             <h4 className="title-block text-uppercase mb-20">informações</h4>
             <p className="intro-project-description">
-            A Artisan Marcenaria e Design é mais do que uma simples empresa de mobiliário personalizado - é a materialização da personalidade em cada detalhe. Fundada na ideia de trazer à vida espaços que contam histórias, cada projeto é uma obra de arte única, moldada pela habilidade artesanal e uma abordagem sofisticada. 
+            Posicionamento da marca DellaVaz Boutique de acordo com
+sua nova postura de mercado. Criando
+narrativas e uma Identidade visual coerente.
             </p>
             <div className="intro-project-cat mt-30">
               <span className="cat-item">
-              Identidade Visual
+              Elegancia
               </span>
-              <span className="cat-item">Logotipo</span>
-              <span className="cat-item">Materiais gráficos </span>
-              <span className="cat-item">Uniforme</span>
+              <span className="cat-item">Premium</span>
+             
+              <span className="cat-item">Grife</span>
             </div>
-            <ButtonProject href="https://www.instagram.com/artisanmarcenaria/" className="mt-30">
+            <ButtonProject href="https://www.instagram.com/dellavazboutique/" className="mt-30">
               VISITAR PROJETO
             </ButtonProject>
           </div>
@@ -74,38 +79,15 @@ function Project1() {
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/portfolio/artisan/sub-hero.jpg'}
+        src={'/img/portfolio/dellavaz/6.jpg'}
         overlay={3}
-        caption="Stationary"
+        caption="Uniforme"
       />
       {/*End Parallax Img*/}
 
-      {/*Start Gallery List*/}
-      <BoxGallery className="section-margin container" col={3}>
-        <BoxGalleryItem
-          src="/img/portfolio/artisan/3.jpg"
-          groupPopup="gallery"
-        />
-        <BoxGalleryItem
-          src="/img/portfolio/artisan/4.jpg"
-          groupPopup="gallery"
-        />
-        <BoxGalleryItem
-          src="/img/portfolio/artisan/5.jpg"
-          groupPopup="gallery"
-        />
-      </BoxGallery>
-      {/*End Gallery List*/}
+     
 
-      {/*Start Parallax Img*/}
-      <ParallaxImage
-      priority
-        alt={''}
-        src={'/img/portfolio/artisan/8.gif'}
-        caption="Crafting"
-      />
-      {/*End Parallax Img*/}
-
+      
       {/*Start box vertical Section*/}
       <section className="box-gallery-vertical section-margin container">
         <DsnGrid col={2} colGap={0}>
@@ -114,35 +96,64 @@ function Project1() {
               <ParallaxImage
               priority
                 alt={''}
-                src={'/img/portfolio/artisan/6.gif.gif'}
+                src={'/img/portfolio/dellavaz/3.jpg'}
                 height="100%"
               />
             </div>
           </div>
           <div className="p-relative pt-lg-section">
             <div className="box-info h-100 box-padding background-section ">
-              <TitleCover>Manifesto</TitleCover>
+              <TitleCover>Depoimento</TitleCover>
               <TitleSection
                 className={'text-uppercase mb-30'}
                 defaultSpace={false}
               >
-                Manifesto
+               Construindo <br/>o seu sucesso
               </TitleSection>
 
               
               <p className="mt-15">
-              Nossa missão é transcender o convencional, criando lares e ambientes comerciais que não apenas atendam às necessidades, mas celebrem a individualidade de cada cliente. Combinando precisão técnica com um olhar meticuloso para os detalhes, cada peça é um testemunho da paixão pelo artesanato e pelo design inovador. Na Artisan, a criação vai além do tangível - é a expressão autêntica do caráter e do estilo de vida, transformando espaços em experiências memoráveis.
+              &quot;Com certeza a melhor escolha que fizemos para nossa empresa e marca.
+Profissionais do começo ao fim com foco nos objetivos do cliente.
+Agradeço por tudo e super recomendo o trabalho de voces. Parabens e sucesso!&quot;<br/><br/> 
+
+<strong>Ricky</strong>
               </p>
               
             </div>
           </div>
         </DsnGrid>
       </section>
+      {/*Start Parallax Img*/}
+      <ParallaxImage
+      priority
+        alt={''}
+        src={'/img/portfolio/dellavaz/4.jpg'}
+        caption="Outdoor"
+      />
+      {/*End Parallax Img*/}
       {/*End box vertical Section*/}
+ {/*Start Gallery List*/}
+ <BoxGallery className="section-margin container" col={3}>
+        <BoxGalleryItem
+          src="/img/portfolio/dellavaz/2.jpg"
+          groupPopup="gallery"
+        />
+        <BoxGalleryItem
+          src="/img/portfolio/dellavaz/7.png"
+          groupPopup="gallery"
+        />
+        <BoxGalleryItem
+          src="/img/portfolio/dellavaz/5.jpg"
+          groupPopup="gallery"
+        />
+      </BoxGallery>
+      {/*End Gallery List*/}
+      
 
-      <NextProject heroContent={getPortfolioItem('dellavaz')} number={2} />
+      <NextProject heroContent={getPortfolioItem('ecosintese')} number={3} />
     </Layout>
   );
 }
 
-export default Project1;
+export default Project8;

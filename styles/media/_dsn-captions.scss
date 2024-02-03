@@ -2,10 +2,11 @@
   position: absolute;
   bottom: 30px;
   left: 0;
-  background-image: linear-gradient(to right, #0e0e0e5c 0%, #1b1515 100%);
+  background-image: linear-gradient(to right, #702e3d 0%, #e34e35 100%);
   padding: 4px 15px;
   color: #fff;
   z-index: 10;
+  border-radius: 0px 8px 8px 0;
 
   span {
     font-size: 12px;

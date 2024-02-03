@@ -8,11 +8,14 @@ import Layout from '../../layout/Layout';
 import { getPortfolioItem } from '../../data/portfolio';
 import HeaderFull from '../../components/header/HeaderFull';
 import NextProject from '../../components/next/NextProject';
-
+import Head from 'next/head';
 function Project4() {
   const heroData = getPortfolioItem('gastrobeef');
   return (
     <Layout>
+      <Head>
+        <title>Gastrobeef Case | Estudio Nákama</title>
+      </Head>
       <section class="overlay-nakama">
       <HeaderFull
         className="dsn-container"
@@ -119,8 +122,8 @@ servidos por um atendimento atencioso e simpático.
       {/*End Box Info Move Content*/}
 
       <NextProject
-        heroContent={getPortfolioItem('pv-operation')}
-        number={5}
+        heroContent={getPortfolioItem('nexmoby')}
+        number={6}
       />
     </Layout>
   );

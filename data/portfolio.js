@@ -38,7 +38,7 @@ const dataportfolio = [
   
   
   {
-    id: 7,
+    id: 5,
     title: 'Gastrobeef',
     slug: 'gastrobeef',
     category: ['Gastronomia'],
@@ -46,56 +46,56 @@ const dataportfolio = [
     description: 'Gastrobeef.',
     overlay: 3
   },
-];
-{/*
+
+
+  {
+    id: 6,
+    title: 'Ricky Autocenter',
+    slug: 'ricky-autocenter',
+    category: ['Automotivo'],
+    src: '/img/portfolio/ricky-autocenter/3.jpg',
+    description: 'We are thrilled to share our new reel with you all.',
+    overlay: 3
+  },
+  {
+    id: 7,
+    title: 'Dellavaz Boutique',
+    slug: 'dellavaz',
+    category: ['Varejo-e-atacado'],
+    src: '/img/portfolio/dellavaz/1.jpg',
+    description: 'We are thrilled to share our new reel with you all.',
+    overlay: 3
+  },
   {
     id: 8,
-    title: 'Ricky Autocenter',
-    slug: 'procidade-case',
-    category: ['Automotivo'],
-    src: '/img/project/project3/1.jpg',
+    title: 'Nexmoby',
+    slug: 'nexmoby',
+    category: ['Imobiliaria'],
+    src: '/img/portfolio/nexmoby/3.png',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
   {
     id: 9,
-    title: 'Dellavaz Boutique',
+    title: 'Brisapollar Climatização',
     slug: 'procidade-case',
-    category: ['Varejo-e-atacado'],
-    src: '/img/project/project3/1.jpg',
+    category: ['Profissionais-liberais'],
+    src: '/img/portfolio/ricky-autocenter/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
   {
     id: 10,
-    title: 'Nexmoby',
-    slug: 'procidade-case',
-    category: ['Imobiliaria'],
-    src: '/img/project/project3/1.jpg',
-    description: 'We are thrilled to share our new reel with you all.',
-    overlay: 3
-  },
-  {
-    id: 11,
-    title: 'Brisapollar Climatização',
-    slug: 'procidade-case',
-    category: ['Profissionais-liberais'],
-    src: '/img/project/project3/1.jpg',
-    description: 'We are thrilled to share our new reel with you all.',
-    overlay: 3
-  },
-  {
-    id: 12,
     title: 'Strattax',
     slug: 'procidade-case',
     category: ['Contabilidade-e-finanças'],
-    src: '/img/project/project3/1.jpg',
+    src: '/img/portfolio/ricky-autocenter/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
   
+];
 
-*/}
 
 
 export const getPortfolioData = () => dataportfolio;

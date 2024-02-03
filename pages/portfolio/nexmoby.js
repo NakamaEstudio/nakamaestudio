@@ -10,12 +10,12 @@ import NextProject from '../../components/next/NextProject';
 import Image from 'next/image';
 import Head from 'next/head';
 
-function Project2(params) {
-  const heroData = getPortfolioItem('ecosintese');
+function Project9(params) {
+  const heroData = getPortfolioItem('nexmoby');
   return (
     <Layout>
       <Head>
-        <title>ecoSintese Case | Estudio Nákama</title>
+        <title>Nexmoby Case | Estudio Nákama</title>
       </Head>
       <section class="overlay-nakama">
       <HeaderFull
@@ -67,7 +67,7 @@ a conscientização sobre o meio ambiente.
         <Image
           className="w-100"
           alt={''}
-          src={'/img/portfolio/ecosintese/4.png'}
+          src={'/img/portfolio/nexmoby/4.png'}
           width={1400}
           height={688}
           sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
@@ -78,11 +78,11 @@ a conscientização sobre o meio ambiente.
       {/*Start Gallery List*/}
       <BoxGallery className="section-margin container" col={2}>
         <BoxGalleryItem
-          src="/img/portfolio/ecosintese/5.png"
+          src="/img/portfolio/nexmoby/2.png"
           groupPopup="gallery"
         />
         <BoxGalleryItem
-          src="/img/portfolio/ecosintese/1.png"
+          src="/img/portfolio/nexmoby/1.png"
           groupPopup="gallery"
         />
       </BoxGallery>
@@ -93,7 +93,7 @@ a conscientização sobre o meio ambiente.
         <Image
           className="w-100"
           alt={''}
-          src={'/img/portfolio/ecosintese/2.png'}
+          src={'/img/portfolio/nexmoby/3.png'}
           width={1400}
           height={688}
           sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
@@ -129,10 +129,10 @@ lado das empresas em suas necessidades para seu desenvolvimento.
       {/*End Intro Project*/}
 
       <NextProject
-       heroContent={getPortfolioItem('famillevet')} number={4}
+       heroContent={getPortfolioItem('pv-operation')} number={7}
       />
     </Layout>
   );
 }
 
-export default Project2;
+export default Project9;

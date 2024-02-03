@@ -8,11 +8,16 @@ import Layout from '../../layout/Layout';
 import { getPortfolioItem } from '../../data/portfolio';
 import HeaderFull from '../../components/header/HeaderFull';
 import NextProject from '../../components/next/NextProject';
+import Head from 'next/head';
+
 
 function Project6(params) {
   const heroData = getPortfolioItem('famillevet');
   return (
     <Layout>
+      <Head>
+        <title>Famillevet Case | Estudio Nákama</title>
+      </Head>
        <section class="overlay-nakama">
       <HeaderFull
         className="dsn-container"
@@ -134,7 +139,7 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
       {/*End Gallery List*/}
       <NextProject
         heroContent={getPortfolioItem('gastrobeef')}
-        number={4}
+        number={5}
       />
     </Layout>
   );
