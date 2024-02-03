@@ -29,6 +29,11 @@ import { tdEnd } from '../hooks/transition/transitionDefalut';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/react';
 import "yet-another-react-lightbox/styles.css";
+import Script from 'next/script';
+import { GA_TRACKING_ID, pageview } from '../utils/analytics';
+
+import { useRouter } from 'next/router';
+
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -45,6 +50,22 @@ gsap.defaults({
 });
 
 function MyApp({Component, pageProps}) {
+
+    const router = useRouter();
+    useEffect(() => {
+        const handleRouteChange = (url) => {
+          pageview(url);
+        };
+    
+        // Quando a rota muda, chama pageview
+        router.events.on('routeChangeComplete', handleRouteChange);
+    
+        // Limpa o evento quando o componente é desmontado
+        return () => {
+          router.events.off('routeChangeComplete', handleRouteChange);
+        };
+      }, [router.events]);
+
 
     const [creativeLine, setCreativeLine] = useState(true);
     //--> v-dark , v-light
@@ -141,6 +162,22 @@ function MyApp({Component, pageProps}) {
       </Head>
      
       <SpeedInsights/>
+       {/* Script Global do Google Analytics */}
+       <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+      >
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA_TRACKING_ID}');
+        `}
+      </Script>
           <LoadingPage />
           <EremiaMenu hamburger />
           <Analytics />

@@ -75,6 +75,8 @@ const dataportfolio = [
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
+
+];
   {/*
   {
     id: 9,
@@ -96,7 +98,7 @@ const dataportfolio = [
   },
   */}
   
-];
+
 
 
 
