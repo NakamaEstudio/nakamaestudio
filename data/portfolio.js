@@ -75,6 +75,7 @@ const dataportfolio = [
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
+  {/*
   {
     id: 9,
     title: 'Brisapollar Climatização',
@@ -93,6 +94,7 @@ const dataportfolio = [
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
+  */}
   
 ];
 
