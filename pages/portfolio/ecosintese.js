@@ -121,7 +121,7 @@ a conscientização sobre o meio ambiente.
 necessidades.
 Ser reconhecida no mercado levando conhecimento e importância aos clientes. Dando suporte técnico e estando ao
 lado das empresas em suas necessidades para seu desenvolvimento.
-              it.
+             
             </p>
           </div>
         </DsnGrid>
@@ -129,7 +129,7 @@ lado das empresas em suas necessidades para seu desenvolvimento.
       {/*End Intro Project*/}
 
       <NextProject
-       heroContent={getPortfolioItem('famillevet')} number={4}
+       heroContent={getPortfolioItem('famillevet')} number={5}
       />
     </Layout>
   );

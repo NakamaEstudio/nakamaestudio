@@ -108,11 +108,11 @@ servidos por um atendimento atencioso e simpático.
             className={`align-items-start mb-30`}
             defaultSpace={false}
           >
-            A simple space for a wonderful family.
+            Gastronomia de ponta
           </TitleSection>
 
           <p className="mb-10">
-          A missão deste projeto é estabelecer a marca como referência no segmento de restaurantes especializados em cortes nobres. A visão é centrada na entrega de uma experiência gastronômica única, onde a beleza na apresentação e o sabor encantador dos pratos são oferecidos com simpatia e atenção no atendimento, seguindo o lema da empresa.
+          A missão deste projeto foi estabelecer a marca como referência no segmento de restaurantes especializados em cortes nobres. A visão é centrada na entrega de uma experiência gastronômica única, onde a beleza na apresentação e o sabor encantador dos pratos são oferecidos com simpatia e atenção no atendimento, seguindo o lema da empresa.
           </p>
           <p>
           Os valores fundamentais incluem um compromisso inabalável com o bom atendimento, honestidade, comprometimento, propósito claro, forte apelo visual e dedicação à gastronomia. Esses princípios são a espinha dorsal que guiará cada ação e decisão, permitindo que a marca alcance não apenas a excelência culinária, mas também estabeleça relações sólidas e duradouras com os clientes. 
@@ -123,7 +123,7 @@ servidos por um atendimento atencioso e simpático.
 
       <NextProject
         heroContent={getPortfolioItem('nexmoby')}
-        number={6}
+        number={7}
       />
     </Layout>
   );

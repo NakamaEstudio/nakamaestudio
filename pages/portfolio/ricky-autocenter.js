@@ -147,7 +147,7 @@ Agradeço por tudo e super recomendo o trabalho de voces. Parabens e sucesso!&qu
       {/*End Gallery List*/}
       
 
-      <NextProject heroContent={getPortfolioItem('artisan')} number={1} />
+      <NextProject heroContent={getPortfolioItem('strattax')} number={10} />
     </Layout>
   );
 }

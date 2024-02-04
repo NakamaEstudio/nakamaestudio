@@ -64,9 +64,9 @@ narrativas e uma Identidade visual coerente.
               <span className="cat-item">
               Elegancia
               </span>
-              <span className="cat-item">Premium</span>
+              <span className="cat-item">Praia</span>
              
-              <span className="cat-item">Grife</span>
+              <span className="cat-item">Minimalismo</span>
             </div>
             <ButtonProject href="https://www.instagram.com/dellavazboutique/" className="mt-30">
               VISITAR PROJETO
@@ -81,7 +81,7 @@ narrativas e uma Identidade visual coerente.
         alt={''}
         src={'/img/portfolio/dellavaz/6.jpg'}
         overlay={3}
-        caption="Uniforme"
+        caption="DOOH"
       />
       {/*End Parallax Img*/}
 
@@ -103,21 +103,28 @@ narrativas e uma Identidade visual coerente.
           </div>
           <div className="p-relative pt-lg-section">
             <div className="box-info h-100 box-padding background-section ">
-              <TitleCover>Depoimento</TitleCover>
+              <TitleCover>Mercado</TitleCover>
               <TitleSection
                 className={'text-uppercase mb-30'}
                 defaultSpace={false}
               >
-               Construindo <br/>o seu sucesso
+               Elegância na <br/>simplicidade
               </TitleSection>
 
               
               <p className="mt-15">
-              &quot;Com certeza a melhor escolha que fizemos para nossa empresa e marca.
-Profissionais do começo ao fim com foco nos objetivos do cliente.
-Agradeço por tudo e super recomendo o trabalho de voces. Parabens e sucesso!&quot;<br/><br/> 
+              DellaVaz Boutique é uma sinergia entre elegância
+natural, inclusividade all curves e compromisso com a
+sustentabilidade ambiental. Fundamentada na valorização de
+todos os tipos de corpos, a marca se destaca pela elegância
+despretensiosa e sofisticada, oferecendo uma experiência de
+compra personalizada e imersiva. Sua essência minimalista se
+combina com um forte vínculo com a comunidade local, refletindo
+não apenas seu compromisso com a moda consciente, mas
+também com a conexão e proximidade com cada cliente e o
+ambiente em que está inserida.
 
-<strong>Ricky</strong>
+
               </p>
               
             </div>
@@ -151,7 +158,7 @@ Agradeço por tudo e super recomendo o trabalho de voces. Parabens e sucesso!&qu
       {/*End Gallery List*/}
       
 
-      <NextProject heroContent={getPortfolioItem('ecosintese')} number={3} />
+      <NextProject heroContent={getPortfolioItem('ecosintese')} number={4} />
     </Layout>
   );
 }

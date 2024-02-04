@@ -10,9 +10,8 @@ import {
 import { dsnCN } from '../../hooks/helper';
 
 const socialData = [
-  { link: '#0', icon: faLinkedin, name: 'Lkd' },
-  { link: '#0', icon: faFacebookF, name: 'Fb' },
-  { link: '#0', icon: faInstagram, name: 'In' }
+  { link: 'https://www.linkedin.com/company/est%C3%BAdio-n%C3%A1kama-branding-design/about/', icon: faLinkedin, name: 'In' }, 
+  { link: 'https://www.instagram.com/nakamaestudio/', icon: faInstagram, name: 'Ig' }
 ];
 
 function SocialOne({ className = '', ...restProps }) {

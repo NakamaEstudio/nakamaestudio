@@ -11,12 +11,12 @@ import NextProject from '../../components/next/NextProject';
 import Head from 'next/head';
 
 
-function Project6(params) {
-  const heroData = getPortfolioItem('famillevet');
+function Project10(params) {
+  const heroData = getPortfolioItem('strattax');
   return (
     <Layout>
       <Head>
-        <title>Famillevet Case | Estudio Nákama</title>
+        <title>Strattax Case | Estudio Nákama</title>
       </Head>
        <section class="overlay-nakama">
       <HeaderFull
@@ -34,28 +34,32 @@ function Project6(params) {
             <h4 className="title-block text-uppercase mb-20">Projeto</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
-                <strong>Branding</strong>
+                <strong>Identidade Visual</strong>
               </li>
               <li className="p-relative">
                 <strong>Pontos de Contato</strong>
               </li>
               <li className="p-relative">
-                <strong>2020</strong> 
+                <strong>2023</strong> 
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
             <h4 className="title-block text-uppercase mb-20">INFORMAÇÕES</h4>
             <p className="intro-project-description">
-            Uma clínica veterinária que visa o atendimento humanizado e uma relação próxima, onde o principal
-objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a transparência.
+            Estabelecer e consolidar uma identidade visual e de branding forte.
+Criação de uma imagem coesa que transmita os valores, serviços e
+características únicas da consultoria tributária.<br/><br/>
+A busca é por uma presença marcante no mercado, destacando-se pela
+especialização, comprometimento e personalização de serviços.
             </p>
             <div className="intro-project-cat mt-30">
+              <span className="cat-item">Contabilidade</span>
               <span className="cat-item">Ambiente</span>
-              <span className="cat-item">Clinica</span>
+              <span className="cat-item">Poder</span>
             </div>
             <ButtonProject
-              href="https://www.instagram.com/famillevet/"
+              href="https://www.instagram.com/strattax/"
               target="_blank"
               className="mt-30"
             >
@@ -69,7 +73,7 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/portfolio/famillevet/7.jpg'}
+        src={'/img/portfolio/strattax/2.jpg'}
         
       />
       {/*End Parallax Img*/}
@@ -80,11 +84,11 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
         <div className="dsn-container">
           <BoxGallery col={2}>
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/2.png"
+              src="/img/portfolio/strattax/3.jpg"
               groupPopup="gallery"
             />
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/1.png"
+              src="/img/portfolio/strattax/4.jpg"
               groupPopup="gallery"
             />
           </BoxGallery>
@@ -100,8 +104,14 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
               A essência
             </h4>
             <p className="dsn-up">
-            Tornamos o nosso Pet um membro da Família, onde o tratamento é muito
-mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
+            Mais do que uma consultoria tributária; é um parceiro comprometido com o crescimento sustentável e a
+proteção dos negócios. Através de uma abordagem centrada na prevenção e no equilíbrio tributário, buscamos
+proporcionar clareza e segurança em um ambiente fiscal complexo. Acreditamos na importância da
+transparência e sinceridade em nossas interações, oferecendo soluções personalizadas e estratégias
+inteligentes que possibilitam que as empresas prosperem. Nossa especialização e agilidade nos permitem
+navegar pelas nuances tributárias, garantindo a conformidade e a otimização financeira. Com uma visão de
+negócios bem fundamentada e um compromisso inabalável com nossos clientes, nos esforçamos para criar um
+ambiente de confiança e crescimento mútuo.
             </p>
           </div>
         </div>
@@ -114,11 +124,11 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
         <div className="dsn-container">
           <BoxGallery col={2}>
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/5.png"
+              src="/img/portfolio/strattax/5.jpg"
               groupPopup="gallery"
             />
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/4.png"
+              src="/img/portfolio/strattax/6.png"
               groupPopup="gallery"
             />
           </BoxGallery>
@@ -129,8 +139,8 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
       {/*Start Parallax Img*/}
       <ParallaxImage
         className="section-margin p-relative"
-        alt={''}
-        src={'/img/portfolio/famillevet/dog.jpg'}
+        alt={'Ponto de contato da marca'}
+        src={'/img/portfolio/strattax/7.png'}
        
       />
       {/*End Parallax Img*/}
@@ -138,11 +148,11 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
       
       {/*End Gallery List*/}
       <NextProject
-        heroContent={getPortfolioItem('gastrobeef')}
-        number={6}
+        heroContent={getPortfolioItem('artisan')}
+        number={1}
       />
     </Layout>
   );
 }
 
-export default Project6;
+export default Project10;

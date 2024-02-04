@@ -150,15 +150,40 @@ function MyApp({Component, pageProps}) {
   const getLayout = Component.getLayout || ((page => (
     <>
       <Head>
-        <title>Estudio Nákama - Branding e Design</title>
-        <meta name="description" content="Somos mais do que um estúdio de Branding e Design; somos guardiões
-              de histórias, artesãos de identidades e mestres na arte de
-              construir laços significativos entre marcas e seus públicos." />
+        
+      <title>Estudio Nákama - Branding e Design</title>
         <link rel="icon" href="/img/favicon.ico" />
         <link rel="apple-touch-icon" href="/img/favicon.ico" />
         <link href="../styles/output.css" />
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.estudionakama.com.br/" />
+        <meta
+          name="description"
+          content="Estudio Nákama, especializado em branding e design, oferece serviços inovadores para transformar a identidade e posicionamento da sua marca."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.estudionakama.com.br/" />
+        <meta property="og:title" content="Estudio Nákama - Branding e Design" />
+        <meta
+          property="og:description"
+          content="Estudio Nákama, especializado em branding e design, oferece serviços inovadores para transformar a identidade da sua marca."
+        />
+        <meta property="og:image" content="https://www.estudionakama.com.br/img/home/autonomia.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.estudionakama.com.br/" />
+        <meta name="twitter:title" content="Estudio Nákama - Branding e Design" />
+        <meta
+          name="twitter:description"
+          content="Estudio Nákama, especializado em branding e design, oferece serviços inovadores para transformar a identidade da sua marca."
+        />
+        <meta name="keywords" content="Estúdio NÁKAMA, branding estratégico, design de identidade visual, construção de marca, consultoria de gestão de marca, branding para pequenas empresas, desenvolvimento de logotipo, posicionamento de marca, marketing digital, estratégia de marca, reciprocidade em branding, design de experiência do cliente, consultoria de marca para startups, branding no Sudeste do Brasil, cultura de marca, desenvolvimento de pontos de contato da marca, criação de legado de marca, autenticidade de marca, estratégia de mídia social, design de embalagem, forjamento de marcas fortes, conceito de branding japonês, NÁKAMA Aura, NÁKAMA Ambiente, NÁKAMA Autonomia" />
+
+        <meta name="twitter:image" content="https://www.estudionakama.com.br/img/home/autonomia.jpg" />
       </Head>
      
       <SpeedInsights/>

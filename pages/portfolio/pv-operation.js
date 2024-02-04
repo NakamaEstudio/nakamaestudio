@@ -129,7 +129,7 @@ forma ágil. Com o melhor custo benefício do mercado.
       </section>
       {/*End Intro Project*/}
 
-      <NextProject heroContent={getPortfolioItem('ricky-autocenter')} number={8} />
+      <NextProject heroContent={getPortfolioItem('ricky-autocenter')} number={9} />
     </Layout>
   );
 }

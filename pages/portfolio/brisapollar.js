@@ -11,12 +11,12 @@ import NextProject from '../../components/next/NextProject';
 import Head from 'next/head';
 
 
-function Project6(params) {
-  const heroData = getPortfolioItem('famillevet');
+function Project10(params) {
+  const heroData = getPortfolioItem('brisapollar');
   return (
     <Layout>
       <Head>
-        <title>Famillevet Case | Estudio Nákama</title>
+        <title>Brisapollar Case | Estudio Nákama</title>
       </Head>
        <section class="overlay-nakama">
       <HeaderFull
@@ -34,28 +34,27 @@ function Project6(params) {
             <h4 className="title-block text-uppercase mb-20">Projeto</h4>
             <ul className="intro-project-list">
               <li className="p-relative">
-                <strong>Branding</strong>
+                <strong>Identidade Visual</strong>
               </li>
               <li className="p-relative">
-                <strong>Pontos de Contato</strong>
+                <strong>Website</strong>
               </li>
               <li className="p-relative">
-                <strong>2020</strong> 
+                <strong>2023</strong> 
               </li>
             </ul>
           </div>
           <div className="intro-project-right">
             <h4 className="title-block text-uppercase mb-20">INFORMAÇÕES</h4>
             <p className="intro-project-description">
-            Uma clínica veterinária que visa o atendimento humanizado e uma relação próxima, onde o principal
-objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a transparência.
+            entrega de um ambiente fresco e relaxante, onde o frescor único se entrelaça ao aconchego personalizado. Fundamentada na confiança e qualidade, promove soluções inovadoras e sustentáveis, não apenas climatizando, mas também elevando o bem-estar dos clientes.
             </p>
             <div className="intro-project-cat mt-30">
+              <span className="cat-item">Behavior</span>
               <span className="cat-item">Ambiente</span>
-              <span className="cat-item">Clinica</span>
             </div>
             <ButtonProject
-              href="https://www.instagram.com/famillevet/"
+              href="https://www.brisapollar.com.br"
               target="_blank"
               className="mt-30"
             >
@@ -69,7 +68,7 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
       {/*Start Parallax Img*/}
       <ParallaxImage
         alt={''}
-        src={'/img/portfolio/famillevet/7.jpg'}
+        src={'/img/portfolio/brisapollar/1.jpg'}
         
       />
       {/*End Parallax Img*/}
@@ -80,11 +79,11 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
         <div className="dsn-container">
           <BoxGallery col={2}>
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/2.png"
+              src="/img/portfolio/brisapollar/3.jpg"
               groupPopup="gallery"
             />
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/1.png"
+              src="/img/portfolio/brisapollar/4.jpg"
               groupPopup="gallery"
             />
           </BoxGallery>
@@ -100,8 +99,7 @@ objetivo é resolver o problema do pet cliente, sempre mantendo a ética e a tra
               A essência
             </h4>
             <p className="dsn-up">
-            Tornamos o nosso Pet um membro da Família, onde o tratamento é muito
-mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
+            Entendemos que a climatização é essencial para um ambiente confortável, produtivo e saudável.
             </p>
           </div>
         </div>
@@ -114,11 +112,11 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
         <div className="dsn-container">
           <BoxGallery col={2}>
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/5.png"
+              src="/img/portfolio/brisapollar/2.jpg"
               groupPopup="gallery"
             />
             <BoxGalleryItem
-              src="/img/portfolio/famillevet/4.png"
+              src="/img/portfolio/brisapollar/6.jpg"
               groupPopup="gallery"
             />
           </BoxGallery>
@@ -130,7 +128,7 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
       <ParallaxImage
         className="section-margin p-relative"
         alt={''}
-        src={'/img/portfolio/famillevet/dog.jpg'}
+        src={'/img/portfolio/brisapollar/7.jpg'}
        
       />
       {/*End Parallax Img*/}
@@ -138,11 +136,11 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
       
       {/*End Gallery List*/}
       <NextProject
-        heroContent={getPortfolioItem('gastrobeef')}
-        number={6}
+        heroContent={getPortfolioItem('dellavaz')}
+        number={3}
       />
     </Layout>
   );
 }
 
-export default Project6;
+export default Project10;

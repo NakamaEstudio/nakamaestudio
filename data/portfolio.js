@@ -75,27 +75,29 @@ const dataportfolio = [
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
-
-];
-  {/*
   {
     id: 9,
     title: 'Brisapollar Climatização',
-    slug: 'procidade-case',
+    slug: 'brisapollar',
     category: ['Profissionais-liberais'],
-    src: '/img/portfolio/ricky-autocenter/1.jpg',
-    description: 'We are thrilled to share our new reel with you all.',
+    src: '/img/portfolio/brisapollar/5.jpg',
+    description: 'brisapollar.',
     overlay: 3
   },
   {
     id: 10,
     title: 'Strattax',
-    slug: 'procidade-case',
+    slug: 'strattax',
     category: ['Contabilidade-e-finanças'],
-    src: '/img/portfolio/ricky-autocenter/1.jpg',
+    src: '/img/portfolio/strattax/1.jpg',
     description: 'We are thrilled to share our new reel with you all.',
     overlay: 3
   },
+
+];
+  {/*
+ 
+  
   */}
   
 

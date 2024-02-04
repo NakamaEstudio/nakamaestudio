@@ -3,24 +3,23 @@ import Layout from '../layout/Layout';
 import SliderPortfolio from '../components/slider-portfolio/SliderPortfolio';
 import HeroSection from '../components/hero-section/HeroSection';
 import TitleSection from '../components/heading/TitleSection';
-import ServiceOne from '../components/services/grid/ServiceOne';
+
 import ParallaxImage from '../components/Image/ParallaxImage';
-import MoveBox from '../components/move-box/MoveBox';
-import Button from '../components/button/Button';
+
 import PortfolioSwiper from '../components/portfolio/PortfolioSwiper';
 import SwiperPagination from '../components/swiper-pagination/SwiperPagination';
 import Testimonial from '../components/testimonial/Testimonial';
 import Accordion, { AccordionItem } from '../components/accordion/Accordion';
 import DsnGrid from '../layout/DsnGrid';
 import TitleCover from '../components/heading/TitleCover';
-import BlogSwiper from '../components/bolg/BlogSwiper';
+
 import BrandClient from '../components/brand-client/BrandClient';
 
 import NextPage from '../components/next/NextPage';
 import Footer from '../components/footer/Footer';
 import ModalContact from '../components/model-right/ModalContact';
 import Head from 'next/head';
-import Image from 'next/image';
+
 
 function Home() {
   const HomeContent = {
@@ -40,7 +39,7 @@ function Home() {
       }}
     >
       <Head>
-        <title>Estudio Nákama - Branding e Design</title>
+        
       </Head>
       <section className="overlay-nakama">
         <SliderPortfolio
@@ -54,8 +53,7 @@ function Home() {
             autoplay: true,
             spaceBetween: 2,
             speed: 5000,
-            parallax: true,
-           
+            parallax: true
           }}
           webgelOptions={{
             intensity: 1,
@@ -65,14 +63,9 @@ function Home() {
             loading: 'lazy'
           }}
           metaData={{ hasSeparator: true }}
-          
         />
       </section>
       <HeroSection className="section-margin fill-right-container container" data-dsn-title="Quem nós somos" />
-
-     
-
-      
 
       {/*End Box Info Move Content*/}
       <section className="box-gallery-vertical section-margin container" data-dsn-title="Nossos serviços">
@@ -177,8 +170,6 @@ function Home() {
           <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
         </Testimonial>
       </div>
-
-     
 
       {/*========== End brand-client Section ==========*/}
       <section className="section-margin container" data-dsn-title="Nossos clientes">

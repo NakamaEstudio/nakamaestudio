@@ -129,7 +129,7 @@ lado das empresas em suas necessidades para seu desenvolvimento.
       {/*End Intro Project*/}
 
       <NextProject
-       heroContent={getPortfolioItem('pv-operation')} number={7}
+       heroContent={getPortfolioItem('pv-operation')} number={8}
       />
     </Layout>
   );
