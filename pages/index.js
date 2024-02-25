@@ -49,11 +49,10 @@ function Home() {
           fullWidth
           loading={true}
           className={'align-items-end pb-80 overlay-nakama'}
-          optionSlider={{
-            autoplay: true,
-            spaceBetween: 2,
-            speed: 5000,
-            parallax: true
+          optionSlider={{     
+    spaceBetween: 2,
+    speed: 5000,
+    parallax: true,         
           }}
           webgelOptions={{
             intensity: 1,

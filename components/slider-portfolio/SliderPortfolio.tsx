@@ -67,15 +67,25 @@ function SliderPortfolio({
   data,
   ...restProps
 }: SliderPortfolioProps) {
-  const rootSlider = useRef(),
-    [contentRef, setContentRef] = useArrayRef(),
-    
-    dataServicos = data || getServicosData(),
-    [active, setActive] = useState(0),
-    bg = useRef();
-    
+  const rootSlider = useRef();
+  const [contentRef, setContentRef] = useArrayRef();
+  const dataServicos = data || getServicosData();
+  const [active, setActive] = useState(0);
+  const bg = useRef();
   const tl = useRef(gsap.timeline());
-  
+  const [autoplay, setAutoplay] = useState(false);
+  const swiperRef = useRef(null); // Referência ao Swiper
+
+  useEffect(() => {
+    const autoplayTimeout = setTimeout(() => {
+      setAutoplay(true);
+      if (swiperRef.current) {
+        swiperRef.current.autoplay.start(); // Inicia o autoplay diretamente na instância do Swiper
+      }
+    }, 10000); // 10 segundos
+
+    return () => clearTimeout(autoplayTimeout);
+  }, []);
 
   useEffect(() => {
     const q = gsap.utils.selector(rootSlider);
@@ -112,6 +122,17 @@ function SliderPortfolio({
       }
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const [startAutoplay, setStartAutoplay] = useState(false);
+  useEffect(() => {
+    // Inicia o autoplay após 10 segundos
+    const autoplayTimeout = setTimeout(() => {
+      setStartAutoplay(true);
+    }, 10000); // 10 segundos
+
+    return () => clearTimeout(autoplayTimeout);
+  }, []);
+
 
   const init = (swiper) => {
     swiper.slides.forEach((item) => {
@@ -193,10 +214,12 @@ function SliderPortfolio({
         spaceBetween: 50,
         slidesPerView: 1,
         
-        speed: 1500,
-        ...optionSlider,
-        onInit: init,
-        onSlideChange: swiperChange,
+         speed: 1500,
+    ...optionSlider,
+    onInit: init,
+    onSlideChange: swiperChange,
+    autoplay: autoplay ? { delay: 3500 } : false, // Configuração inicial do autoplay
+    onSwiper: (swiper) => (swiperRef.current = swiper), // Armazena a referência ao Swiper
   };
 
   if (restProps.webgel) {
