@@ -9,9 +9,8 @@ import Head from 'next/head';
 import Button from '../components/button/Button';
 function Work() {
   const PortContent = {
-    
-    buttonText: "Conheça todos os nossos cases"
-};
+    buttonText: 'Conheça todos os nossos cases'
+  };
   return (
     <Layout
       modelRight={{
@@ -24,44 +23,40 @@ function Work() {
       </Head>
 
       {/*========== Header Normal ========== */}
-      <HeaderNormal
-        backgroundColor="background-section"
-        className="text-center"
-      >
+      <HeaderNormal backgroundColor="background-section" className="text-center">
         <p className="subtitle p-relative line-shape  dsn-load-animate">
-          <span className="background-main pl-10 pr-10">
-            Projetos de Sucesso
-          </span>
+          <span className="background-main pl-10 pr-10">Projetos de Sucesso</span>
         </p>
         <h1 className="title text-uppercase">Projetos de Sucesso.</h1>
         <Button
-                            href={"https://drive.google.com/drive/folders/1d0Eu5Gs0gPuS7vYBxASbW9ZxIJh_xWOX"}
-                            className="mb-30 line-head btn-portfolio"
-                            borderStyle={"border-color-heading-color"}
-                            borderRadius
-                            transitionPage={{title: PortContent.buttonText}}
-                            target="_blank"
-                        >
-                            {PortContent.buttonText}
-                        </Button>
+          href={'https://drive.google.com/drive/folders/1d0Eu5Gs0gPuS7vYBxASbW9ZxIJh_xWOX'}
+          className="mb-30 line-head btn-portfolio"
+          borderStyle={'border-color-heading-color'}
+          borderRadius
+          transitionPage={{ title: PortContent.buttonText }}
+          target="_blank"
+        >
+          {PortContent.buttonText}
+        </Button>
       </HeaderNormal>
       {/*========== End Header Normal ==========*/}
+      <main>
+        <div className="section-margin container z-index-999">
+          <Portfolio
+            stylePortfolio={'work-section'}
+            className="title-inherit h4"
+            useFilter
+            col={2}
+            colGap={50}
+            rowGap={80}
+          />
+        </div>
 
-      <div className="section-margin container z-index-999">
-        <Portfolio
-          stylePortfolio={'work-section'}
-          className="title-inherit h4"
-          useFilter
-          col={2}
-          colGap={50}
-          rowGap={80}
-        />
-      </div>
-
-      {/*========== Start Next Page Section ==========*/}
-      <NextPage className={`background-section section-padding`} />
-      {/*========== End Next Page Section ==========*/}
-      {/*========== Footer ==========*/}
+        {/*========== Start Next Page Section ==========*/}
+        <NextPage className={`background-section section-padding`} />
+        {/*========== End Next Page Section ==========*/}
+        {/*========== Footer ==========*/}
+      </main>
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
     </Layout>

@@ -28,6 +28,7 @@ function Project1() {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
@@ -141,6 +142,7 @@ function Project1() {
       {/*End box vertical Section*/}
 
       <NextProject heroContent={getPortfolioItem('brisapollar')} number={2} />
+      </main>
     </Layout>
   );
 }

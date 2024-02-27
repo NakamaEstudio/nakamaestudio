@@ -26,6 +26,7 @@ function Project10(params) {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
@@ -151,6 +152,7 @@ ambiente de confiança e crescimento mútuo.
         heroContent={getPortfolioItem('artisan')}
         number={1}
       />
+      </main>
     </Layout>
   );
 }

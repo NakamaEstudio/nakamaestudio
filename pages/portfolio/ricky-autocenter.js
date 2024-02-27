@@ -27,6 +27,7 @@ function Project7() {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
@@ -148,6 +149,7 @@ Agradeço por tudo e super recomendo o trabalho de voces. Parabens e sucesso!&qu
       
 
       <NextProject heroContent={getPortfolioItem('strattax')} number={10} />
+      </main>
     </Layout>
   );
 }

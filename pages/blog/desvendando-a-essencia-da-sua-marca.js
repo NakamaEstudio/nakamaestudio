@@ -44,6 +44,7 @@ function Post1({ className, ...restProps }) {
           Desvendando a Essência da Sua Marca: Criando uma Identidade Memorável
         </h1>
       </HeaderNormal>
+      <main>
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
@@ -191,6 +192,7 @@ function Post1({ className, ...restProps }) {
 <NextPage className="section-padding border-top background-section" />
       {/*========== End Next Page ==========*/}
       {/*========== Footer ==========*/}
+      </main>
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
     </Layout>

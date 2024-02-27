@@ -25,6 +25,7 @@ function Project2(params) {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
@@ -131,6 +132,7 @@ lado das empresas em suas necessidades para seu desenvolvimento.
       <NextProject
        heroContent={getPortfolioItem('famillevet')} number={5}
       />
+      </main>
     </Layout>
   );
 }

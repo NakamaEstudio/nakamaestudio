@@ -44,6 +44,7 @@ function Post3() {
           A Importância da Gestão Estratégica para o Crescimento da Marca
         </h1>
       </HeaderNormal>
+      <main>
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
@@ -137,6 +138,7 @@ function Post3() {
 <NextPage className="section-padding border-top background-section" />
       {/*========== End Next Page ==========*/}
       {/*========== Footer ==========*/}
+      </main>
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
     </Layout>

@@ -28,7 +28,7 @@ function Project8() {
         overlay={heroData.overlay}
       />
       </section>
-
+      <main>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
@@ -159,6 +159,7 @@ ambiente em que está inserida.
       
 
       <NextProject heroContent={getPortfolioItem('ecosintese')} number={4} />
+     </main>
     </Layout>
   );
 }

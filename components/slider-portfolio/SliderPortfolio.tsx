@@ -237,9 +237,9 @@ function SliderPortfolio({
         'main-slider half-content has-horizontal  background-main',
         fullWidth && 'full-width',
         typeBg === 'padding-image'
-          ? 'demo-1 v-dark-head-mobile'
+          ? ''
           : typeBg === 'half-image'
-            ? 'demo-2 v-dark-head-mobile'
+            ? ''
             : typeBg + ' v-dark-head',
         classNameSlider
       )}
@@ -253,7 +253,7 @@ function SliderPortfolio({
                 {/*// @ts-ignore*/}
                 <BgImage
                   src={item.src}
-                  video={item.video}
+                
                   alt={item.title}
                   overlay={item.overlay}
                   height={'100%'}

@@ -26,6 +26,7 @@ function Project3(params) {
         overlay={heroData.overlay}
       />
 </section>
+<main>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
@@ -130,6 +131,7 @@ forma ágil. Com o melhor custo benefício do mercado.
       {/*End Intro Project*/}
 
       <NextProject heroContent={getPortfolioItem('ricky-autocenter')} number={9} />
+      </main>
     </Layout>
   );
 }

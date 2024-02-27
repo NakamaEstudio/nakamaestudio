@@ -32,16 +32,15 @@ function Work() {
         </p>
         <h1 className="title text-uppercase">Nosso blog</h1>
       </HeaderNormal>
-      {/*========== End Header Normal ==========*/}
+      <main>
 
       <div className="section-margin container">
         <Blog rowGap={120} rowGapTablet={80} />
       </div>
 
-      {/*========== Start Next Page Section ==========*/}
       <NextPage className={`background-section section-padding`} />
-      {/*========== End Next Page Section ==========*/}
-      {/*========== Footer ==========*/}
+      
+      </main>
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
     </Layout>

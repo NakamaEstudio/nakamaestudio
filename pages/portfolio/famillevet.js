@@ -26,6 +26,7 @@ function Project6(params) {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
@@ -141,6 +142,7 @@ mais próximo e nos dedicamos a cuidar tanto quanto dos nossos filhos e pais
         heroContent={getPortfolioItem('gastrobeef')}
         number={6}
       />
+      </main>
     </Layout>
   );
 }

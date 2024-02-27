@@ -52,7 +52,7 @@ export default function LAB() {
         <h1 className="title">Laboratório de Negócios</h1>
       </HeaderLAB>
       {/*========== End Header Normal ==========*/}
-
+      <main>
       {/*========== About Section  ==========*/}
       <DsnGrid
         className="container section-margin "
@@ -455,7 +455,7 @@ export default function LAB() {
       {/*========== Next Page ==========*/}
       <NextPage className="section-padding border-top background-section" />
       {/*========== End Next Page ==========*/}
-
+      </main>
       {/*========== Footer ==========*/}
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}

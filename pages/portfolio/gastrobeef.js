@@ -24,6 +24,7 @@ function Project4() {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
         <DsnGrid customGrid={{ desktop: '40% 60%' }}>
@@ -125,6 +126,7 @@ servidos por um atendimento atencioso e simpático.
         heroContent={getPortfolioItem('nexmoby')}
         number={7}
       />
+      </main>
     </Layout>
   );
 }

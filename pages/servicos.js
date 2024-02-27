@@ -51,9 +51,7 @@ function Servicos() {
         </h1>
         <p className="sub-heading  mt-15">E é isto que construimos.</p>
       </HeaderNormal>
-      {/*========== End Header Normal ==========*/}
-
-      {/*========== About Section  ==========*/}
+      <main>
       <DsnGrid
         className="section-margin container"
         customGrid={{ desktop: '70% 30%' }}
@@ -117,58 +115,8 @@ function Servicos() {
             >
               Identidade e Posicionamento de Marca
             </TitleSection>
-            {/*
-            <List className="border-top  pt-30 mb-30" col={2} iconSize={"15px"}>
-              <List.item
-                icon={
-                  <FontAwesomeIcon
-                    icon={faCheckCircle}
-                    className="theme-color"
-                  />
-                }
-                headingTag="span"
-              >
-                {" "}
-                Proin gravida nibh vel{" "}
-              </List.item>
-              <List.item
-                icon={
-                  <FontAwesomeIcon
-                    icon={faCheckCircle}
-                    className="theme-color"
-                  />
-                }
-                headingTag="span"
-              >
-                {" "}
-                Proin gravida nibh vel{" "}
-              </List.item>
-              <List.item
-                icon={
-                  <FontAwesomeIcon
-                    icon={faCheckCircle}
-                    className="theme-color"
-                  />
-                }
-                headingTag="span"
-              >
-                {" "}
-                Auctor aliquet aenean quis{" "}
-              </List.item>
-              <List.item
-                icon={
-                  <FontAwesomeIcon
-                    icon={faCheckCircle}
-                    className="theme-color"
-                  />
-                }
-                headingTag="span"
-              >
-                {" "}
-                Auctor aliquet aenean quis{" "}
-              </List.item>
-            </List>
-            */}
+            
+           
             <p className="max-w570 dsn-up border-top pt-30 border-bottom pb-30 mb-10">
               Construímos a essência da sua marca, desde a criação do logotipo
               até a definição dos valores. Conectando-a de forma única ao seu
@@ -263,9 +211,7 @@ function Servicos() {
           </div>
         </DsnGrid>
       </div>
-      {/*<!-- ========== End About section ========== */}
-
-      {/*<!-- ========== About section ========== */}
+     
       <div
         className="p-relative section-margin"
         data-dsn-title="Experiência de Marca"
@@ -487,31 +433,12 @@ function Servicos() {
           />
         </div>
       </div>
-      {/*<!-- ========== End About section ========== */}
-
-      {/*========== team Section ========== 
-      <section
-        className="container section-margin "
-        data-dsn-title="Best Team Ever"
-      >
-        <TitleSection description={"Our Team"}>
-          The Best Team Ever!
-        </TitleSection>
-
-        <Team
-          data={getTeamData().slice(0, 3)}
-          className={"team-classic"}
-          col={3}
-          colTablet={2}
-        />
-      </section>
-      */}
-      {/*========== End team Section ========== */}
+      
 
       {/*========== Next Page ==========*/}
       <NextPage className="section-padding border-top background-section" />
       {/*========== End Next Page ==========*/}
-
+      </main>
       {/*========== Footer ==========*/}
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}

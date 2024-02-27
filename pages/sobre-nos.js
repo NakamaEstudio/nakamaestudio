@@ -52,7 +52,7 @@ function About() {
         </h1>
       </HeaderNormal>
       {/*========== End Header Normal ==========*/}
-
+<main>
       {/*Start Parallax Img*/}
       <section className="overlay-nakama">
       <ParallaxImage
@@ -247,6 +247,7 @@ function About() {
       {/*========== Start Next Page Section ==========*/}
       <NextPage className={`background-section section-padding`} />
       {/*========== End Next Page Section ==========*/}
+      </main>
     </Layout>
   );
 }

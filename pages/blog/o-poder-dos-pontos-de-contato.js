@@ -44,6 +44,7 @@ function Post2() {
           O Poder dos Pontos de Contato na Experiência do Consumidor
         </h1>
       </HeaderNormal>
+      <main>
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
@@ -151,6 +152,7 @@ function Post2() {
       {/*========== Footer ==========*/}
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
+      </main>
     </Layout>
   );
 }

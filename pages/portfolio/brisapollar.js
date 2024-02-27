@@ -26,6 +26,7 @@ function Project10(params) {
         overlay={heroData.overlay}
       />
       </section>
+      <main>
 
       {/*Start Intro Project*/}
       <section className="intro-project section-margin container">
@@ -139,6 +140,7 @@ function Project10(params) {
         heroContent={getPortfolioItem('dellavaz')}
         number={3}
       />
+      </main>
     </Layout>
   );
 }

@@ -54,9 +54,7 @@ export default function PAD() {
           Tornar-se uma <strong>Autoridade Digital</strong>?
         </h1>
       </HeaderPAD>
-      {/*========== End Header Normal ==========*/}
-
-      {/*========== About Section  ==========*/}
+     <main>
       <DsnGrid
         className="container section-margin "
         customGrid={{ desktop: '80% 20%' }}
@@ -192,9 +190,7 @@ export default function PAD() {
           </div>
         </DsnGrid>
       </section>
-      {/*<!-- ========== About section ========== */}
-
-      {/*<!-- ========== End About section ========== */}
+     
 
       {/*<!-- ========== About section ========== */}
       <div className="p-relative background-section section-padding" data-dsn-title="Abordagem Integrada">
@@ -338,7 +334,7 @@ export default function PAD() {
       {/*========== Next Page ==========*/}
       <NextPage className="section-padding border-top background-section" />
       {/*========== End Next Page ==========*/}
-
+      </main>
       {/*========== Footer ==========*/}
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}

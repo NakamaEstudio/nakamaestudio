@@ -53,6 +53,7 @@ function Post4() {
         Descubra como o Branding é a Base do Sucesso na Construção da Sua Autoridade Online
         </h2>
       </HeaderNormal>
+      <main>
       {/*========== End Header Normal ==========*/}
 
       {/*Start Parallax Img*/}
@@ -163,6 +164,7 @@ function Post4() {
 <NextPage className="section-padding border-top background-section" />
       {/*========== End Next Page ==========*/}
       {/*========== Footer ==========*/}
+      </main>
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
     </Layout>

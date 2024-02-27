@@ -38,6 +38,7 @@ function About() {
           necessidades e ajudar sua marca a alcançar seu potencial máximo.
         </p>
       </HeaderNormal>
+      <main>
       {/*========== End Header Normal ==========*/}
       {/*Start Map*/}
       <Map
@@ -60,6 +61,7 @@ function About() {
       {/*========== End Next Page Section ==========*/}
 
       {/*========== Footer ==========*/}
+      </main>
       <Footer className="background-section" />
       {/*========== End Footer ==========*/}
     </Layout>
