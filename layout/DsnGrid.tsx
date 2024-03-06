@@ -2,7 +2,7 @@ import {dsnCN} from "../hooks/helper";
 import {forwardRef, memo} from "react";
 
 export interface DsnGridProps {
-    col?: number | 1,
+    col?: number | 3,
     className?: React.ReactNode,
     colTablet?: number | 2,
     colMobile?: number | 2,

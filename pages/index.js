@@ -59,7 +59,7 @@ function Home() {
           nossa reputação
         </TitleSection>
 
-        <BrandClient col={4} colTablet={3} colMobile={3} colGap={0} rowGap={0} />
+        <BrandClient col={4} colTablet={3} colMobile={2} colGap={5} rowGap={0} />
       </section>
       {/*========== End brand-client Section ==========*/}
 

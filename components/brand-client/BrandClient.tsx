@@ -24,6 +24,7 @@ function BrandClient({ className, ...retsProps }: DsnGridProps) {
   return (
     <DsnGrid
       className={dsnCN('brand-client wrapper-client', className)}
+      
       {...retsProps}
     >
       {data &&
